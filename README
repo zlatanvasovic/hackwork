@@ -1,0 +1,44 @@
+INTRODUCTION
+------------
+
+Hi and welcome to nginZ.
+
+NginZ is acronym of EngineZ. It's lightweight web site engine.
+
+What's my idea? Simple engine for web sites with great look/design.
+
+Why Bitbucket? Bitbucket has HTML/CSS support for repos. GitHub not.
+
+TECHNOLOGIES
+------------
+
+EngineZ is written in HTML5 and CSS3. Small part od that ("Tweet" page) is written in PHP.
+
+SOURCE
+------
+
+Project is released as open source software (OSS). For more information about OSS see http://opensource.org/.
+
+GET INVOLVED
+------------
+
+You can help me with forking this repo and testing.
+
+* I will search all forks and see changes (commits). All fixes are welcome.
+* For any suggestion and (beta/alpha) testing you can contact me on e-mail (see AUTHOR).
+
+TODO
+----
+
+* Blogy (blog engine + CMS)
+* PlayWE (web music player)
+* Upgrade design
+
+AUTHOR
+------
+
+Zlatan Vasović (zdroid@zdroidblog.info)
+Čačak, Serbia
+IRC: irc.freenode.net #ZDroid
+https://twitter.com/ZXeDroid
+http://zdroid.wix.com/zdroid
