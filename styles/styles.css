@@ -1,5 +1,5 @@
 html {
-  background: #020607 url("/img/grey.png");
+  background: url("/img/grey.png");
 }
 
 /* CLASSIC */
@@ -11,20 +11,10 @@ body {
   font-weight: 300;
 }
 
-a {
-  color: #069;
-  text-decoration: none;
-}
-
 p {
   margin: 0 auto;
   text-align: center;
   padding: 0;
-}
-
-strong {
-  color: #222;
-  font-weight: 700;
 }
 
 /* HEADINGS */
@@ -56,7 +46,17 @@ h3, h4, h5, h6 {
   color: #494949;
 }
 
-/* SPECIAL */
+/* TEXT */
+a {
+  color: #069;
+  text-decoration: none;
+}
+
+strong {
+  color: #222;
+  font-weight: 700;
+}
+
 blockquote {
   margin: 0 -20px 20px;
   padding: 15px 20px 1px 40px;
@@ -66,11 +66,11 @@ blockquote {
   color: #222;
 }
 
-img {
-  max-width: 100%;
-  border-radius: 10px;
+small {
+  font-size: 11px;
 }
 
+/* CODE */
 code, pre {
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   color:#000;
@@ -92,12 +92,13 @@ pre code {
   color: #66FF33;
 }
 li pre {
-  margin-left: -60px;
-  padding-left: 60px;
+  padding-left: 10px;
 }
 
-small {
-  font-size: 11px;
+/* SPECIAL */
+img {
+  max-width: 100%;
+  border-radius: 10px;
 }
 
 hr {
@@ -199,7 +200,4 @@ nav a:hover {
   footer p + p {
     float: none;
   }
-
-}
-@media print, screen and (max-width:580px) {
 }
