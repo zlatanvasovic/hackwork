@@ -3,6 +3,7 @@
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<html lang="en">
 <head>
 
 <!-- Basic
@@ -55,11 +56,11 @@ echo "</p><p><a href='https://twitter.com/ZXeDroid'>https://twitter.com/ZXeDroid
 ?>
 </p>
 <p><img src="https://twitter.com/images/resources/twitter-bird-white-on-blue.png" width="200" height="200" alt="Twitter"></p>
-</body>
-
 <footer>
 <p>Created and designed by <a href="http://zdroidblog.info">ZDroid</a> @ 2013</p>
 <p>Hosted on <a href="http://localhost">localhost</a></p>
 </footer>
+</body>
+</html>
 <!-- End of document
 ================================================== -->
