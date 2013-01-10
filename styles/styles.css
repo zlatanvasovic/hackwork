@@ -141,9 +141,7 @@ div.top {
   margin-bottom: 1%;
   text-align: center;
 }
-div.top strong {
-  color: #FFFFFF;
-}  
+div.top strong {color: #FFFFFF;}
 
 div.box {
   background-color: rgba(0, 0, 0, 0.4);
@@ -171,18 +169,16 @@ nav {
   text-align: right;
 }
 nav a {
-  color: #000;
+color: #000;
 }
 nav a:hover {
   background-color: rgba(0, 0, 0, 0.9);
   color: #B8CFE6;
 }
 
-/* MEDIA */
+/* QUERY */
 @media print, screen and (max-width: 740px) {
-  body {
-    padding: 0;
-  }
+  body {padding: 0;}
 
   footer {
     -webkit-border-radius: 0;
@@ -197,7 +193,12 @@ nav a:hover {
     float: none;
     margin: 0;
   }
-  footer p + p {
-    float: none;
-  }
+  footer p + p {float: none;}
+}
+
+@media screen and (max-width: 360px) {
+  div.top {display: none;}
+  p {font-size: 13px;}
+  h1 {font-size: 20px;}
+  code {font-size: 14px;}
 }
