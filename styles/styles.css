@@ -36,6 +36,7 @@ h1, h2, h3 {
 
 h1 {
   font-size: 27px;
+  padding: 14px;
 }
 
 h2 {
@@ -160,16 +161,19 @@ div.box strong {
 nav {
   height: 15.5px;
   padding: 7px;
-  color: #FFFFFF;
   font: 14px/1.5 Helvetica Neue, Helvetica, Arial, sans-serif;;
   width: 800px;
   margin: 0 auto;
-  word-spacing: 50px;
   margin-bottom: 1%;
   text-align: right;
 }
-nav a {
-color: #000;
+nav ul {list-style-type: none; width: 98%; padding: 1%;}
+nav ul li {display: inline; padding: 0.5%;}
+nav ul li a {background: #3A3C42; color: #FFFFFF; padding: 0.7%; text-decoration: none; border: 1px solid #272727;
+-o-border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
 }
 nav a:hover {
   background-color: rgba(0, 0, 0, 0.9);

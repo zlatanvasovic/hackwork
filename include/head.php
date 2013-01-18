@@ -9,8 +9,8 @@
 <!-- Basic
 ================================================== -->
 <meta charset="utf-8">
-<title>nginZ | About</title>
-<meta name="description" content="EngineZ | About">
+<title>nginZ</title>
+<meta name="description" content="EngineZ">
 <meta name="author" content="Zlatan Vasović">
 <meta name="keywords" content="zdroid, engine, z, enginez, net, nginz">
 
@@ -39,22 +39,10 @@
 ================================================== -->
 <body>
 <div class="top"><strong>I'm top div class. I generated for notices, but you can use me for everything you want.</strong></div>
-<nav><a href="/">Home</a>
-<a href="tweet.php">Tweet</a>
-<a href="projects.html">Projects</a>
-<a href="about.html">About</a></nav>
-<h1>About</h1>
-
-<p><strong>About page</strong></p>
-<div class="box"><strong>I am box div class. Insert in me your occupation(s)/interest(s)/job(s)</strong></div>
-<br /><br />
-<p><strong>Mail:</strong> <a href="mailto:you@server.tld">you@server.tld</p>
-<p><strong>Twitter:</strong> <a href="http://twitter.com/user">@user</a></p></p>
-<footer>
-<p>Created and designed by <a href="http://zdroidblog.info">ZDroid</a> @ 2013</p>
-<p>Hosted on <a href="http://localhost">localhost</a></p>
-</footer>
-</body>
-</html>
-<!-- End of document
-================================================== -->
+<nav><ul>
+<li><a href="/">Home</a></li>
+<li><a href="tweet.php">Tweet</a></li>
+<li><a href="projects.php">Projects</a></li>
+<li><a href="about.php">About</a></li>
+</ul>
+</nav>
