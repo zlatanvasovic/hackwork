@@ -4,9 +4,9 @@ html {
 
 /* CLASSIC */
 body {
-  padding-bottom: 10px;
+  padding-bottom: 8px;
   margin: 0;
-  font: 14px/1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+  font: 14px/1.5 Helvetica Neue, "Helvetica", Arial, "sans-serif";
   color: #555;
   font-weight: 300;
 }
@@ -15,6 +15,9 @@ p {
   margin: 0 auto;
   text-align: center;
   padding: 0;
+}
+p, pre {
+  margin: 0 0 20px;
 }
 
 /* HEADINGS */
@@ -26,26 +29,18 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
-p, ul, ol, table, pre, dl {
-  margin: 0 0 20px;
-}
-
 h1, h2, h3 {
   line-height: 1.1;
 }
 
 h1 {
-  font-size: 27px;
+  font-size: 26px;
   padding: 14px;
 }
 
-h2 {
-  color: #393939;
-}
+h2 {color: #393939;}
 
-h3, h4, h5, h6 {
-  color: #494949;
-}
+h3, h4, h5, h6 {color: #494949;}
 
 /* TEXT */
 a {
@@ -59,12 +54,13 @@ strong {
 }
 
 blockquote {
-  margin: 0 -20px 20px;
-  padding: 15px 20px 1px 40px;
+  padding: 15px;
   font-style: italic;
   background: #ccc;
   background: rgba(0, 0, 0, 0.06);
-  color: #222;
+  color: #636363;
+  text-align: center;
+  border-radius: 3px;
 }
 
 small {
@@ -73,9 +69,9 @@ small {
 
 /* CODE */
 code, pre {
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  color:#000;
-  font-size:15px;
+  font-family: Monaco, "Bitstream Vera Sans Mono", Lucida Console, "Terminal", monospace;
+  color: #000;
+  font-size: 15px;
 }
 pre {
   padding: 4px;
@@ -114,7 +110,7 @@ hr {
 footer {
   width: 640px;
   margin: 0 auto;
-  padding: 20px 0 0;
+  padding: 10px 0 0;
   color: #6F6F6F;
   overflow: hidden;
 }
@@ -130,54 +126,71 @@ footer p + p {
 }
 
 /* DIV */
-div.top {
+.top {
   height: 13px;
-  padding: 5px;
+  padding: 6px;
   color: #FFFFFF;
   font-size: 8pt;
   width: 1000px;
   margin: 0 auto;
+  border-radius: 2px;
   background-color: #728E8E;
   font-family: Courier New;
   margin-bottom: 1%;
   text-align: center;
 }
-div.top strong {color: #FFFFFF;}
+.top strong {color: #FFFFFF;}
 
-div.box {
-  background-color: rgba(0, 0, 0, 0.4);
-  color: #FFFFFF;
+.box {
+  background: #ccc;
+  background: rgba(0, 0, 0, 0.06);
+  padding: 10px;
+  color: #636363;
   text-align: center;
-  width: 300px;
+  width: 350px;
   border-radius: 7px;
   margin: 0 auto;
-}
-div.box strong {
-  color: #FFFFFF;
-  font-weight: 700;
 }
 
 /* NAV */
 nav {
-  height: 15.5px;
-  padding: 7px;
-  font: 14px/1.5 Helvetica Neue, Helvetica, Arial, sans-serif;;
-  width: 800px;
-  margin: 0 auto;
-  margin-bottom: 1%;
-  text-align: right;
+  width: 500px;
+  float: right;
 }
-nav ul {list-style-type: none; width: 98%; padding: 1%;}
-nav ul li {display: inline; padding: 0.5%;}
-nav ul li a {background: #3A3C42; color: #FFFFFF; padding: 0.7%; text-decoration: none; border: 1px solid #272727;
--o-border-radius: 5px;
--moz-border-radius: 5px;
--webkit-border-radius: 5px;
-border-radius: 5px;
+nav ul {
+  list-style: none;
+  height: 30px;
+  padding: 0;
+  background: #eee;
+  border-radius: 5px;
+  border: 1px solid #d2d2d2;
+  box-shadow: inset #fff 0 1px 0, inset #94B8B8 0 -2px 0;
+  width: 350px;
 }
-nav a:hover {
-  background-color: rgba(0, 0, 0, 0.9);
-  color: #B8CFE6;
+nav li {
+  width: 85px;
+  float: left;
+  border-right: 1px solid #d2d2d2;
+  height: 30px;
+}
+nav ul a {
+  line-height: 1;
+  color: #999;
+  display: block;
+  text-align: center;
+  padding-top: 6px;
+  height: 30px;
+  text-decoration: none;
+}
+nav ul li + li {
+  border-left: 1px solid #fff;
+}
+nav ul li + li + li {border-left: 1px solid #fff;}
+nav ul li + li + li + li {border-right: none;}
+nav ul a strong {
+  font-size: 14px;
+  display: block;
+  color: #222;
 }
 
 /* QUERY */
