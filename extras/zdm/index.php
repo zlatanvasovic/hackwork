@@ -3,16 +3,15 @@
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 <head>
 
 <!-- Basic
 ================================================== -->
 <meta charset="utf-8" />
 <title>ZDM</title>
-<meta name="description" content="ZDisplay Manager" />
+<meta name="description" content="zdm@nginZ" />
 <meta name="author" content="Zlatan Vasović" />
-<meta name="keywords" content="nginZ, web, gnu/linux, android, unix" />
+<meta name="keywords" content="zdm, web, web design, nginz" />
 
 <!-- Mobile
 ================================================== -->
@@ -38,15 +37,7 @@
 <!-- Page
 ================================================== -->
 <body>
-<header><div class="onoffswitch">
-    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
-    <label class="onoffswitch-label" for="myonoffswitch">
-        <div class="onoffswitch-inner"></div>
-        <div class="onoffswitch-switch"></div>
-    </label>
-</div></header>
-<br />
-<div class="box"><pre><strong><span style="color: #6EB825;">zdm</span>@<span style="color: #58BCFF;">nginZ</span><span style="color: orange;">[</span>~<span style="color: orange;">]</span>+</strong> zdm-welcome</pre>
+<div class="box"><pre><strong><span style="color: #6EB825;">zdm</span>@<span style="color: #58BCFF;">anapnea</span><span style="color: orange;">[</span>~<span style="color: orange;">]</span>+</strong> zdm-welcome</pre>
 <pre>
 <span class="zdm"> _____  ____    __  __ 
 |__  / |  _ \  |  \/  |
@@ -59,8 +50,16 @@ CLI-like template for web pages
 <span style="color: #FF3030;">[STATUS]</span> -- DEVELOPMENT
 
 ### DAILY TIP ###
-Problems with Windows? REBOOT! Problems with Linux? BE ROOT!
+Problems with Windows? REBOOT!
+Problems with Linux? BE ROOT!
 
 by ZDroid -- <a href="http://zdroid.anapnea.net">@site</a> <a href="http://zdroidblog.info">@blog</a> <a href="mailto:legospace9876@gmail.com">@mail</a>
 </pre></div>
+<footer><div class="onoffswitch">
+    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
+    <label class="onoffswitch-label" for="myonoffswitch">
+        <div class="onoffswitch-inner"></div>
+        <div class="onoffswitch-switch"></div>
+    </label>
+</div></footer>
 </body>

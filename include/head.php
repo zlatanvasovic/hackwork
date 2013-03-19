@@ -3,16 +3,15 @@
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 <head>
 
 <!-- Basic
 ================================================== -->
 <meta charset="utf-8" />
-<title>nginZ</title>
+<?php echo "<title>$title</title>"?>
 <meta name="description" content="Engine~Z" />
 <meta name="author" content="Zlatan Vasović" />
-<meta name="keywords" content="nginz, web, gnu/linux, engine~z, unix" />
+<meta name="keywords" content="nginz, web, web design" />
 
 <!-- Mobile
 ================================================== -->
@@ -20,7 +19,7 @@
 
 <!-- CSS
 ================================================== -->
-<link rel="stylesheet" href="styles/styles.css" />
+<link rel="stylesheet" href="css/nginz.css" />
 
 <!--[if lt IE 9]>
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -38,12 +37,14 @@
 <!-- Page
 ================================================== -->
 <body>
-<div class="top"><strong><marquee>I'm top div class. I generated for notices, but you can use me for everything you want.</marquee></strong></div>
-<nav><ul><!-- Navigation -->
-<li><strong><a href="./">Home</a></strong></li>
-<li><strong><a href="tweet.php">Tweet</a></strong></li>
-<li><strong><a href="projects.php">Projects</a></strong></li>
-<li><strong><a href="about.php">About</a></strong></li>
+<header>
+<div class="top">I am top div. Input notices in me.</div>
+<?php echo "<nav id='$cur'><ul>"?>
+<li id="homenav"><a href="/" id="hml">Home</a></li>
+<li id="twnav"><a href="tweet.php" id="twl">Tweet</a></li>
+<li id="prnav"><a href="projects.php" id="prl">Projects</a></li>
+<li id="abnav"><a href="about.php" id="abl">About</a></li>
 </ul>
 </nav>
+</header>
 <br /><br /><br />
