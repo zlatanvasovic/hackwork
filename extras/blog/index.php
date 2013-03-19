@@ -3,16 +3,15 @@
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 <head>
 
 <!-- Basic
 ================================================== -->
 <meta charset="utf-8" />
 <title>Blog | nginZ</title>
-<meta name="description" content="BlogME" />
+<meta name="description" content="blog|nginZ" />
 <meta name="author" content="Zlatan Vasović" />
-<meta name="keywords" content="nginZ, blog, gnu/linux, android, unix" />
+<meta name="keywords" content="blog, web, web design, nginz" />
 
 <!-- Mobile
 ================================================== -->
@@ -38,12 +37,16 @@
 <!-- Blog
 ================================================== -->
 <body>
-<nav><ul><li><strong><a href="../../">Home</a></strong></li>
-<li><strong><a href="../zdm">ZDM</a></strong></li></ul></nav>
+<header>
+<nav><ul><li id="homenav"><a href="../../" id="hml">Home</a></li>
+<li id="zdmnav"><a href="../zdm" id="zdml">ZDM</a></li>
+</ul></nav>
+</header>
 <br /><br /><br />
 <h1><strong>Blog</strong></h1><br />
-<div class="meta"><h3>Test</h3>
-Author: <b>Admin</b> Posted: <b>15th February 2013</b></div>
-<div class="post">Test post in <strong>BlogME</strong>! <strong><span>#test</span></strong></div>
+
+<div class="meta"><h3 id="blogme">BlogME!</h3>
+Author: <span class="hl">ZDroid</span> Posted: <span class="hl">9<sup>th</sup> February 2013</span></div>
+<div class="post">This is my first post on <strong>BlogME</strong>! Currently under development... <a class="tag" href="#blogme">#blogme</a></div>
 </body>
 </html>
