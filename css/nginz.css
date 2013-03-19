@@ -276,19 +276,10 @@ kbd {
 	background: -moz-linear-gradient(#E3E3E3, #ccc);
 	background: -o-linear-gradient(#E3E3E3, #ccc);
 	color: #555;
-	padding-top: none;
+	padding-top: 0px;
 	padding: 0.3%;
-	padding-bottom: 0.5%;
 	border-radius: 3px;
 	border: 1px solid #BABABA;
-	box-shadow: inset #999 0 -2px 0;
-}
-
-kbd:hover {
-	background: -webkit-linear-gradient(#ccc, #E3E3E3);
-	background: -moz-linear-gradient(#ccc, #E3E3E3);
-	background: -o-linear-gradient(#ccc, #E3E3E3);
-	box-shadow: inset #888 0 -2px 0;
 }
 
 button {
