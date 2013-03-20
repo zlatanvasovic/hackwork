@@ -28,14 +28,14 @@ You can help me with forking this repo and testing.
 * For any suggestions you can contact me on e-mail (see <a href="#author">#Author</a>). You can also use [Issues](https://github.com/ZDroid/nginZ/issues) for enhancements.
 * Before submitting issue, search Google and see [Wiki](https://github.com/ZDroid/nginZ/wiki). Also, search existing [issues](https://github.com/ZDroid/nginZ/issues).
 
-# TODO
+## TODO
 
 * Improve BlogME
 * PlayWE (web music player)
 * Minimize CSS
 * Optimize complete engine for mobile devices
 
-# Author
+## Author
 
 Zlatan Vasović (<a href="mailto:zdroid@zdroidblog.info">zdroid@zdroidblog.info</a>)  
 Čačak, Serbia  
