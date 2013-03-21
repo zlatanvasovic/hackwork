@@ -22,18 +22,12 @@ Project is released as open source software (OSS) under the terms of PostgreSQL 
 
 You can help me with forking this repo and testing.
 
-* I will search all forks and see changes (commits). All fixes and pathes are welcome.
-* Don't change master branch! That's stable and official branch. For your patches/fixes make new branch, like `patch-1` or `html-fix`.
-* 2nd way for changing files: click od edit/add button in my repo and when you change it you will send pull request and make new branch like `patch-1`.
-* For any suggestions you can contact me on e-mail (see <a href="#author">#Author</a>). You can also use [Issues](https://github.com/ZDroid/nginZ/issues) for enhancements.
-* Before submitting issue, search Google and see [Wiki](https://github.com/ZDroid/nginZ/wiki). Also, search existing [issues](https://github.com/ZDroid/nginZ/issues).
+**I will search all forks and see changes (commits).** All fixes and pathes are welcome.
 
-## TODO
-
-* Improve BlogME
-* PlayWE (web music player)
-* Minimize CSS
-* Optimize complete engine for mobile devices
+* For your patches is best to make new branch like `html-fix`.
+* You can use add/edit function on GitHub than will fork repo and after changing file it will send pull request.
+* For any suggestions you can contact me on [e-mail](mailto:zdroid@zdroidblog.info). You can also submit [new issue](https://github.com/ZDroid/nginZ/issues) for some enhancements.
+* Before submitting issue, search Google, [Wiki](https://github.com/ZDroid/nginZ/wiki) and existing [issues](https://github.com/ZDroid/nginZ/issues).
 
 ## Author
 

@@ -8,7 +8,7 @@
 <!-- Basic
 ================================================== -->
 <meta charset="utf-8" />
-<?php echo "<title>$title</title>"?>
+<title><?=$title?></title>
 <meta name="description" content="Engine~Z" />
 <meta name="author" content="Zlatan Vasović" />
 <meta name="keywords" content="nginz, web, web design" />
@@ -39,7 +39,7 @@
 <body>
 <header>
 <div class="top">I am top div. Input notices in me.</div>
-<?php echo "<nav id='$cur'><ul>"?>
+<nav id="<?=$cur?>"><ul>
 <li id="homenav"><a href="/" id="hml">Home</a></li>
 <li id="twnav"><a href="tweet.php" id="twl">Tweet</a></li>
 <li id="prnav"><a href="projects.php" id="prl">Projects</a></li>
