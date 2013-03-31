@@ -24,7 +24,7 @@ html {
 body {
 	padding-bottom: 8px;
 	margin: 0;
-	font: 14px/1.5 "Helvetica Neue", Helvetica, "Arial", sans-serif;
+	font: 14px/1.5 Helvetica, Arial, sans-serif;
 	color: #555;
 	font-weight: 300;
 }
@@ -124,8 +124,6 @@ h6 {
 	font-size: 16px;
 }
 
-
-
 /* TEXT
 ================== */
 
@@ -162,7 +160,25 @@ blockquote {
 }
 
 small {
-	font-size: 11px;
+	font-size: smaller;
+}
+
+sup, sub {
+	font-size: 75%;
+	height: 0;
+	line-height: 1;
+	vertical-align: baseline;
+	_vertical-align: bottom;
+	position: relative;
+	
+}
+
+sup {
+	bottom: 1ex;
+}
+
+sub {
+	top: .5ex;
 }
 
 /* 3D TEXT
@@ -298,28 +314,6 @@ button:hover {
 	background: -webkit-linear-gradient(#ccc, #D8D8D8);
 	background: -moz-linear-gradient(#ccc, #D8D8D8);
 	background: -o-linear-gradient(#ccc, #D8D8D8);
-}
-
-sup, sub {
-	font-size: 75%;
-	height: 0;
-	line-height: 1;
-	vertical-align: baseline;
-	_vertical-align: bottom;
-	position: relative;
-	
-}
-
-sup {
-	bottom: 1ex;
-}
-
-sub {
-	top: .5ex;
-}
-
-ul li {
-	list-style: inside square;
 }
 
 /* FOOTER
