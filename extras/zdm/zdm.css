@@ -67,6 +67,10 @@ a {
 	text-decoration: none;
 }
 
+a:hover {
+	border-bottom: 1px solid #58BCFF;
+}
+
 .zdm {
 	width: 100%;
 	text-align: center;

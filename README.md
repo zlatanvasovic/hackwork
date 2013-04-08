@@ -25,7 +25,7 @@ You can help me with forking this repo and testing.
 **I will search all forks and see changes (commits).** All fixes and pathes are welcome.
 
 * For your patches is best to make new branch like `html-fix`.
-* You can use add/edit function on GitHub than will fork repo and after changing file it will send pull request.
+* Open pull requests for merging your patches into main repo.
 * For any suggestions you can contact me on [e-mail](mailto:zdroid@zdroidblog.info). You can also submit [new issue](https://github.com/ZDroid/nginZ/issues) for some enhancements.
 * Before submitting issue, search Google, [Wiki](https://github.com/ZDroid/nginZ/wiki) and existing [issues](https://github.com/ZDroid/nginZ/issues).
 

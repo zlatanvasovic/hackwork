@@ -10,33 +10,25 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
 	vertical-align: baseline;
 	background: transparent;
 }
-
-/* HTML
+/* CLASSIC
 ================== */
 
 html {
 	background: url("../img/grey.png");
 }
 
-/* CLASSIC
-================== */
+
 
 body {
 	padding: 20px;
-	margin: 0;
 	font: 14px/1.5 Helvetica, Arial, sans-serif;
 	color: #555;
-	font-weight: 300;
+	font-weight: normal;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	font-weight: bold;
-}
-
-h1 {
-	text-align: center;
-	font-size: 26px;
-	color: #558BC0;
+header {
+	width: 100%;
+	position: fixed;
 }
 
 /* SCROLLBAR
@@ -55,12 +47,17 @@ h1 {
 	background: #666;
 }
 
-/* HEADER
+/* HEADINGS
 ================== */
 
-header {
-	width: 100%;
-	position: fixed;
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+}
+
+h1 {
+	text-align: center;
+	font-size: 26px;
+	color: #558BC0;
 }
 
 /* TEXT
@@ -89,7 +86,6 @@ a:hover {
 }
 
 a.tag {
-	text-decoration: none;
 	font-weight: bold;
 	color: #EB3333;
 }
@@ -103,9 +99,7 @@ sup, sub {
 	height: 0;
 	line-height: 1;
 	vertical-align: baseline;
-	_vertical-align: bottom;
 	position: relative;
-	
 }
 
 sup {
@@ -123,37 +117,40 @@ small {
 /* LISTS
 ================== */
 
-ul li {
+ul {
 	list-style: inside square;
+}
+
+ol {
+	list-style: inside decimal;
 }
 
 /* CONTENT
 ================== */
 
 .meta {
+	border: 1px solid #D0D0D0;
 	border-top-left-radius: 4px;
 	border-top-right-radius: 4px;
-	background: #ccc;
-	background: rgba(0, 0, 0, 0.08);
+	background: #ccc; /* Old browsers */
+	background: rgba(0, 0, 0, .08); /* New browsers */
 	padding: 10px;
+	margin: 0 auto;
 	color: #47475F;
 	text-align: center;
 	width: 350px;
-	margin: 0 auto;
-	border: 1px solid #D0D0D0;
 }
 
 .meta h3 {
-	font-weight: bold;
-	color: rgba(255, 255, 255, 0.9);
-	background: rgba(0, 0, 0, 0.7);
+	color: rgba(255, 255, 255, .9);
+	background: rgba(0, 0, 0, .7);
 	border-radius: 3px;
 	font-size: 18px;
 	margin-bottom: 4px;
 }
 
 .post {
-	background: rgba(255, 255, 255, 0.5);
+	background: rgba(255, 255, 255, .5);
 	padding: 10px;
 	color: #555;
 	width: 350px;
@@ -192,15 +189,11 @@ nav li {
 	font-size: 14px;
 	display: block;
 	color: #222;
-}
-
-nav ul li + li {
 	border-left: 1px solid #fff;
-	border-right: none;
 }
 
 nav li:hover {
-	background: rgba(216, 216, 216, 0.5);
+	background: rgba(216, 216, 216, .5);
 }
 
 nav ul a {
@@ -209,7 +202,6 @@ nav ul a {
 	display: block;
 	text-align: center;
 	padding-top: 6px;
-	text-decoration: none;
 	width: 85px;
 	height: 30px;
 }
@@ -219,14 +211,16 @@ nav ul a:hover {
 	border-bottom: none;
 }
 
-nav li#homenav,
-nav a #hml {
+nav li#hml,
+nav a #hma {
 	border-top-left-radius: 4px;
 	border-bottom-left-radius: 4px;
+	border-left: none;
 }
 
-nav li#zdmnav,
-nav a #zdml {
+nav li#zdml,
+nav a #zdma {
 	border-top-right-radius: 4px;
 	border-bottom-right-radius: 4px;
+	border-right: none;
 }
