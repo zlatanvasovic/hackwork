@@ -39,10 +39,10 @@
 <header>
 <div class="top">I am top div. Input notices in me.</div>
 <nav id="<?=$cur?>"><ul>
-<li id="homenav"><a href="/" id="hml">Home</a></li>
-<li id="twnav"><a href="tweet.php" id="twl">Tweet</a></li>
-<li id="prnav"><a href="projects.php" id="prl">Projects</a></li>
-<li id="abnav"><a href="about.php" id="abl">About</a></li>
+<li id="hml"><a href="/" id="hma">Home</a></li>
+<li id="twl"><a href="tweet.php" id="twa">Tweet</a></li>
+<li id="prl"><a href="projects.php" id="pra">Projects</a></li>
+<li id="abl"><a href="about.php" id="aba">About</a></li>
 </ul>
 </nav>
 </header>

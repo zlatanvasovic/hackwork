@@ -37,8 +37,8 @@
 ================================================== -->
 <body>
 <header>
-<nav><ul><li id="homenav"><a href="../../" id="hml">Home</a></li>
-<li id="zdmnav"><a href="../zdm" id="zdml">ZDM</a></li>
+<nav><ul><li id="hml"><a href="../../" id="hma">Home</a></li>
+<li id="zdml"><a href="../zdm" id="zdma">ZDM</a></li>
 </ul></nav>
 </header>
 <br /><br /><br />
