@@ -1,0 +1,3 @@
+[submodule "extras/plugins"]
+	path = extras/plugins
+	url = git@github.com:ZDroid/nginZ-plugins
