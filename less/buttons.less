@@ -1,0 +1,80 @@
+//
+// Buttons
+//
+
+[class^="btn-"] {
+	color: #fff;
+	font-weight: bold;
+	padding: 6px;
+	border: 1px solid rgba(0, 0, 0, .2);
+	border-radius: 3px;
+}
+
+// Fix for button links
+[class^="btn-"]:hover {
+	text-decoration: none;
+}
+
+// Colorful buttons
+// ----------------
+.btn-brand {
+	.linear-gradient(@brand, @brand-dark);
+}
+
+.btn-info {
+	.linear-gradient(@info, @info-dark);
+}
+
+.btn-sucess {
+	.linear-gradient(@sucess, @sucess-dark);
+}
+
+.btn-warning {
+	.linear-gradient(@warning, @warning-dark);
+}
+
+.btn-danger {
+	.linear-gradient(@danger, @danger-dark);
+}
+
+// Hovered
+.btn-brand {
+	.linear-gradient(darken(@brand, 5%), darken(@brand-dark, 5%));
+}
+
+.btn-info {
+	.linear-gradient(darken(@info, 5%), darken(@info-dark, 5%));
+}
+
+.btn-sucess {
+	.linear-gradient(darken(@sucess, 5%), darken(@sucess-dark, 5%));
+}
+
+.btn-warning {
+	.linear-gradient(darken(@warning, 5%), darken(@warning-dark, 5%));
+}
+
+.btn-danger {
+	.linear-gradient(darken(@danger, 5%), darken(@danger-dark, 5%));
+}
+
+// Active
+.btn-brand {
+	background: @brand-dark;
+}
+
+.btn-info {
+	background: @info-dark;
+}
+
+.btn-sucess {
+	background: @sucess-dark;
+}
+
+.btn-warning {
+	background: @warning-dark;
+}
+
+.btn-danger {
+	background: @danger-dark;
+}
