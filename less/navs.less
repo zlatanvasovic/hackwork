@@ -1,0 +1,38 @@
+//
+// Navbars
+//
+
+// Horizontal
+nav {
+	ul {
+	border-bottom: 2px solid #d1d1d1;
+	box-shadow: 0 2px 3px rgba(0, 0, 0, .25);
+	.linear-gradient(#ecf0f1, #dcdcdc);
+	list-style: none;
+	height: 35px;
+	}
+
+	li {
+	font-weight: bold;
+	font-size: 14px;
+	height: 100%;
+	width: (100% / @navbar-items);
+	float: left;
+	display: block;
+	}
+
+	a {
+	line-height: 1;
+	color: #95a5a6;
+	display: block;
+	.centered();
+	padding-top: 9px;
+	width: 100%;
+	height: 100%
+	}
+}
+
+.current, nav a:hover {
+	color: @sucess-dark;
+	text-decoration: none
+}

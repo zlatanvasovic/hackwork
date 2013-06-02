@@ -1,0 +1,11 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# AUTHORS
+
+	<name> -- <twitter>
+
+# TECHOLOGIES
+
+	HTML5, CSS3
+	PHP5, XML
