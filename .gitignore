@@ -1,4 +1,2 @@
-*~
-
-# Exclude compiled styles
+# Just exclude compiled styles
 css/
