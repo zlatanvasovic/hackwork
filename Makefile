@@ -4,10 +4,10 @@ LESS ?= ./less/nginz.less
 CHECK=\033[32m✔ Done\033[39m
 HR=\033[37m--------------------------------------------------\033[39m
 
-# NOTES:
-# You need 'lessc' package for this
-# You can install lessc with:
-# npm install -g less@beta
+# Depends on Recess.
+#
+#   $ npm install -g recess
+#
 
 #
 # LESS COMPILE
@@ -17,8 +17,8 @@ build:
 	@echo "\n\033[37mBuilding nginZ...\033[39m"
 	@echo "${HR}"
 	@printf "Compiling and minifying LESS..."
-	@lessc ${LESS} ${CSS}
-	@lessc -x ${LESS} ${CSS_MIN}
+	@recess --compile ${LESS} > ${CSS}
+	@recess --compress ${LESS} > ${CSS_MIN}
 	@echo "             ${CHECK}"
 	@echo "${HR}"
 	@echo "\033[36mComplete!\n\033[39m"
@@ -30,4 +30,4 @@ build:
 #
 
 clean:
-	rm -r nginZ
+	rm -r ./css
