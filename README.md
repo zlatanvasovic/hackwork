@@ -1,12 +1,10 @@
 # nginZ
 
-Hi and welcome to **nginZ**.
+Hi and welcome to **nginZ**. It's powerful web framework.
 
-nginZ was formerly *Engine~Z*. It's powerful web framework.
+The framework is built with HTML, LESS and PHP. Always updated with new web standards, without purpose for older browsers.
 
-This framework is built with HTML5, LESS, PHP5 and XML. Always updated with new web standards, without purpose for older browsers.
-
-Project is released as open source software (OSS) under the terms of the MIT license (see the `LICENSE.md`).
+Project is released as open source software under the terms of the MIT license (see the `LICENSE.md`).
 
 ## Get involved
 
