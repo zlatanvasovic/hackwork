@@ -30,4 +30,4 @@ build:
 #
 
 clean:
-	rm -r ./css
+	rm ./css/nginz.*
