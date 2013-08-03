@@ -4,10 +4,10 @@
 // nginZ's functions
 //
 
-// Checks if the current is...
-// Requires styling of `.current` CSS class
+// Check if the current is...
+// You need to style `.active` CSS class
 function curFile($file) {
-	if (strpos($_SERVER["PHP_SELF"], $file)) echo 'class="current"';
+  if (strpos($_SERVER["PHP_SELF"], $file)) echo 'class="active"';
 }
 
 ?>
