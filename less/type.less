@@ -1,0 +1,89 @@
+//
+// Typography
+//
+
+// Body text
+// ---------
+
+p {
+  margin-bottom: (@line-height-base / 2);
+}
+
+.lead {
+  color: darken(@gray-light, 10%);
+  font-size: @font-size-lg;
+  line-height: @line-height-headings;
+}
+
+// Text aligns
+// -----------
+
+.text-center  {text-align: center;}
+.text-right   {text-align: right;}
+.text-left    {text-align: left;}
+
+// Headings
+// --------
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  line-height: @line-height-headings;
+  margin-bottom: (@line-height-base / 2);
+}
+
+h1 {font-size: 24px;}
+h2 {font-size: 20px;}
+h3 {font-size: 19px;}
+h4 {font-size: 18px;}
+h5 {font-size: 17px;}
+h6 {font-size: 16px;}
+
+// Quotes
+// ------
+
+blockquote {
+  padding: 10px;
+  margin: 0 0 (@line-height-base / 2) 0;
+  border-left: 5px solid @gray-light;
+}
+
+q:before,
+q:after,
+blockquote:before,
+blockquote:after {
+  content: "";
+}
+
+cite {font-style: normal;}
+
+// Lists
+// -----
+
+// Fix the margins
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: (@line-height-base / 2);
+
+  ul,
+  ol {
+    margin-bottom: 0;
+  }
+}
+
+// Misc
+// ----
+
+// Abbreviations and acronyms
+abbr[title] {
+  cursor: help;
+  border-bottom: 1px dotted @gray-dark;
+}
+
+// Address
+address {
+  display: block;
+  margin-bottom: (@line-height-base / 2);
+  font-style: normal;
+  line-height: @line-height-base;
+}
