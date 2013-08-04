@@ -2,123 +2,88 @@
 // Typography
 //
 
-// Links
-a {
-	color: @info-dark;
-	text-decoration: none;
+// Body text
+// ---------
 
-	&:hover {
-		text-decoration: underline;
-	}
+p {
+  margin-bottom: (@line-height-base / 2);
 }
 
-// Formatting
-strong, b {
-	font-weight: bold;
+.lead {
+  color: darken(@gray-light, 10%);
+  font-size: @font-size-lg;
+  line-height: @line-height-headings;
 }
 
-em, i	{
-	font-style: italic;
-}
+// Text aligns
+// -----------
 
-small	{
-	font-size: smaller;
-}
-
-sup, sub {
-	font-size: 75%;
-	height: 0;
-	line-height: 1;
-	vertical-align: baseline;
-	position: relative;
-}
-
-sup {
-	bottom: 1ex;
-}
-
-sub {
-	top: .5ex;
-}
-
-// Quotes
-blockquote {
-	padding: 5px;
-	font-style: italic;
-	border-left: 5px solid #ecf0f1;
-	.centered();
-}
-
-// Marking
-mark {
-	.linear-gradient(@sucess, @sucess-dark);
-	color: #fff;
-	padding: 2px 5px;
-	border-radius: 3px;
-}
+.text-center  {text-align: center;}
+.text-right   {text-align: right;}
+.text-left    {text-align: left;}
 
 // Headings
+// --------
+
 h1, h2, h3, h4, h5, h6 {
-	font-weight: bold;
-	line-height: 1.1;	
+  font-weight: bold;
+  line-height: @line-height-headings;
+  margin-bottom: (@line-height-base / 2);
 }
 
 h1 {font-size: 24px;}
-
 h2 {font-size: 20px;}
-
 h3 {font-size: 19px;}
-
 h4 {font-size: 18px;}
-
 h5 {font-size: 17px;}
-
 h6 {font-size: 16px;}
 
-.category {
-	background: #ecf0f1;
-	padding: 5px;
-	border-radius: 3px;
+// Quotes
+// ------
+
+blockquote {
+  padding: 10px;
+  margin: 0 0 (@line-height-base / 2) 0;
+  border-left: 5px solid @gray-light;
 }
+
+q:before,
+q:after,
+blockquote:before,
+blockquote:after {
+  content: "";
+}
+
+cite {font-style: normal;}
 
 // Lists
-ul						{list-style: inside circle;}
+// -----
 
-.square-list	{list-style: inside square;}
+// Fix the margins
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: (@line-height-base / 2);
 
-.disc-list		{list-style: inside disc;}
-
-ol						{list-style: inside decimal;}
-
-// Jumbohead (very big heading)
-.jumbohead {
-	padding: 50px;
-	font-size: 50px;
-	color: @sucess-dark;
-
-	@media only screen and (max-width: 767px) {
-		.jumbohead {font-size: 30px;}
-	}
+  ul,
+  ol {
+    margin-bottom: 0;
+  }
 }
 
-// 3D Text Fun
-.z3d {
-	text-shadow:	0 1px 0 #ccc,
-								0 2px 0 #c9c9c9,
-								0 3px 0 #bbb,
-								0 4px 0 #b9b9b9,
-								0 5px 0 #aaa,
-								0 6px 1px rgba(0, 0, 0, .1),
-								0 0 5px rgba(0, 0, 0, .1),
-								0 1px 3px rgba(0, 0, 0, .3),
-								0 3px 5px rgba(0, 0, 0, .2),
-								0 5px 10px rgba(0, 0, 0, .25),
-								0 10px 10px rgba(0, 0, 0, .2),
-								0 20px 20px rgba(0, 0, 0, .15);
+// Misc
+// ----
+
+// Abbreviations and acronyms
+abbr[title] {
+  cursor: help;
+  border-bottom: 1px dotted @gray-dark;
 }
 
-// Horizontal line
-hr {
-	background: @base-color;
-	height: 1px;
+// Address
+address {
+  display: block;
+  margin-bottom: (@line-height-base / 2);
+  font-style: normal;
+  line-height: @line-height-base;
 }
