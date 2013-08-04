@@ -21,7 +21,6 @@ function crypto($str) {
 // Display feed
 //
 // Parses RSS feeds
-
 function displayFeed($url) {
   $fopen = @fopen("$url", 'r');
   if ($fopen) {
