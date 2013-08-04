@@ -1,0 +1,68 @@
+//
+// Scaffolding
+// 
+
+// Body
+// ----
+
+body {
+  font-size: @font-size-base;
+  font-family: @font-family-base;
+  line-height: @line-height-base;
+  color: @text-color;
+  background-color: @body-bg;
+}
+
+// Links
+// -----
+
+a {
+  color: @link-color;
+  text-decoration: none;
+
+  // Adds underline on hover
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
+}
+
+// Images
+// ------
+
+img {
+  vertical-align: middle;
+}
+
+// Responsive images (ensure images don't scale beyond their parents)
+// Credits: Bootstrap
+//
+// 1. Set a maximum relative to the parent
+// 2. Scale the height according to the width, otherwise you get stretching
+.img-responsive {
+  display: inline-block;
+  max-width: 100%; // 1.
+  height: auto; // 2.
+}
+
+// Rounded image
+.img-rounded {
+  border-radius: @border-radius-lg;
+}
+
+// Circl'd image
+.img-circle {
+  border-radius: 100%;
+}
+
+// Horizontal rules
+// ----------------
+
+// 1. Removes borders
+// 2. Adds color to the `hr`
+hr {
+  margin-top: (@line-height-base / 2);
+  margin-bottom: (@line-height-base / 2);
+  border: 0; // 1.
+  border-top: 1px solid @hr-border; // 2.
+}

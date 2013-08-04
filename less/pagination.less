@@ -1,0 +1,96 @@
+//
+// Pagination
+//
+
+// Base styles
+// -----------
+
+.pagination,
+.pager {
+  padding-left: 0;
+  
+  > li {
+    display: inline;
+
+    > a {
+      text-decoration: none;
+      background-color: @pagination-bg;
+      border: 1px solid @pagination-border;
+    }
+  }
+  
+  > .disabled > a {
+    &,
+    &:hover,
+    &:focus {
+      color: @text-color;
+      background-color: @pagination-bg;
+      cursor: not-allowed;
+      pointer-events: none; // Future-proof disabling of clicks
+    }
+  }
+}
+
+// Just for `.pagination`
+// ----------------------
+
+.pagination {
+  display: inline-block;
+
+  > li {
+    display: inline;
+
+    > a {
+      float: left; // Collapse white-space
+      padding: @padding-base (@padding-base * 3);
+      border-left-width: 0;
+    }
+
+    &:first-child > a {
+      border-left-width: 1px;
+      .border-left-radius(@border-radius-base);
+    }
+    
+    &:last-child > a {
+      .border-right-radius(@border-radius-base);
+    }
+  }
+
+  > li > a:hover,
+  > li > a:focus,
+  > .active > a {
+    color: #fff;
+    background-color: @brand-primary;
+  }
+
+  > .active > a {
+    cursor: default;
+    pointer-events: none; // Future-proof disabling of clicks
+  }
+}
+
+// Pager
+// -----
+
+.pager {
+  padding-left: 0;
+  text-align: center;
+  .clearfix();
+
+  li {
+    display: inline;
+
+    > a {
+      display: inline-block;
+      padding: @padding-lg (@padding-lg * 2.5);
+      border-radius: (@padding-lg * 2.5);
+    
+      &:hover,
+      &:focus {
+        color: #fff;
+        text-decoration: none;
+        background-color: @brand-primary;
+      }
+    }
+  }
+}

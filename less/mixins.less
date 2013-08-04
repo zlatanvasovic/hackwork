@@ -1,0 +1,147 @@
+//
+// Mixins
+//
+
+// Utilities
+// ---------
+
+// Clearfix
+// Source: http://nicolasgallagher.com/micro-clearfix-hack/
+// For modern browsers
+// 1. The space content is one way to avoid an Opera bug when the
+//    contenteditable attribute is included anywhere else in the document.
+//    Otherwise it causes space to appear at the top and bottom of elements
+//    that are clearfixed.
+// 2. The use of `table` rather than `block` is only necessary if using
+//    `:before` to contain the top-margins of child elements.
+.clearfix() {
+  &:before,
+  &:after {
+    content: " "; // 1.
+    display: table; // 2.
+  }
+
+  &:after {
+    clear: both;
+  }
+}
+
+// Sizing shortcuts
+// Credits: Bootstrap
+.size(@width, @height) {
+  width: @width;
+  height: @height;
+}
+
+.square(@size) {
+  .size(@size, @size);
+}
+
+// Placeholder
+.placeholder(@color: @input-placeholder) {
+  &:-moz-placeholder            {color: @color;} // Firefox 4-18
+  &::-moz-placeholder           {color: @color;} // Firefox 19+
+  &::-webkit-input-placeholder  {color: @color;} // Safari and Chrome
+}
+
+// Proporties
+// ----------
+
+// Single side border-radius
+.border-top-radius(@radius) {
+  border-top-right-radius: @radius;
+   border-top-left-radius: @radius;
+}
+
+.border-right-radius(@radius) {
+  border-bottom-right-radius: @radius;
+   border-top-right-radius: @radius;
+}
+
+.border-bottom-radius(@radius) {
+  border-bottom-right-radius: @radius;
+   border-bottom-left-radius: @radius;
+}
+
+.border-left-radius(@radius) {
+  border-bottom-left-radius: @radius;
+   border-top-left-radius: @radius;
+}
+
+// Shadows
+.box-shadow(@shadow) {
+  -webkit-box-shadow: @shadow; // iOS <4.3 & Android <4.1
+          box-shadow: @shadow;
+}
+
+// Retina image support
+// --------------------
+
+// Short retina mixin for setting background image and size
+// Credits: Bootstrap
+.img-retina(@file-1x, @file-2x, @width, @height) {
+  background-image: url("@{file-1x}");
+
+  @media
+  only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (   min--moz-device-pixel-ratio: 2),
+  only screen and (     -o-min-device-pixel-ratio: 2/1),
+  only screen and (        min-device-pixel-ratio: 2),
+  only screen and (                min-resolution: 192dpi),
+  only screen and (                min-resolution: 2dppx) {
+    background-image: url("@{file-2x}");
+    background-size: @width @height;
+  }
+}
+
+// Grid
+// ----
+
+// Centered container
+// 1. Center layout
+// 2. Clear floated columns
+.container-fixed() {
+  margin-right: auto; // 1.
+  margin-left: auto; // 1.
+  .clearfix(); // 2.
+}
+
+// Row
+.get-row() {
+  .clearfix();
+
+  @media (min-width: @screen-tablet) {
+     margin-right: (@grid-gutter / -2);
+      margin-left: (@grid-gutter / -2);
+  }
+
+  // Negative margin nested rows out to align the content of columns
+  .row {
+    margin-right: (@grid-gutter / -2);
+     margin-left: (@grid-gutter / -2);
+  }
+}
+
+// Buttons
+// -------
+
+// Easily style button states
+.btn-pseudo-states(@background) {
+  color: #fff;
+  background-color: @background;
+
+  &:hover,
+  &:focus {
+    background-color: darken(@background, 5%);
+  }
+
+  &.disabled,
+  &[disabled],
+  fieldset[disabled] & {
+    &,
+    &:hover,
+    &:focus {
+      background-color: @background;
+    }
+  }
+}
