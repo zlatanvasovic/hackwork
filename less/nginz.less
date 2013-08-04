@@ -1,4 +1,4 @@
-/*! nginZ | PosgreSQL License | http://j.mp/NginZ */
+/*! nginZ v1.3.0 | MIT License | https://github.com/ZDroid/nginZ */
 
 // Variables and mixins
 @import "variables.less";
@@ -7,18 +7,16 @@
 // Normalize
 @import "normalize.less";
 
-// Core components
-@import "layout.less";
+// Components
+@import "scaffolding.less";
 @import "grid.less";
-
 @import "type.less";
 @import "code.less";
-
-// Common components
+@import "tables.less";
 @import "buttons.less";
-@import "font-awesome.less";
-@import "images.less";
-@import "navs.less";
+@import "forms.less";
+@import "menus.less";
+@import "pagination.less";
 
-// Misc components
-@import "blogging.less";
+// Utilities
+@import "utilities.less"; // Has to be last to override when necessary
