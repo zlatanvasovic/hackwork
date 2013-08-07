@@ -4,9 +4,9 @@
 // nginZ's functions
 //
 
-// Check if the current is...
+// Current file checker
 //
-// Requires styling of `.active` CSS class
+// Check what file is current
 function curFile($file) {
   if (strpos($_SERVER['PHP_SELF'], $file)) echo 'class="active"';
 }
@@ -18,18 +18,18 @@ function crypto($str) {
   echo str_rot13($str);
 }
 
-// Display feed
+// Get feed
 //
-// Parses RSS feeds
-function displayFeed($url) {
-  $fopen = @fopen("$url", 'r');
-  if ($fopen) {
+// Parse RSS feeds
+function getFeed($url) {
+  $feed = @fopen("$url", 'r');
+  if ($feed) {
     $data = '';
-    while (!feof($fopen)) {
-      $data .= fread($fopen, 8192);
+    while (!feof($feed)) {
+      $data .= fread($feed, 8192);
     }
   }
-  fclose($fopen);
+  fclose($feed);
   echo $data;
 }
 
