@@ -7,7 +7,7 @@
 // Current file checker
 //
 // Check what file is current
-function curFile($file) {
+function cur_file($file) {
   if (strpos($_SERVER['PHP_SELF'], $file)) echo 'class="active"';
 }
 
@@ -21,7 +21,7 @@ function crypto($str) {
 // Get feed
 //
 // Parse RSS feeds
-function getFeed($url) {
+function get_feed($url) {
   $feed = @fopen("$url", 'r');
   if ($feed) {
     $data = '';

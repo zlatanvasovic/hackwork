@@ -2,7 +2,7 @@
 
 Hi and welcome to **nginZ**. It's powerful web framework.
 
-The framework is built with the **web technologies** and **love**. Code is always ready for modern browsers, without purpose for older ones.
+The framework is built with the **web technologies** and &hearts;. Code is always ready for modern browsers, without purpose for older ones.
 
 Licensed under the terms of the MIT license.
 
