@@ -14,5 +14,5 @@ Licensed under the terms of the MIT license.
 ## Author
 
 **Zlatan Vasović**
-* https://twitter.com/ZXeDroid
+* https://twitter.com/zdr0id
 * https://github.com/ZDroid

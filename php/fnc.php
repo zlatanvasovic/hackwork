@@ -4,13 +4,6 @@
 // nginZ's functions
 //
 
-// Current file checker
-//
-// Check what file is current
-function cur_file($file) {
-  if (strpos($_SERVER['PHP_SELF'], $file)) echo 'class="active"';
-}
-
 // Ctypto
 //
 // Encrypt `$str` in rot13
@@ -31,6 +24,13 @@ function get_feed($url) {
   }
   fclose($feed);
   echo $data;
+}
+
+// Current file checker
+//
+// Check what file is current
+function cur_file($file) {
+  if (strpos($_SERVER['PHP_SELF'], $file)) echo 'class="active"';
 }
 
 ?>
