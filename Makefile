@@ -15,7 +15,7 @@ build:
 	@recess --compress ${LESS} > ${CSS_MIN}
 	@echo "\033[32m✔ Done\033[39m\n"
 	@echo "\033[37mThanks for using nginZ,"
-	@echo "<3 @ZDroid\n\033[39m"
+	@echo "made by @ZDroid\n\033[39m"
 
 #
 # REMOVE PRIOR BUILDS
