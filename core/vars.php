@@ -6,10 +6,6 @@
  * Sets up your site.
  */
 
-// 
-// Root path
-//
-
 //
 // Meta
 //
@@ -23,8 +19,8 @@ if (isset($slug)) {
 $description = 'My crazy site';
 $author = 'Me';
 $keywords = 'site, website, web';
-$styles = 'assets/css/main.css';
-$favicon = 'favicon.ico';
+$styles = "$root/assets/css/main.css";
+$favicon = "$root/favicon.ico";
 
 //
 // Copyright
