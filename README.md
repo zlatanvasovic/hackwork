@@ -14,12 +14,10 @@ content:
 
 ```php
 <?php
-
 $root = $_SERVER['DOCUMENT_ROOT'];
 $slug = 'Page';
 $content = 'This is a page.';
 include_once "$root/layout/default.php";
-
 ?>
 ```
 
@@ -27,7 +25,7 @@ Fill `$content` with page content, per `layout/*.php`.
 
 ## Variables
 
-Core variables are located in `core/vars.php`.
+Core variables are located in `core/variables.php`.
 
 **Base:**
 
@@ -55,7 +53,7 @@ Core variables are located in `core/vars.php`.
 
 ## Functions
 
-Put your functions in `core/fnc.php`.
+Put your functions in `core/functions.php`.
 
 Here is some helper functions:
 
