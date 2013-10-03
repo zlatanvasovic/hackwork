@@ -79,6 +79,7 @@ Use `layout/` directory for page layouts.
 Here is just default layout, `default.php`.
 
 Using layouts is simple:
+
 ```php
 <?php
 $root = $_SERVER['DOCUMENT_ROOT'];
@@ -91,3 +92,24 @@ include_once 'layout/layout-name.php';
 
 Example PHP configuration for Hackwork is located in `etc/php.ini`. It
 contains required settings.
+
+## Directory organization
+
+By default, Hackwork uses following directory organization:
+
+```
+.
+├── assets/
+│   ├── css/
+│   ├── font/
+│   ├── img/
+│   ├── js/
+├── core/
+│   ├── functions.php
+│   ├── variables.php
+├── include/
+│   ├── footer.php
+│   ├── meta.php
+└── layout/
+    └── default.php
+```
