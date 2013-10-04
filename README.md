@@ -36,11 +36,14 @@ Core variables are located in `core/variables.php`.
 * `$description` — site description
 * `$author` — full name of site author
 * `$keywords` — search keywords separated with comma (it isn't array)
+* `$robots` — robots meta setting
+* `$viewport` — visible part of canvas at page
 * `$styles` — link to base styles
 * `$favicon` — link to favicon
 
 **Copyright:**
 
+* `$cpowner` — copyright owner
 * `$cpyear` — first year of copyright
 * `$cyear` — current year, don't change this
 * `$copy` — final copyright text

@@ -1,9 +1,9 @@
 <?php
 
 /*
- * Basic functions.
+ * Core functions.
  * 
- * Customize this to add your ones.
+ * Don't forget to add your ones.
  */
 
 // `encrypt`
