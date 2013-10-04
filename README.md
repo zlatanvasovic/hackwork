@@ -17,11 +17,11 @@ content:
 $root = $_SERVER['DOCUMENT_ROOT'];
 $slug = 'Page';
 $content = 'This is a page.';
-include_once "$root/layout/default.php";
+include_once "$root/layouts/default.php";
 ?>
 ```
 
-Fill `$content` with page content, per `layout/*.php`.
+Fill `$content` with page content, per `layouts/*.php`.
 
 ## Variables
 
@@ -68,7 +68,7 @@ Here is some helper functions:
 
 ## Includes
 
-Use `include/` directory for includes.
+Use `includes/` directory for includes.
 
 Here is two main includes:
 
@@ -77,7 +77,7 @@ Here is two main includes:
 
 ## Layouts
 
-Use `layout/` directory for page layouts.
+Use `layouts/` directory for page layouts.
 
 Here is just default layout, `default.php`.
 
@@ -86,8 +86,8 @@ Using layouts is simple:
 ```php
 <?php
 $root = $_SERVER['DOCUMENT_ROOT'];
-$content = 'This is content, placed per layout/layout-name.php.';
-include_once 'layout/layout-name.php';
+$content = 'This is content, placed per layouts/layout-name.php.';
+include_once 'layouts/layout-name.php';
 ?>
 ```
 
@@ -113,6 +113,6 @@ By default, Hackwork uses following directory organization:
 ├── include/
 │   ├── footer.php
 │   ├── meta.php
-└── layout/
+└── layouts/
     └── default.php
 ```
