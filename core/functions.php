@@ -3,7 +3,7 @@
 /*
  * Core functions.
  * 
- * Don't forget to add your ones.
+ * Don't forget to add own ones.
  */
 
 // `encrypt`
