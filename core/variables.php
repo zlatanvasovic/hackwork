@@ -3,7 +3,7 @@
 /*
  * Core variables.
  *
- * Set up your site.
+ * Set up the site.
  */
 
 //
