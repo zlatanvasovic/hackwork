@@ -45,8 +45,7 @@ Core variables are located in `core/variables.php`.
 
 * `$cpowner` — copyright owner
 * `$cpyear` — first year of copyright
-* `$cyear` — current year, don't change this
-* `$copy` — final copyright text
+* `$copy` — copyright text
 
 **Special:**
 
