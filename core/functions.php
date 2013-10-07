@@ -22,7 +22,7 @@ function decrypt($str) {
 
 // `cfile`
 //
-// Checks for current file.
+// Checks for current file. Change the class name if necessary.
 function cfile($file) {
   if (strpos($_SERVER['PHP_SELF'], $file)) {
     echo 'class="active"';
