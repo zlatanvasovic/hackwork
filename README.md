@@ -115,3 +115,5 @@ By default, Hackwork uses following directory organization:
 └── layouts/
     └── default.php
 ```
+
+`assets/` directory isn't included, but it's default directory for things like CSS, JS, images and fonts.
