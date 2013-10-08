@@ -30,9 +30,8 @@ Core variables are located in `core/variables.php`.
 **Base:**
 
 * `$encoding` — page character encoding
-* `$title` — page title
- * `$site` — name of site
- * `$slug` — name of page, optional
+* `$title` — site title
+ * `$slug` — page title
 * `$description` — site description
 * `$author` — full name of site author
 * `$keywords` — search keywords separated with comma (it isn't array)

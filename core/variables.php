@@ -11,10 +11,9 @@
 //
 
 $encoding = 'utf-8';
-$site = 'Site';
-$title = $site;
+$title = 'Site';
 if (isset($slug)) {
-  $title = "$slug &middot; $site";
+  $title = "$slug &middot; $title";
 }
 $description = 'My personal site.';
 $author = 'Me';
