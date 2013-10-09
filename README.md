@@ -54,9 +54,9 @@ Core variables are located in `core/variables.php`.
 
 ## Functions
 
-Put your functions in `core/functions.php`.
+Core functions are located in `core/functions.php`.
 
-Here is some helper functions:
+Here is some default, helper functions:
 
 * `encrypt($str)` — encrypts `$str` in rot13
 * `decrypt($str)` — decrypts `$str` from rot13
@@ -75,7 +75,7 @@ Here is two main includes:
 
 ## Layouts
 
-Use `layouts/` directory for page layouts.
+`layouts/` directory is used for page layouts.
 
 Here is just default layout, `default.php`.
 
@@ -108,7 +108,7 @@ By default, Hackwork uses following directory organization:
 ├── core/
 │   ├── functions.php
 │   ├── variables.php
-├── include/
+├── includes/
 │   ├── footer.php
 │   ├── meta.php
 └── layouts/
