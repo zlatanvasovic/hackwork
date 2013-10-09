@@ -29,6 +29,7 @@ $favicon = "$root/favicon.ico";
 
 $cpowner = $author;
 $cpyear = 2013;
-$copy = '&copy; ' . $cpyear . (($cpyear != date('Y')) ? '-' . date('Y') : '') . ' ' . $cpowner;
+$copyright = '&copy; ' . $cpyear . (($cpyear != date('Y')) ? '-' . date('Y')
+                                    : '') . ' ' . $cpowner;
 
 ?>

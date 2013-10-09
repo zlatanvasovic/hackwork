@@ -1,1 +1,1 @@
-<p><?php echo $copy; ?></p>
+<p><?php echo $copyright; ?></p>
