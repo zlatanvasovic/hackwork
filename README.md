@@ -31,7 +31,7 @@ Core variables are located in `core/variables.php`.
 
 * `$encoding` — page character encoding
 * `$title` — site title
- * `$slug` — page title
+* `$slug` — page title
 * `$description` — site description
 * `$author` — full name of site author
 * `$keywords` — search keywords separated with comma (it isn't array)
@@ -44,7 +44,7 @@ Core variables are located in `core/variables.php`.
 
 * `$cpowner` — copyright owner
 * `$cpyear` — first year of copyright
-* `$copy` — copyright text
+* `$copyright` — copyright text
 
 **Special:**
 
