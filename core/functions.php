@@ -22,7 +22,7 @@ function decrypt($str) {
 
 // `cfile`
 //
-// Checks for current file. Change the class name if necessary.
+// Checks for current file. Change the target class name if necessary.
 function cfile($file) {
   if (strpos($_SERVER['PHP_SELF'], $file)) {
     echo 'class="active"';
@@ -45,7 +45,7 @@ function fcount($dir) {
 
 // `feedparse`
 //
-// Parses RSS feed easily.
+// Parses RSS feeds easily.
 function feedparse($url) {
   $feed = @fopen("$url", 'r');
   if ($feed) {
