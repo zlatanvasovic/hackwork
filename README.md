@@ -102,7 +102,7 @@ By default, Hackwork uses following directory organization:
 .
 ├── assets/
 │   ├── css/
-│   ├── font/
+│   ├── fonts/
 │   ├── img/
 │   ├── js/
 ├── core/
