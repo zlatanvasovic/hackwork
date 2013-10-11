@@ -31,7 +31,7 @@ Core variables are located in `core/variables.php`.
 
 * `$encoding` — page character encoding
 * `$title` — site title
-* `$slug` — page title
+* `$slug` — page title, can be set only in pages
 * `$description` — site description
 * `$author` — full name of site author
 * `$keywords` — search keywords separated with comma (it isn't array)
@@ -48,8 +48,7 @@ Core variables are located in `core/variables.php`.
 
 **Special:**
 
-* `$root` - must be defined at start of every page, default value is
-`$_SERVER['DOCUMENT_ROOT']`
+* `$root` - root path, must be defined at start of every page
 * `$content` — page content, must be defined in every page
 
 ## Functions
