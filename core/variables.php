@@ -15,8 +15,8 @@ $title = 'Site';
 if (isset($slug)) {
   $title = "$slug &middot; $title";
 }
-$description = 'My personal site.';
-$author = 'Me';
+$description = "Personal site.";
+$author = 'Mr. Ghost';
 $keywords = 'site, website, web';
 $robots = 'noodp,noydir';
 $viewport = 'width=device-width, initial-scale=1.0';
