@@ -8,7 +8,7 @@ foreach (glob("$root/core/*.php") as $core_item) {
 <?php include_once "$root/includes/meta.php"; ?>
   <body>
     <?php
-    echo $content;
+    echo $content . "\n";
     include_once "$root/includes/footer.php";
     ?>
   </body>
