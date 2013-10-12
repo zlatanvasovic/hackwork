@@ -45,7 +45,7 @@ function fcount($dir) {
 
 // `feedparse`
 //
-// Parses RSS feeds easily.
+// Parses RSS or Atom feeds.
 function feedparse($url) {
   $feed = @fopen("$url", 'r');
   if ($feed) {

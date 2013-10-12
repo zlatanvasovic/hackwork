@@ -61,7 +61,7 @@ Here is some default, helper functions:
 * `decrypt($str)` — decrypts `$str` from rot13
 * `cfile($file)` — checks for current file
 * `fcount($dir)` — counts number of files in a directory
-* `feedparse($url)` — parses RSS feeds easily
+* `feedparse($url)` — parses RSS or Atom feeds
 
 ## Includes
 
