@@ -93,6 +93,9 @@ include_once 'layouts/layout-name.php';
 Example PHP configuration for Hackwork is located in `etc/php.ini`. It
 contains required settings.
 
+For more settings look at
+[this configuration template](http://www.reallylinux.com/docs/php.ini).
+
 ## Directory organization
 
 By default, Hackwork uses following directory organization:
