@@ -58,7 +58,7 @@ Core functions are located in `core/functions.php`.
 Here is some default, helper functions:
 
 * `encrypt($str)` — encrypts `$str` in rot13
-* `decrypt($str)` — decrypts `$str` from rot13
+* `decrypt($str)` — decrypts `$str` in rot13
 * `cfile($file)` — checks for current file
 * `fcount($dir)` — counts number of files in a directory
 * `feedparse($url)` — parses RSS or Atom feeds

@@ -15,7 +15,7 @@ function encrypt($str) {
 
 // `decrypt`
 //
-// Decrypts `$str` from rot13.
+// Decrypts `$str` in rot13.
 function decrypt($str) {
   echo str_rot13(str_rot13($str));
 }
