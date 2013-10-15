@@ -1,6 +1,6 @@
 <?php
-foreach (glob("$root/core/*.php") as $core_item) {
-  require_once($core_item);
+foreach (glob("$root/core/*.php") as $item) {
+  require_once($item);
 }
 ?>
 <!DOCTYPE html>
