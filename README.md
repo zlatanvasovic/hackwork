@@ -119,3 +119,10 @@ By default, Hackwork uses following directory organization:
 
 `assets/` directory isn't included, but it's default directory for things like
 CSS, JS, images and fonts.
+
+## Bonuses
+
+* Every `.php` file in `core/` is included in default layout. By default, there
+are variables and functions, but you can also add other things, like classes.
+* Here is also [a repository shortlink](http://git.io/hackwork) if you can't
+remember URL of the repository.
