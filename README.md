@@ -55,7 +55,7 @@ Core variables are located in `core/variables.php`.
 
 Core functions are located in `core/functions.php`.
 
-Here is some default, helper functions:
+Here are some default, helper functions:
 
 * `encrypt($str)` — encrypts `$str` in rot13
 * `decrypt($str)` — decrypts `$str` in rot13
@@ -67,7 +67,7 @@ Here is some default, helper functions:
 
 Use `includes/` directory for includes.
 
-Here is two main includes:
+Here are two main includes:
 
 * `meta.php` — `<head>` content
 * `footer.php` — copyright info
