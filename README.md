@@ -124,5 +124,6 @@ CSS, JS, images and fonts.
 
 * Every `.php` file in `core/` is included in default layout. By default, there
 are variables and functions, but you can also add other things, like classes.
+* Copyright info is included in default footer (`includes/footer.php`).
 * Here is also [a repository shortlink](http://git.io/hackwork) if you can't
 remember URL of the repository.
