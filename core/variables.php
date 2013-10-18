@@ -22,6 +22,7 @@ $robots = 'noodp,noydir';
 $viewport = 'width=device-width, initial-scale=1.0';
 $styles = "$root/assets/css/main.css";
 $favicon = "$root/favicon.ico";
+$apple_touch_icon = "$root/apple-touch-icon.png";
 
 //
 // Copyright

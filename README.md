@@ -34,11 +34,12 @@ Core variables are located in `core/variables.php`.
 * `$slug` — page title, can be set only in pages
 * `$description` — site description
 * `$author` — full name of site author
-* `$keywords` — search keywords separated with comma (it isn't array)
+* `$keywords` — search keywords separated with comma
 * `$robots` — robots meta setting
 * `$viewport` — visible part of canvas at page
 * `$styles` — location of site styles
 * `$favicon` — location of site favicon
+* `$apple_touch_icon` — location of apple touch icon
 
 **Copyright:**
 
