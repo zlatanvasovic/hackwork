@@ -17,7 +17,7 @@ if (isset($slug)) {
 }
 $description = "Personal site of Mr. Ghost.";
 $author = 'Mr. Ghost';
-$keywords = 'site, website, web';
+$keywords = 'site, website, ghost';
 $robots = 'noodp,noydir';
 $viewport = 'width=device-width, initial-scale=1.0';
 $styles = "$root/assets/css/main.css";
