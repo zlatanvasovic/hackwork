@@ -49,7 +49,7 @@ Core variables are located in `core/variables.php`.
 
 **Special:**
 
-* `$root` - root path, must be defined at start of every page
+* `$root` - root path, defined at start of every page, **don't change it**
 * `$content` — page content, must be defined in every page
 
 ## Functions
