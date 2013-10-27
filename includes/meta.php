@@ -8,5 +8,5 @@
     <meta name="viewport" content="<?php echo $viewport; ?>">
     <link rel="stylesheet" href="<?php echo $styles; ?>">
     <link rel="shortcut icon" href="<?php echo $favicon; ?>">
-    <link rel="apple-touch-icon" href="<?php echo $apple_touch_icon; ?>"/>
+    <link rel="apple-touch-icon" href="<?php echo $apple_touch_icon; ?>">
   </head>
