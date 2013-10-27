@@ -45,11 +45,12 @@ Core variables are located in `core/variables.php`.
 
 * `$cpowner` — copyright owner
 * `$cpyear` — starting year of copyright
-* `$copyright` — final copyright text
+* `$copyright` — copyright text
 
 **Special:**
 
-* `$root` - root path, defined at start of every page, **don't change it**
+* `$root` - root path, defined at start of every page; it's recommended to keep
+it same as at default
 * `$content` — page content, must be defined in every page
 
 ## Functions
@@ -94,7 +95,7 @@ include_once 'layouts/layout-name.php';
 Example PHP configuration for Hackwork is located in `etc/php.ini`. It
 contains core settings.
 
-For more settings look at
+For complete list of settings look at
 [this configuration template](http://www.reallylinux.com/docs/php.ini).
 
 ## Directory organization
@@ -119,12 +120,12 @@ By default, Hackwork uses following directory organization:
 ```
 
 `assets/` directory isn't included, but it's default directory for things like
-CSS, JS, images and fonts.
+CSS, JavaScript, images and fonts.
 
 ## Bonuses
 
 * Every `.php` file in `core/` is included in default layout. By default, there
 are variables and functions, but you can also add other things, like classes.
 * Copyright info is included in default footer (`includes/footer.php`).
-* Here is also [a repository shortlink](http://git.io/hackwork) if you can't
+* There is [a repository shortlink](http://git.io/hackwork) if you can't
 remember URL of the repository.
