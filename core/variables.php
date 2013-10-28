@@ -32,5 +32,3 @@ $cpowner = $author;
 $cpyear = 2013;
 $copyright = '&copy; ' . $cpyear . (($cpyear != date('Y')) ? '-' . date('Y')
                                     : '') . ' ' . $cpowner;
-
-?>

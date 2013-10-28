@@ -52,5 +52,3 @@ function feedparse($url) {
   fclose($feed);
   echo $data;
 }
-
-?>
