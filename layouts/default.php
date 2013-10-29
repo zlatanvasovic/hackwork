@@ -1,11 +1,11 @@
+<!DOCTYPE html>
+<html>
 <?php
 foreach (glob("$root/core/*.php") as $item) {
   require_once($item);
 }
+include_once "$root/includes/meta.php";
 ?>
-<!DOCTYPE html>
-<html>
-<?php include_once "$root/includes/meta.php"; ?>
   <body>
     <?php
     echo $content . "\n";
