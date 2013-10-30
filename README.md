@@ -1,6 +1,6 @@
 # Hackwork
 
-**Hackwork** (hack + framework) is a simple PHP framework for easy making HTML5
+**Hackwork** (hack + framework) is a simple PHP framework for making HTML5
 sites.
 
 Built with &#9733;s and PHP. Hackwork requires PHP 5.2+.
