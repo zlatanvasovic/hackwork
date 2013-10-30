@@ -1,9 +1,7 @@
 <?php
 
 /*
- * Core functions.
- * 
- * Don't forget to add own ones.
+ * Core functions
  */
 
 // `encrypt`

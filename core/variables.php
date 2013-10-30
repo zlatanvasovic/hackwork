@@ -1,9 +1,7 @@
 <?php
 
 /*
- * Core variables.
- *
- * Set up the site.
+ * Core variables
  */
 
 //
