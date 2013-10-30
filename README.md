@@ -9,7 +9,7 @@ Licensed under the terms of MIT license.
 
 ## Usage
 
-Hackwork's PHP features can be easily included in any `.php` file. Example
+Hackwork's PHP features can be easily included in any PHP file. Example
 content:
 
 ```php
