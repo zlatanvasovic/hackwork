@@ -8,16 +8,16 @@
 
 // `encrypt`
 //
-// Encrypts `$str` in rot13.
+// Encrypts `$str` with base64.
 function encrypt($str) {
-  echo str_rot13($str);
+  echo base64_encode($str);
 }
 
 // `decrypt`
 //
-// Decrypts `$str` in rot13. Gives `$str` as output.
+// Decrypts `$str` with base64.
 function decrypt($str) {
-  echo str_rot13(str_rot13($str));
+  echo base64_decode($str);
 }
 
 // `cfile`

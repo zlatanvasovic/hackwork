@@ -27,7 +27,7 @@ Fill `$content` with page content, per `layouts/*.php`.
 
 Core variables are located in `core/variables.php`.
 
-**Base:**
+**Core:**
 
 * `$encoding` — page character encoding
 * `$title` — site title
@@ -59,8 +59,8 @@ Core functions are located in `core/functions.php`.
 
 Here are some default, helper functions:
 
-* `encrypt($str)` — encrypts `$str` in rot13
-* `decrypt($str)` — decrypts `$str` in rot13
+* `encrypt($str)` — encrypts `$str` with base64
+* `decrypt($str)` — decrypts `$str` with base64
 * `cfile($file)` — checks for current file
 * `fcount($dir)` — counts number of files in a directory
 * `feedparse($url)` — parses RSS or Atom feeds
