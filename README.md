@@ -18,7 +18,6 @@ $root = $_SERVER['DOCUMENT_ROOT'];
 $slug = 'Page';
 $content = 'This is a page.';
 include_once "$root/layouts/default.php";
-?>
 ```
 
 Fill `$content` with page content, per `layouts/*.php`.
@@ -87,7 +86,6 @@ Using layouts is simple:
 $root = $_SERVER['DOCUMENT_ROOT'];
 $content = 'This is content, placed per layouts/layout-name.php.';
 include_once 'layouts/layout-name.php';
-?>
 ```
 
 ## PHP configuration
