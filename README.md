@@ -5,7 +5,7 @@ sites.
 
 Built with &#9733;s and PHP. Hackwork requires PHP 5.2+.
 
-Licensed under the terms of MIT license.
+Licensed under the MIT License.
 
 ## Usage
 
