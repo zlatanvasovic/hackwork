@@ -23,7 +23,7 @@ include_once "$root/layouts/default.php";
 
 Fill `$content` with page content, per `layouts/*.php`.
 
-You can test the PHP site whenever you want, with `php -S localhost:<port>`.
+You can test the PHP site with `php -S localhost:<port>`.
 
 ## Variables
 
