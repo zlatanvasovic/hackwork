@@ -3,9 +3,10 @@
 **Hackwork** (hack + framework) is a simple PHP framework for making HTML5
 sites.
 
-Built with &#9733;s and PHP. Hackwork requires PHP 5.2+.
-
 Licensed under the MIT License.
+
+* **Current version:** 1.1.0
+* **Requires:** PHP 5.2+
 
 ## Usage
 
