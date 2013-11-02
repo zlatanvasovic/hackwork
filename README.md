@@ -49,7 +49,7 @@ Core variables are located in `core/variables.php`.
 * `$cpyear` — starting year of copyright
 * `$copyright` — copyright text
 
-**Special:**
+**Layout:**
 
 * `$root` - root path, defined at start of every page; it's recommended to keep
 it same as at default
