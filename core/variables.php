@@ -18,7 +18,7 @@ $author = 'Mr. Ghost';
 $keywords = 'site, website, ghost';
 $robots = 'noodp,noydir';
 $viewport = 'width=device-width, initial-scale=1';
-$styles = "$root/assets/css/main.css";
+$stylesheet = "$root/assets/css/main.css";
 $favicon = "$root/favicon.ico";
 $apple_touch_icon = "$root/apple-touch-icon.png";
 

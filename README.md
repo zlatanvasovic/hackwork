@@ -39,7 +39,7 @@ Core variables are located in `core/variables.php`.
 * `$keywords` — search keywords separated with comma
 * `$robots` — robots meta setting
 * `$viewport` — visible part of canvas at page
-* `$styles` — location of site styles
+* `$stylesheet` — location of site styles
 * `$favicon` — location of site favicon
 * `$apple_touch_icon` — location of apple touch icon
 
