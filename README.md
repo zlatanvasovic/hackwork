@@ -34,8 +34,8 @@ Core variables are located in `core/variables.php`.
 * `$encoding` — page character encoding
 * `$title` — site title
 * `$slug` — page title, can be set only in pages
-* `$description` — site description
 * `$author` — full name of site author
+* `$description` — site description
 * `$keywords` — search keywords separated with comma
 * `$robots` — robots meta setting
 * `$viewport` — visible part of canvas at page
