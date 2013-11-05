@@ -101,7 +101,7 @@ For complete list of settings look at
 
 ## Directory organization
 
-By default, Hackwork uses following directory organization:
+Hackwork's default directory organization is:
 
 ```
 .
@@ -122,6 +122,9 @@ By default, Hackwork uses following directory organization:
 
 `assets/` directory isn't included, but it's default directory for things like
 CSS, JavaScript, images and fonts.
+
+`etc/` isn't in default directory organization, because of it's just place
+where config are stored.
 
 ## Bonuses
 
