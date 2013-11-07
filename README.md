@@ -10,8 +10,7 @@ Licensed under the MIT License.
 
 ## Usage
 
-Hackwork's PHP features can be easily included in any PHP file. Example
-content:
+Hackwork's PHP features can be easily included in any PHP file.
 
 ```php
 <?php
@@ -81,8 +80,6 @@ Here are two main includes:
 `layouts/` directory is used for page layouts.
 
 Here is just default layout, `default.php`.
-
-Using layouts is simple:
 
 ```php
 <?php
