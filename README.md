@@ -58,7 +58,7 @@ it same as at default
 
 Core functions are located in `core/functions.php`.
 
-Here are some default, helper functions:
+There are some default, helper functions:
 
 * `encrypt($str)` — encrypts `$str` with base64
 * `decrypt($str)` — decrypts `$str` with base64
@@ -70,7 +70,7 @@ Here are some default, helper functions:
 
 Use `includes/` directory for includes.
 
-Here are two main includes:
+There are two main includes:
 
 * `meta.php` — `<head>` content
 * `footer.php` — copyright info
@@ -79,7 +79,7 @@ Here are two main includes:
 
 `layouts/` directory is used for page layouts.
 
-Here is just default layout, `default.php`.
+There is just default layout, `default.php`.
 
 ```php
 <?php
@@ -94,7 +94,7 @@ Example PHP configuration for Hackwork is located in `etc/php.ini`. It
 contains core settings.
 
 For complete list of settings look at
-[this configuration template](http://www.reallylinux.com/docs/php.ini).
+[configuration template](http://www.reallylinux.com/docs/php.ini).
 
 ## Directory organization
 
