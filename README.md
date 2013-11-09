@@ -28,6 +28,12 @@ You can test the PHP site with `php -S <target>`.
 
 Core variables are located in `core/variables.php`.
 
+**Layout:**
+
+* `$root` - root path, defined at start of every page; it's recommended to keep
+it same as at default
+* `$content` — page content, must be defined in every page
+
 **Core:**
 
 * `$encoding` — page character encoding
@@ -47,12 +53,6 @@ Core variables are located in `core/variables.php`.
 * `$cpowner` — copyright owner
 * `$cpyear` — starting year of copyright
 * `$copyright` — copyright text
-
-**Layout:**
-
-* `$root` - root path, defined at start of every page; it's recommended to keep
-it same as at default
-* `$content` — page content, must be defined in every page
 
 ## Functions
 
