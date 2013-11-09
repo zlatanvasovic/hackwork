@@ -50,3 +50,10 @@ function feedparse($url) {
   fclose($feed);
   echo $data;
 }
+
+// `randomize`
+//
+// Selects a random value from array.
+function randomize($array) {
+  echo $array[array_rand($array)];
+}
