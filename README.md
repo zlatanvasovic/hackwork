@@ -14,10 +14,9 @@ Hackwork's PHP features can be easily included in any PHP file.
 
 ```php
 <?php
-$root = $_SERVER['DOCUMENT_ROOT'];
 $slug = 'Page';
 $content = 'This is a page.';
-include_once "$root/layouts/default.php";
+include_once $_SERVER['DOCUMENT_ROOT'].'/layouts/default.php';
 ```
 
 Fill `$content` with page content, per `layouts/*.php`.
@@ -30,8 +29,8 @@ Core variables are located in `core/variables.php`.
 
 **Layout:**
 
-* `$root` - root path, defined at start of every page; it's recommended to keep
-it same as at default
+* `$root` - root path, defined at start of every layout; it's recommended to
+keep it same as at default
 * `$content` — page content, must be defined in every page
 
 **Meta:**
@@ -56,7 +55,7 @@ it same as at default
 
 ## Functions
 
-Functions are located in `core/functions.php`.
+Core functions are located in `core/functions.php`.
 
 There are some default, helper functions:
 
@@ -84,9 +83,8 @@ There is just default layout, `default.php`.
 
 ```php
 <?php
-$root = $_SERVER['DOCUMENT_ROOT'];
 $content = 'This is content, placed per layouts/layout-name.php.';
-include_once 'layouts/layout-name.php';
+include_once '$_SERVER['DOCUMENT_ROOT']/layouts/layout-name.php';
 ```
 
 ## PHP configuration

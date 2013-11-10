@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <?php
+$root = $_SERVER['DOCUMENT_ROOT'];
 foreach (glob("$root/core/*.php") as $item) {
   require_once($item);
 }
