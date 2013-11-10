@@ -34,7 +34,7 @@ Core variables are located in `core/variables.php`.
 it same as at default
 * `$content` — page content, must be defined in every page
 
-**Core:**
+**Meta:**
 
 * `$encoding` — page character encoding
 * `$title` — site title
@@ -56,7 +56,7 @@ it same as at default
 
 ## Functions
 
-Core functions are located in `core/functions.php`.
+Functions are located in `core/functions.php`.
 
 There are some default, helper functions:
 
