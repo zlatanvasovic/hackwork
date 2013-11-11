@@ -25,7 +25,8 @@ You can test the PHP site with `php -S <target>`.
 
 ## Variables
 
-Core variables are located in `core/variables.php`.
+Core variables are located in `core/variables.php`. Links in variables are
+root-relative.
 
 **Layout:**
 
