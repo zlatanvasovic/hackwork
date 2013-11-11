@@ -29,8 +29,8 @@ Core variables are located in `core/variables.php`.
 
 **Layout:**
 
-* `$root` - root path, defined at start of every layout; it's recommended to
-keep it same as at default
+* `$root` - root path, must be defined at start of every layout; it's
+recommended to keep it same as at default
 * `$content` — page content, must be defined in every page
 
 **Meta:**
@@ -38,6 +38,7 @@ keep it same as at default
 * `$encoding` — page character encoding
 * `$title` — site title
 * `$slug` — page title, can be set only in pages
+* `$title_divider` — divider between page and site title
 * `$author` — full name of site author
 * `$description` — site description
 * `$keywords` — search keywords separated with comma

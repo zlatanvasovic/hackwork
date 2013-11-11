@@ -10,8 +10,9 @@
 
 $encoding = 'utf-8';
 $title = 'Site';
+$title_divider = '&middot;';
 if (isset($slug)) {
-  $title = "$slug &middot; $title";
+  $title = "$slug $title_divider $title";
 }
 $author = 'Mr. Ghost';
 $description = "Personal site of $author.";
