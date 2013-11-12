@@ -10,7 +10,8 @@ Licensed under the MIT License.
 
 ## Usage
 
-Hackwork's PHP features can be easily included in any PHP file.
+Hackwork's PHP features can be easily included in any PHP file. Example file
+with Hackwork's features is `index.php`.
 
 ```php
 <?php
