@@ -16,8 +16,11 @@ Hackwork's PHP features can be easily included in any PHP file.
 <?php
 $slug = 'Page';
 $content = 'This is a page.';
-include_once $_SERVER['DOCUMENT_ROOT'].'/layouts/default.php';
+include_once '<path>/layouts/default.php';
 ```
+
+Replace `<path>` with path to layouts. If you want root-relative link, just
+include `$_SERVER['DOCUMENT_ROOT'].'/layouts/default.php'`.
 
 Fill `$content` with page content, per `layouts/*.php`.
 
@@ -86,7 +89,7 @@ There is just default layout, `default.php`.
 ```php
 <?php
 $content = 'This is content, placed per layouts/layout-name.php.';
-include_once '$_SERVER['DOCUMENT_ROOT']/layouts/layout-name.php';
+include_once '<path>/layouts/layout-name.php';
 ```
 
 ## PHP configuration
