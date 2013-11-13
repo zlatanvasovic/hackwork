@@ -122,8 +122,8 @@ Hackwork's default directory organization is:
     └── default.php
 ```
 
-`assets/` directory isn't included, but it's default directory for things like
-CSS, JavaScript, images and fonts.
+`assets/` directory isn't included, but it's default directory for cacheable
+content, like CSS, JavaScript, images and fonts.
 
 `etc/` isn't in default directory organization, because of it's just place
 where config are stored.
