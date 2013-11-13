@@ -126,7 +126,7 @@ Hackwork's default directory organization is:
 content, like CSS, JavaScript, images and fonts.
 
 `etc/` isn't in default directory organization, because of it's just place
-where config are stored.
+where config lies.
 
 ## Bonuses
 
