@@ -6,7 +6,7 @@ for making HTML5 sites.
 Licensed under the MIT License.
 
 * **Current version:** 1.1.0
-* **Requires:** PHP 5.2+
+* **Minimum PHP version:** 5.2.17
 
 ## Usage
 
