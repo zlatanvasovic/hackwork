@@ -100,6 +100,7 @@ contains core settings.
 
 For complete list of settings look at
 [configuration template](http://www.reallylinux.com/docs/php.ini).
+[Official docs](http://php.net/manual/en/ini.php) may be useful, also.
 
 ## Directory organization
 
