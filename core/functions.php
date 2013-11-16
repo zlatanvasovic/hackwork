@@ -45,7 +45,7 @@ function fcount($dir) {
 //
 // Parses RSS or Atom feed.
 function feedparse($url) {
-  $feed = fopen("$url", 'r');
+  $feed = fopen($url, 'r');
   $data = stream_get_contents($feed);
   fclose($feed);
   echo $data;
