@@ -9,7 +9,8 @@ include_once "$root/includes/meta.php";
 ?>
   <body>
     <?php
-    echo $content . "\n"; // Add newline to make nicer output
+    // Add newline to make nicer output
+    echo $content . "\n";
     include_once "$root/includes/footer.php";
     ?>
   </body>
