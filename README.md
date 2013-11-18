@@ -1,7 +1,7 @@
 # Hackwork
 
 **Hackwork** (hack + framework) is a simple, layout-based PHP microframework
-for making HTML5 sites.
+for making HTML5 sites. You can also build HTML4 sites with it, don't worry.
 
 Licensed under the MIT License.
 
@@ -36,6 +36,10 @@ Core variables are located in `core/variables.php`. Links are root-relative.
 * `$root` - root path, must be defined at start of every layout; it's
 recommended to keep it same as at default
 * `$content` — page content, must be defined in every page
+
+**Doctype:**
+
+* `$doctype` (huh?) — document type
 
 **Meta:**
 

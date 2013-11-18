@@ -5,6 +5,12 @@
  */
 
 //
+// Doctype
+//
+
+$doctype = '<!DOCTYPE html>';
+
+//
 // Meta
 //
 
