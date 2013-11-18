@@ -134,7 +134,8 @@ where config lies.
 
 ## Bonuses
 
-* Hackwork isn't server-specific, so you can run it on whatever you want.
+* Hackwork isn't server-specific, so you can run it on whatever server you
+want.
 * Every `.php` file in `core/` is included in default layout. There are
 variables and functions, but you can also add other things, like classes.
 * Copyright info is included in default footer (`includes/footer.php`).
