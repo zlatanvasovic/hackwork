@@ -15,33 +15,31 @@ with Hackwork's features is `index.php`.
 
 ```php
 <?php
-$slug = 'Page';
-$content = 'This is a page.';
-include_once '[path]/layouts/default.php';
+require_once 'core/hackwork.php';
+layout('default', 'home');
 ```
 
-Replace `[path]` with path to layouts. If you want root-relative link, just
-include `$_SERVER['DOCUMENT_ROOT'].'/layouts/default.php'`.
+Edit `data/home.php` to fill up index page.
 
-Fill `$content` with page content, per `layouts/*.php`.
+You can test PHP site with `php -S <target>`.
 
-You can test the PHP site with `php -S <target>`.
+## Constants
+
+Hackwork uses constants for paths to avoid conflicts with variables. Base
+constants are:
+
+* `ROOT` — server root path
+* `PATH` — site root path
 
 ## Variables
 
 Core variables are located in `core/variables.php`. Links are root-relative.
 
-**Layout:**
-
-* `$root` - root path, must be defined at start of every layout; it's
-recommended to keep it same as at default
-* `$content` — page content, must be defined in every page
-
-**Doctype:**
+**Doctype variables:**
 
 * `$doctype` (huh?) — document type
 
-**Meta:**
+**Meta variables:**
 
 * `$encoding` — page character encoding
 * `$title` — site title
@@ -56,7 +54,7 @@ recommended to keep it same as at default
 * `$favicon` — location of site favicon
 * `$apple_touch_icon` — location of apple touch icon
 
-**Copyright:**
+**Copyright variables:**
 
 * `$cpowner` — copyright owner
 * `$cpyear` — starting year of copyright
@@ -66,7 +64,11 @@ recommended to keep it same as at default
 
 Core functions are located in `core/functions.php`.
 
-There are some default, helper functions:
+**Framework functions:**
+
+* `layout($layout, $data)` — generates layout
+
+**Helper functions:**
 
 * `encrypt($str)` — encrypts `$str` with base64
 * `decrypt($str)` — decrypts `$str` with base64
@@ -74,15 +76,6 @@ There are some default, helper functions:
 * `fcount($dir)` — counts number of files in a directory
 * `feedparse($url)` — parses RSS or Atom feed
 * `randomize($array)` — selects a random value from array
-
-## Includes
-
-Use `includes/` directory for includes.
-
-There are two main includes:
-
-* `meta.php` — `<head>` content
-* `footer.php` — copyright info
 
 ## Layouts
 
@@ -92,9 +85,26 @@ There is just default layout, `default.php`.
 
 ```php
 <?php
-$content = 'This is content, placed per layouts/layout-name.php.';
-include_once '[path]/layouts/layout-name.php';
+require_once 'core/hackwork.php';
+layout('layout-name', 'data-file');
 ```
+
+### Making new layout
+
+To make new layout, add new folder within `layouts/`.
+
+There are two paths of layout:
+
+* `header.php` — start of page, mostly `<head>` content
+* `footer.php` — end of page
+
+Use `layout()` to include specific layout into file.
+
+## Data
+
+`data/` is used as place from which page contents are served.
+
+Just use `layout()` to specify data file from which content will be served.
 
 ## PHP configuration
 
@@ -118,12 +128,14 @@ Hackwork's default directory organization is:
 │   ├── js/
 ├── core/
 │   ├── functions.php
+│   ├── hackwork.php
 │   ├── variables.php
-├── includes/
-│   ├── footer.php
-│   ├── meta.php
+├── data/
+│   ├── ...
 └── layouts/
-    └── default.php
+    ├── .../
+        ├── footer.php
+        └── header.php
 ```
 
 `assets/` directory isn't included, but it's default directory for cacheable
@@ -136,8 +148,9 @@ config lies.
 
 * Hackwork isn't server-specific, so you can run it on whatever server you
 want.
-* Every `.php` file in `core/` is included in default layout. There are
-variables and functions, but you can also add other things, like classes.
-* Copyright info is included in default footer (`includes/footer.php`).
+* Every `.php` file in `core/`, except `hackwork.php` is included in default
+layout. There are variables and functions, but you can also add other things,
+like classes.
+* Copyright info is included in default footer (`layouts/default/footer.php`).
 * There is [a repository shortlink](http://git.io/hackwork) if you can't
 remember URL of the repository.

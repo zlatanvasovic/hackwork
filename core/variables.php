@@ -25,9 +25,9 @@ $description = "Personal site of $author.";
 $keywords = 'site, website, ghost';
 $robots = 'noodp,noydir';
 $viewport = 'width=device-width, initial-scale=1';
-$stylesheet = "$root/assets/css/main.css";
-$favicon = "$root/favicon.ico";
-$apple_touch_icon = "$root/apple-touch-icon.png";
+$stylesheet = PATH . '/assets/css/main.css';
+$favicon = PATH . '/favicon.ico';
+$apple_touch_icon = PATH . '/apple-touch-icon.png';
 
 //
 // Copyright

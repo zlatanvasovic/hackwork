@@ -1,3 +1,4 @@
+<html>
   <head>
     <meta charset="<?php echo $encoding; ?>">
     <title><?php echo $title; ?></title>
@@ -10,3 +11,4 @@
     <link rel="shortcut icon" href="<?php echo $favicon; ?>">
     <link rel="apple-touch-icon" href="<?php echo $apple_touch_icon; ?>">
   </head>
+  <body>
