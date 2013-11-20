@@ -129,8 +129,8 @@ Hackwork's default directory organization is:
 `assets/` directory isn't included, but it's default directory for cacheable
 content, like CSS, JavaScript, images and fonts. Don't put PHP files in assets!
 
-`etc/` isn't in default directory organization, because of it's just place
-where config lies.
+`etc/` isn't in default directory organization, because it's just place where
+config lies.
 
 ## Bonuses
 
