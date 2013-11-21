@@ -33,7 +33,7 @@ constants are:
 
 ## Variables
 
-Core variables are located in `core/variables.php`. Links are root-relative.
+Layout variables are located in `layouts/*/set.variables.php`.
 
 **Doctype variables:**
 
@@ -62,7 +62,7 @@ Core variables are located in `core/variables.php`. Links are root-relative.
 
 ## Functions
 
-Core functions are located in `core/functions.php`.
+Layout functions are located in `layouts/*/set.functions.php`.
 
 **Framework functions:**
 
@@ -98,6 +98,11 @@ There are two paths of layout:
 
 * `header.php` — start of page, mostly `<head>` content
 * `footer.php` — end of page
+
+You also need to set functions and variables for each layout.
+
+* `set.functions.php` — layout functions
+* `set.variables.php` — layout variables
 
 Use `layout()` to include specific layout into file.
 
@@ -149,9 +154,8 @@ config lies.
 
 * Hackwork isn't server-specific, so you can run it on whatever server you
 want.
-* Every `.php` file in `core/`, except `hackwork.php` is included in default
-layout. There are variables and functions, but you can also add other things,
-like classes.
+* Every `set.*.php` file in `layouts/*/` is included in default layout. There
+are variables and functions, but you can also add other things, like classes.
 * Copyright info is included in default footer (`layouts/default/footer.php`).
 * There is [a repository shortlink](http://git.io/hackwork) if you can't
 remember URL of the repository.
