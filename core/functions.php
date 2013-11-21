@@ -57,3 +57,10 @@ function feedparse($url) {
 function randomize($array) {
   echo $array[array_rand($array)];
 }
+
+// `undot`
+//
+// Removes dots from string.
+function undot($dot) {
+  $dot = str_replace($dot, '', '.');
+}
