@@ -1,3 +1,4 @@
+<?php echo $doctype . "\n"; ?>
 <html>
   <head>
     <meta charset="<?php echo $encoding; ?>">

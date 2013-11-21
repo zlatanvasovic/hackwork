@@ -5,15 +5,10 @@
  */
 
 //
-// Doctype
-//
-
-$doctype = '<!DOCTYPE html>';
-
-//
 // Meta
 //
 
+$doctype = '<!DOCTYPE html>';
 $encoding = 'utf-8';
 $title = 'Site';
 $title_divider = '&middot;';

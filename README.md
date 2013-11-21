@@ -35,12 +35,9 @@ constants are:
 
 Layout variables are located in `layouts/*/set.variables.php`.
 
-**Doctype variables:**
-
-* `$doctype` (huh?) — document type
-
 **Meta variables:**
 
+* `$doctype` — document type
 * `$encoding` — page character encoding
 * `$title` — site title
 * `$slug` — page title, can be set only in pages
