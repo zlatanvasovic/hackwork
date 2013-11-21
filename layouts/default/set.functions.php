@@ -61,6 +61,6 @@ function randomize($array) {
 // `undot`
 //
 // Removes dots from string.
-function undot($dot) {
-  $dot = str_replace($dot, '', '.');
+function undot($string) {
+  $dot = str_replace($string, '', '.');
 }

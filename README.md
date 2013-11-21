@@ -73,7 +73,7 @@ Layout functions are located in `layouts/*/set.functions.php`.
 * `fcount($dir)` — counts number of files in a directory
 * `feedparse($url)` — parses RSS or Atom feed
 * `randomize($array)` — selects a random value from array
-* `undot($dot)` — removes dots from string
+* `undot($string)` — removes dots from string
 
 ## Layouts
 
