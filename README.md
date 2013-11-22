@@ -40,7 +40,7 @@ Layout variables are located in `layouts/*/set.variables.php`.
 * `$doctype` — document type
 * `$encoding` — page character encoding
 * `$title` — site title
-* `$slug` — page title, can be set only in pages
+* `$slug` — page title, can be set in each page
 * `$title_divider` — divider between page and site title
 * `$author` — full name of site author
 * `$description` — site description
@@ -84,6 +84,7 @@ There is just default layout, `default.php`.
 ```php
 <?php
 require_once 'core/hackwork.php';
+$slug = 'Page';
 layout('layout-name', 'data-file');
 ```
 
