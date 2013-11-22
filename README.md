@@ -21,7 +21,7 @@ layout('default', 'home');
 
 Edit `data/home.php` to fill up index page.
 
-You can test PHP site with `php -S <target>`.
+You can test PHP site with `php -S <url>`.
 
 ## Constants
 
