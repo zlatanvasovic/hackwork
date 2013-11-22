@@ -12,7 +12,7 @@ $doctype = '<!DOCTYPE html>';
 $encoding = 'utf-8';
 $title = 'Site';
 $title_divider = '&middot;';
-if (isset($slug)) {
+if (!empty($slug)) {
   $title = "$slug $title_divider $title";
 }
 $author = 'Mr. Ghost';

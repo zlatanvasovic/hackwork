@@ -13,7 +13,7 @@ define('PATH', ROOT);
 //
 // `$layout` is a layout name, `$data` is a name of file which will be included
 // from `data/`.
-function layout($layout, $data) {
+function layout($layout, $data, $slug) {
   foreach (glob(PATH . "/layouts/$layout/*.php") as $item) {
     if (preg_match('/set.*.php$/', $item)) {
       require_once($item);
