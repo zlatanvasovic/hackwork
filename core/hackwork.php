@@ -4,6 +4,7 @@
  * Hackwork
  *
  * Simple, layout-based PHP microframework for making HTML5 sites.
+ * http://git.io/hackwork
  */
 
 define('ROOT', $_SERVER['DOCUMENT_ROOT']);
