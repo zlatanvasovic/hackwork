@@ -8,6 +8,9 @@
 
 define('ROOT', $_SERVER['DOCUMENT_ROOT']);
 define('PATH', ROOT);
+define('ASSETS', PATH . '/assets');
+define('DATA', PATH . '/data');
+define('LAYOUTS', PATH . '/layouts');
 
 // Generate layout
 //
@@ -19,7 +22,7 @@ function layout($layout, $data, $slug) {
       require_once($item);
     }
   }
-  include_once PATH . "/layouts/$layout/header.php";
-  include_once PATH . "/data/$data.php";
-  include_once PATH . "/layouts/$layout/footer.php";
+  include_once LAYOUTS . "/$layout/header.php";
+  include_once DATA . "/$data.php";
+  include_once LAYOUTS . "/$layout/footer.php";
 }
