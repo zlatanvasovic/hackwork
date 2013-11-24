@@ -29,14 +29,13 @@ function cfile($file) {
 
 // `fcount`
 //
-// Counts number of files in a directory.
+// Counts number of files in a directory. `$dir` must be without a trailing
+// slash.
 function fcount($dir) {
   $i = 0;
-  if ($handle = opendir($dir)) {
-    while (($file = readdir($handle))) {
-      if (!in_array($file, array('.', '..')) && !is_dir($dir . $file)) {
-        $i++;
-      }
+  foreach (glob($dir . '/*') as $file) {
+    if (!is_dir($file)) {
+      $i++;
     }
   }
   echo $i;
