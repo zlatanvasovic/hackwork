@@ -6,16 +6,16 @@
 
 // `encrypt`
 //
-// Encrypts `$str` with base64.
-function encrypt($str) {
-  echo base64_encode($str);
+// Encrypts `$data` with base64.
+function encrypt($data) {
+  echo base64_encode($data);
 }
 
 // `decrypt`
 //
-// Decrypts `$str` with base64.
-function decrypt($str) {
-  echo base64_decode($str);
+// Decrypts `$data` with base64.
+function decrypt($data) {
+  echo base64_decode($data);
 }
 
 // `cfile`

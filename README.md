@@ -69,8 +69,8 @@ Layout functions are located in `layouts/*/set.functions.php`.
 
 **Helper functions:**
 
-* `encrypt($str)` — encrypts `$str` with base64
-* `decrypt($str)` — decrypts `$str` with base64
+* `encrypt($data)` — encrypts `$data` with base64
+* `decrypt($data)` — decrypts `$data` with base64
 * `cfile($file)` — checks for current file
 * `fcount($dir)` — counts number of files in a directory
 * `feedparse($url)` — parses RSS or Atom feed
