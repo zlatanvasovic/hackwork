@@ -33,12 +33,13 @@ function cfile($file) {
 function fcount($dir) {
   $i = 0;
   if ($handle = opendir($dir)) {
-    while (($file = readdir($handle)) !== false) {
-      if (!in_array($file, array('.', '..')) && !is_dir($dir.$file)) {
+    while (($file = readdir($handle))) {
+      if (!in_array($file, array('.', '..')) && !is_dir($dir . $file)) {
         $i++;
       }
     }
   }
+  echo $i;
 }
 
 // `feedparse`
