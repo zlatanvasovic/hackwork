@@ -10,8 +10,8 @@ Licensed under the MIT License.
 
 ## Usage
 
-Hackwork's PHP features can be easily included in any PHP file. Example file
-with Hackwork's features is `index.php`.
+Hackwork's features are simple to use. Example file with Hackwork's features is
+`index.php`.
 
 ```php
 <?php
@@ -36,7 +36,7 @@ constants are:
 
 ## Variables
 
-Layout variables are located in `layouts/*/set.variables.php`.
+Layout variables are in `layouts/*/set.variables.php`.
 
 **Meta variables:**
 
@@ -61,7 +61,7 @@ Layout variables are located in `layouts/*/set.variables.php`.
 
 ## Functions
 
-Layout functions are located in `layouts/*/set.functions.php`.
+Layout functions are in `layouts/*/set.functions.php`.
 
 **Framework functions:**
 
@@ -79,7 +79,7 @@ Layout functions are located in `layouts/*/set.functions.php`.
 
 ## Layouts
 
-`layouts/` directory is used for page layouts.
+`layouts/` directory is page layouts directory.
 
 There is just default layout, `default.php`.
 
@@ -110,18 +110,18 @@ Use `layout()` to include specific layout into file.
 
 ## Data
 
-`data/` is used as place from which page contents are served.
+`data/` is place where is content of pages.
 
-Just use `layout()` to specify data file from which content will be served.
+Use `layout()` to specify data file.
 
 ## PHP configuration
 
-Example PHP configuration for Hackwork is located in `etc/php.ini`. It
-contains core settings.
+Example PHP configuration for Hackwork is in `etc/php.ini`. It has core
+settings.
 
 For complete list of settings look at
 [configuration template](http://www.reallylinux.com/docs/php.ini).
-[Official docs](http://php.net/manual/en/ini.php) may be useful, also.
+[Official docs](http://php.net/manual/en/ini.php) is useful, also.
 
 ## Directory organization
 
@@ -149,15 +149,15 @@ Hackwork's default directory organization is:
 `assets/` directory isn't included, but it's default directory for cacheable
 content, like CSS, JavaScript, images and fonts. Don't put PHP files in assets!
 
-`etc/` isn't in default directory organization, because it's just place where
-config lies.
+`etc/` isn't in default directory organization, it's just place where
+configuration file lies.
 
 ## Bonuses
 
 * Hackwork isn't server-specific, so you can run it on whatever server you
 want.
-* Every `set.*.php` file in `layouts/*/` is included in default layout. There
-are variables and functions, but you can also add other things, like classes.
-* Copyright info is included in default footer (`layouts/default/footer.php`).
-* There is [a repository shortlink](http://git.io/hackwork) if you can't
+* Every `set.*.php` file in `layouts/*/` is in default layout. There are
+variables and functions, but you can also add other things, like classes.
+* Copyright info is in default footer (`layouts/default/footer.php`).
+* There is [a repository short link](http://git.io/hackwork) if you can't
 remember URL of the repository.
