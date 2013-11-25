@@ -1,7 +1,7 @@
 <?php
 
 /*
- * Core variables
+ * Layout variables
  */
 
 //

@@ -1,7 +1,7 @@
 <?php
 
 /*
- * Core functions
+ * Layout functions
  */
 
 // `encrypt`
