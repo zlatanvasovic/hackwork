@@ -30,7 +30,7 @@ constants are:
 
 * `ROOT` — server root path
 * `PATH` — site root path
-* `ASSETS` — assets path, `PATH`-relative
+* `ASSETS` — assets path
 * `DATA` — data files path, `PATH`-relative
 * `LAYOUTS` — layouts path, `PATH`-relative
 

@@ -9,7 +9,7 @@
 
 define('ROOT', $_SERVER['DOCUMENT_ROOT']);
 define('PATH', ROOT);
-define('ASSETS', PATH . '/assets');
+define('ASSETS', '/assets');
 define('DATA', PATH . '/data');
 define('LAYOUTS', PATH . '/layouts');
 

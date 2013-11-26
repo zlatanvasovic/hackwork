@@ -21,8 +21,8 @@ $keywords = 'site, website, ghost';
 $robots = 'noodp,noydir';
 $viewport = 'width=device-width, initial-scale=1';
 $stylesheet = ASSETS . '/css/main.css';
-$favicon = PATH . '/favicon.ico';
-$apple_touch_icon = PATH . '/apple-touch-icon.png';
+$favicon = '/favicon.ico';
+$apple_touch_icon = '/apple-touch-icon.png';
 
 //
 // Copyright
