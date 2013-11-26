@@ -10,10 +10,14 @@
 
 $doctype = '<!DOCTYPE html>';
 $encoding = 'utf-8';
-$title = 'Site';
+$site = 'Site';
 $title_divider = '&middot;';
-if (!empty($slug)) {
-  $title = "$slug $title_divider $title";
+// If page title is set
+if (!empty($title)) {
+  $title = "$title $title_divider $site";
+}
+else {
+  $title = $site;
 }
 $author = 'Mr. Ghost';
 $description = "Personal site of $author.";

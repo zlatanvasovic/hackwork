@@ -42,8 +42,9 @@ Layout variables are in `layouts/*/set.variables.php`.
 
 * `$doctype` — document type
 * `$encoding` — page character encoding
-* `$title` — site title
+* `$site` — site title
 * `$title_divider` — divider between page and site title
+* `$title` — generated title
 * `$author` — full name of site author
 * `$description` — site description
 * `$keywords` — search keywords separated with comma
@@ -65,7 +66,7 @@ Layout functions are in `layouts/*/set.functions.php`.
 
 **Framework functions:**
 
-* `layout($layout, $data)` — generates layout
+* `layout($layout, $data, $title)` — generates layout
 
 **Helper functions:**
 
@@ -87,16 +88,16 @@ There is just default layout, `default.php`.
 <?php
 require_once 'core/hackwork.php';
 $slug = 'Page';
-layout('layout-name', 'data-file', 'slug');
+layout('layout-name', 'data-file', 'page-title');
 ```
 
-By the way, you don't need to specify slug if don't want it.
+By the way, you don't need to specify page title.
 
 ### Making new layout
 
 To make new layout, add new folder within `layouts/`.
 
-There are two paths of layout:
+There are two paths of layout.
 
 * `header.php` — start of page, mostly `<head>` content
 * `footer.php` — end of page
