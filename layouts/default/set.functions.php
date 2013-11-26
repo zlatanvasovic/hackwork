@@ -18,20 +18,20 @@ function decrypt($data) {
   echo base64_decode($data);
 }
 
-// `cfile`
+// `is_currentfile`
 //
 // Checks for current file. Change the target class name if necessary.
-function cfile($file) {
+function is_currentfile($file) {
   if (strpos($_SERVER['PHP_SELF'], $file)) {
     echo 'class="active"';
   }
 }
 
-// `fcount`
+// `filecount`
 //
 // Counts number of files in a directory. `$dir` must be without a trailing
 // slash.
-function fcount($dir) {
+function filecount($dir) {
   $i = 0;
   foreach (glob($dir . '/*') as $file) {
     if (!is_dir($file)) {
