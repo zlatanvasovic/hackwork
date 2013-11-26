@@ -16,15 +16,15 @@ define('LAYOUTS', PATH . '/layouts');
 // Generate layout
 //
 // `$layout` => layout name
-// `$slug`   => page slug and a data file name
+// `$data`   => data file name
 // `$title`  => page title
-function layout($layout, $slug, $title) {
+function layout($layout, $data, $title) {
   foreach (glob(PATH . "/layouts/$layout/*.php") as $item) {
     if (preg_match('/set.*.php$/', $item)) {
       require_once($item);
     }
   }
   include_once LAYOUTS . "/$layout/header.php";
-  include_once DATA . "/$slug.php";
+  include_once DATA . "/$data.php";
   include_once LAYOUTS . "/$layout/footer.php";
 }
