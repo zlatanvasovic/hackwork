@@ -20,10 +20,10 @@ function decrypt($data) {
 
 // `is_currentfile`
 //
-// Checks for current file. Change the target class name if necessary.
+// Checks for current file. Use it with `if`.
 function is_currentfile($file) {
   if (strpos($_SERVER['PHP_SELF'], $file)) {
-    echo 'class="active"';
+    return true;
   }
 }
 
