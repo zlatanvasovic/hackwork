@@ -20,7 +20,7 @@ function decrypt($data) {
 
 // `is_currentfile`
 //
-// Checks for current file. Use it with `if`.
+// Checks for current file. Returns boolean.
 function is_currentfile($file) {
   if (strpos($_SERVER['PHP_SELF'], $file)) {
     return true;
