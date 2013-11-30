@@ -51,10 +51,10 @@ function feedparse($url) {
   echo $data;
 }
 
-// `randomize`
+// `selectrandom`
 //
 // Selects a random value from array.
-function randomize($array) {
+function selectrandom($array) {
   echo $array[array_rand($array)];
 }
 
