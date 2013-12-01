@@ -28,8 +28,8 @@ You can test PHP site with `php -S <url>`.
 Hackwork uses constants for paths to avoid conflicts with variables. Base
 constants are:
 
-* `ROOT` — local site root path
-* `PATH` — server site root path
+* `ROOT` — local server root path
+* `PATH` — site root path
 * `ASSETS` — assets path, isn't `PATH`-relative
 * `DATA` — data files path, `PATH`-relative
 * `LAYOUTS` — layouts path, `PATH`-relative
