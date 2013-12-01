@@ -4,20 +4,6 @@
  * Layout functions
  */
 
-// `encrypt`
-//
-// Encrypts `$data` with base64.
-function encrypt($data) {
-  echo base64_encode($data);
-}
-
-// `decrypt`
-//
-// Decrypts `$data` with base64.
-function decrypt($data) {
-  echo base64_decode($data);
-}
-
 // `is_currentfile`
 //
 // Checks for current file. Returns boolean.
