@@ -17,8 +17,8 @@ define('LAYOUTS', PATH . '/layouts');
 //
 // `$layout` => layout name
 // `$data`   => data file name
-// `$title`  => page title
-function layout($layout, $data, $title) {
+// `$title`  => [optional] page title
+function layout($layout, $data, $title = '') {
   foreach (glob(PATH . "/layouts/$layout/*.php") as $item) {
     if (preg_match('/set.*.php$/', $item)) {
       require_once($item);
