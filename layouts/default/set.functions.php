@@ -8,7 +8,7 @@
 //
 // Checks for current file. Returns boolean.
 function is_currentfile($file) {
-  if (preg_match ("/$file$/", $_SERVER['PHP_SELF'])) {
+  if (preg_match("/$file$/", $_SERVER['PHP_SELF'])) {
     return true;
   }
 }
