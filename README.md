@@ -150,6 +150,69 @@ content, like CSS, JavaScript, images and fonts. Don't put PHP files in assets!
 `etc/` isn't in default directory organization, it's just place where
 configuration file lies.
 
+## Contributing
+
+### Reporting issues
+
+I only accept issues that are bug reports or feature requests. Bugs must be
+isolated and reproducible problems that I can fix within the Hackwork core. It
+may not be reproducible 100% of the time, but if you can provide proof, we'll
+look into it. We can't fix errors with your web server, but we can help. Please
+read the following guidelines before opening any issue.
+
+* **Search for existing issues.** To be honest, it's painful to go through a
+lot of duplicate issues. You help me out a lot by first checking if someone
+else has reported the same issue. Also, the issue may have already been
+resolved with a fix available.
+* **Be sure that the bug is in the Hackwork core.** We can't fix errors with
+your web server, sorry. We can help, though. If you report a bug in Microsoft
+Office, we'll just go wtf and delete the report.
+* **Share as much information as possible.** Tell us what operating system and
+web server you're using, what customizations you did and other important
+factors where appropriate. Include the steps with which you can reproduce the
+bug, if possible.
+
+### Pull requests
+
+* **Don't pollute your pull request with unintended changes.** Don't rewrite
+our whole code in just one pull request.
+* If possible, share which servers your code has been tested in before
+submitting a pull request.
+
+### Coding standards
+
+#### Golden rule
+
+> All code in any code base should look like a single person typed it, no
+matter how many people contributed.
+
+#### Wrapping code
+
+There isn't strict limit for lenght of code lines. 120 characters are maximum,
+80 characters are recommended.
+
+#### Writing text
+
+Always writing sentences, including headings and code comments, in sentence
+case, never in title case.
+
+### Writing code
+
+* 2 spaces (no tabs)
+* Newline after namespace
+* Group uses
+* Opening braces for functions and classes go on the function (class) name
+line, and closing braces go on the next line after the body
+* Space before opening brace (`{`) in functions and classes
+* Omit closing tag in PHP only files
+* Keywords in lower case
+* Put a space before opening brace (`(`) in keyword functions, otherwise don't
+do it
+
+### License
+
+By contributing your code, you agree to license your contribution under the MIT license.
+
 ## Bonuses
 
 * Hackwork isn't server-specific, so you can run it on whatever server you
