@@ -29,7 +29,7 @@ Hackwork uses constants for paths to avoid conflicts with variables. Base
 constants are:
 
 * `ROOT` — local server root path
-* `PATH` — site root path
+* `PATH` — local site root path
 * `ASSETS` — assets path, isn't `PATH`-relative
 * `DATA` — data files path, `PATH`-relative
 * `LAYOUTS` — layouts path, `PATH`-relative
