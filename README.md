@@ -193,8 +193,8 @@ There isn't strict limit for lenght of code lines. 120 characters are maximum,
 
 #### Writing text
 
-Always writing sentences, including headings and code comments, in sentence
-case, never in title case.
+Always write sentences, including headings and code comments, in sentence case,
+never in title case.
 
 ### Writing code
 
