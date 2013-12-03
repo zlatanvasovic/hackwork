@@ -12,7 +12,7 @@ $doctype = '<!DOCTYPE html>';
 $encoding = 'utf-8';
 $site = 'Site';
 $title_divider = '&middot;';
-// If page title is set
+// Include page title if set
 if (!empty($title)) {
   $title = "$title $title_divider $site";
 }
