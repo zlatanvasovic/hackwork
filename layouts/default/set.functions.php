@@ -48,5 +48,5 @@ function selectrandom($array) {
 //
 // Removes dots from string.
 function undot($string) {
-  $string = str_replace('.', '', $string);
+  echo str_replace('.', '', $string);
 }
