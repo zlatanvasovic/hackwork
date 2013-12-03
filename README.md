@@ -156,8 +156,8 @@ configuration file lies.
 
 I only accept issues that are bug reports or feature requests. Bugs must be
 isolated and reproducible problems that I can fix within the Hackwork core. It
-may not be reproducible 100% of the time, but if you can provide proof, we'll
-look into it. We can't fix errors with your web server, but we can help. Please
+may not be reproducible 100% of the time, but if you can provide proof, I'll
+look into it. I can't fix errors with your web server, but I can help. Please
 read the following guidelines before opening any issue.
 
 * **Search for existing issues.** To be honest, it's painful to go through a
