@@ -47,7 +47,7 @@ Layout variables are in `layouts/*/set.variables.php`.
 * `$title` — generated title
 * `$author` — full name of site author
 * `$description` — site description
-* `$keywords` — search keywords separated with comma
+* `$keywords` — site keywords separated with comma
 * `$robots` — robots meta setting
 * `$viewport` — visible part of canvas at page
 * `$stylesheet` — location of site styles
