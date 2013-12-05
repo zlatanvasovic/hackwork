@@ -52,7 +52,8 @@ Layout variables are in `layouts/*/set.variables.php`.
 * `$viewport` — visible part of canvas at page
 * `$stylesheet` — location of site styles
 * `$favicon` — location of site favicon
-* `$favicon_mime` — MIME type of favicon, change only if necessarily
+* `$favicon_mime` — auto-generated MIME type of favicon, change only if
+necessarily
 * `$apple_touch_icon` — location of apple touch icon
 
 **Copyright variables:**
