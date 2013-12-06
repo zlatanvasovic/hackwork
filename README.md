@@ -57,8 +57,8 @@ necessarily
 
 **Copyright variables:**
 
-* `$cpowner` — copyright owner
 * `$cpyear` — starting year of copyright
+* `$cpowner` — copyright owner
 * `$copyright` — copyright text
 
 ## Functions

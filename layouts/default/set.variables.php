@@ -33,7 +33,7 @@ $apple_touch_icon = ASSETS . '/img/apple-touch-icon.png';
 // Copyright
 //
 
-$cpowner = $author;
 $cpyear = 2013;
+$cpowner = $author;
 $copyright = '&copy; ' . $cpyear . (($cpyear != date('Y')) ? '-' . date('Y') :
                                     '') . ' ' . $cpowner;
