@@ -37,6 +37,8 @@ constants are:
 
 Layout variables are in `layouts/*/set.variables.php`.
 
+### Default layout
+
 **Meta variables:**
 
 * `$doctype` — document type
@@ -68,6 +70,8 @@ Layout functions are in `layouts/*/set.functions.php`.
 **Framework functions:**
 
 * `layout($layout, $data, $title)` — generates layout
+
+### Default layout
 
 **Helper functions:**
 
