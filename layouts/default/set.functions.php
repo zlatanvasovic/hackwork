@@ -15,7 +15,7 @@ function is_currentfile($file) {
 
 // `filecount`
 //
-// Counts number of files in a directory. `$dir` must be without a trailing
+// Counts number of files in a directory. `$dir` must not have a trailing
 // slash.
 function filecount($dir) {
   $i = 0;
