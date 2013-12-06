@@ -30,7 +30,7 @@ function filecount($dir) {
 // `feedparse`
 //
 // Parses RSS or Atom feed.
-// $pre => preformat feed contents or no, must be a boolean
+// $pre => preformat feed contents, must be a boolean
 function feedparse($url, $pre = false) {
   $feed = fopen($url, 'r');
   $data = stream_get_contents($feed);
