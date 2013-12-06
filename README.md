@@ -10,8 +10,7 @@ Licensed under the MIT License.
 
 ## Usage
 
-Hackwork's features are simple to use. Example file with Hackwork's features is
-`index.php`.
+Hackwork's features are simple to use.
 
 ```php
 <?php
