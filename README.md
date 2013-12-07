@@ -217,15 +217,15 @@ do it
 
 ### License
 
-By contributing your code, you agree to license your contribution under the MIT license.
+By contributing your code, you agree to license your contribution under the MIT
+license.
 
 ## Bonuses
 
 * Hackwork isn't server-specific, so you can run it on whatever server you
 want.
-* Every `set.*.php` file in `layouts/*/` is in default layout. There are
-variables and functions, but you can also add other things, like classes and
-constants.
+* Every `set.*.php` file in `layouts/*/` is in layout. There are variables and
+functions, but you can also add other things, like classes and constants.
 * Copyright info is in default footer (`layouts/default/footer.php`).
 * There is [a repository short link](http://git.io/hackwork) if you can't
 remember URL of the repository.
