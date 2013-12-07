@@ -10,14 +10,13 @@
 
 $doctype = '<!DOCTYPE html>';
 $encoding = 'utf-8';
-$site = 'Site';
+$site_title = 'Site';
 $title_divider = '&middot;';
-// Include page title if set
-if (!empty($title)) {
-  $title = "$title $title_divider $site";
+if (empty($page_title)) {
+  $title = $site_title;
 }
 else {
-  $title = $site;
+  $title = "$page_title $title_divider $site_title";
 }
 $author = 'Mr. Ghost';
 $description = "Personal site of $author.";

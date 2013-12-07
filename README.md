@@ -43,7 +43,7 @@ Layout variables are in `layouts/*/set.variables.php`.
 
 * `$doctype` — document type
 * `$encoding` — page character encoding
-* `$site` — site title
+* `$site_title` — site title
 * `$title_divider` — divider between page and site title
 * `$title` — generated title
 * `$author` — full name of site author
@@ -70,7 +70,7 @@ Layout functions are in `layouts/*/set.functions.php`.
 
 **Framework functions:**
 
-* `layout($layout, $data, $title)` — generates layout
+* `layout($layout, $data, $page_title)` — generates layout
 
 ### Default layout
 
