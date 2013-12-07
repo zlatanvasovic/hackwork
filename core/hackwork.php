@@ -15,9 +15,9 @@ define('LAYOUTS', PATH . '/layouts');
 
 // Generate layout
 //
-// `$layout` => layout name
-// `$data`   => data file name
-// `$page_title`  => [optional] page title
+// `$layout`     => layout name
+// `$data`       => data file name
+// `$page_title` => [optional] page title
 function layout($layout, $data, $page_title = '') {
   foreach (glob(PATH . "/layouts/$layout/*.php") as $item) {
     if (preg_match('/set.*.php$/', $item)) {
