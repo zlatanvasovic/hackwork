@@ -7,6 +7,7 @@
  * http://git.io/hackwork
  */
 
+// Define paths
 define('ROOT', $_SERVER['DOCUMENT_ROOT']);
 define('PATH', ROOT);
 define('ASSETS', '/assets');
