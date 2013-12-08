@@ -19,7 +19,7 @@ function is_currentfile($file) {
 // slash.
 function filecount($dir) {
   $i = 0;
-  foreach (glob($dir . '/*') as $file) {
+  foreach (glob("$dir/*") as $file) {
     if (!is_dir($file)) {
       $i++;
     }
