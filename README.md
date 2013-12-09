@@ -5,7 +5,7 @@ for making HTML5 sites. You can also make HTML4 sites with it, don't worry.
 
 Licensed under the MIT License.
 
-* **Current version:** 1.1.0
+* **Current version:** 1.2.0
 * **Minimum PHP version:** 5.2.17
 
 ## Usage
