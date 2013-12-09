@@ -91,7 +91,6 @@ There is just default layout, `default.php`.
 ```php
 <?php
 require_once 'core/hackwork.php';
-$slug = 'Page';
 layout('layout-name', 'data-file', 'page-title');
 ```
 
