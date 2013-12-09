@@ -20,7 +20,7 @@ else {
 }
 $author = 'Mr. Ghost';
 $description = "Personal site of $author.";
-$keywords = 'site, website, ghost';
+$keywords = 'ghost, site, website';
 $robots = 'noodp,noydir';
 $viewport = 'width=device-width, initial-scale=1';
 $stylesheet = ASSETS . '/css/main.css';
