@@ -14,7 +14,7 @@ Hackwork's features are simple to use.
 
 ```php
 <?php
-require_once 'core/hackwork.php';
+require_once 'path-to/core/hackwork.php';
 layout('default', 'home');
 ```
 
@@ -90,7 +90,7 @@ There is just default layout, `default.php`.
 
 ```php
 <?php
-require_once 'core/hackwork.php';
+require_once 'path-to/core/hackwork.php';
 layout('layout-name', 'data-file', 'page-title');
 ```
 
