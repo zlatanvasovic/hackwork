@@ -12,11 +12,11 @@ $doctype = '<!DOCTYPE html>';
 $encoding = 'utf-8';
 $site_title = 'Site';
 $title_divider = '&middot;';
-if (empty($page_title)) {
-  $title = $site_title;
+if ($page_title) {
+  $title = "$page_title $title_divider $site_title";
 }
 else {
-  $title = "$page_title $title_divider $site_title";
+  $title = $site_title;
 }
 $author = 'Mr. Ghost';
 $description = "Personal site of $author.";
