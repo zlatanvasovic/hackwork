@@ -122,9 +122,8 @@ Use `layout()` to specify data file.
 
 Example Hackwork PHP configuration is in `etc/php.ini`. It has core settings.
 
-For complete list of settings look at
-[configuration template](http://www.reallylinux.com/docs/php.ini).
-[Official docs](http://php.net/manual/en/ini.php) is useful, also.
+[Official docs](http://php.net/manual/en/ini.php) is useful for advanced
+configuration.
 
 ## Directory organization
 
