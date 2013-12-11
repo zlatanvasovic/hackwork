@@ -25,7 +25,7 @@ function layout($layout, $data, $page_title = false) {
       require_once($item);
     }
   }
-  include_once LAYOUTS . "/$layout/header.php";
-  include_once DATA . "/$data.php";
-  include_once LAYOUTS . "/$layout/footer.php";
+  require_once LAYOUTS . "/$layout/header.php";
+  require_once DATA . "/$data.php";
+  require_once LAYOUTS . "/$layout/footer.php";
 }
