@@ -1,7 +1,8 @@
 # Hackwork
 
 **Hackwork** (hack + framework) is a simple, layout-based PHP microframework
-for making HTML5 sites. You can also make HTML4 sites with it, don't worry.
+for making HTML5 sites. You can also make HTML4 sites with it, Hackwork doesn't
+care.
 
 Licensed under the MIT License.
 
