@@ -61,7 +61,7 @@ necessarily
 **Copyright variables:**
 
 * `$cpsign` — copyright sign
-* `$cpyear` — starting year of copyright
+* `$cpyear` — initial year of copyright
 * `$cpowner` — copyright owner
 * `$copyright` — copyright text
 
