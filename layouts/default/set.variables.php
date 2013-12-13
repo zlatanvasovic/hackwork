@@ -9,7 +9,9 @@
 //
 
 $doctype = '<!DOCTYPE html>';
+
 $encoding = 'utf-8';
+
 $site_title = 'Site';
 $title_divider = '&middot;';
 if ($page_title) {
@@ -18,12 +20,15 @@ if ($page_title) {
 else {
   $title = $site_title;
 }
+
 $author = 'Mr. Ghost';
 $description = "Personal site of $author.";
 $keywords = 'ghost, site, website';
 $robots = 'noodp,noydir';
+
 $viewport = 'width=device-width, initial-scale=1';
 $stylesheet = ASSETS . '/css/main.css';
+
 $favicon = ASSETS . '/img/favicon.ico';
 $favicon_mime = mime_content_type(PATH . $favicon);
 $apple_touch_icon = ASSETS . '/img/apple-touch-icon.png';
