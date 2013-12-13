@@ -3,7 +3,7 @@
 /*
  * Hackwork
  *
- * Simple, layout-based PHP microframework for making HTML5 sites.
+ * Simple, layout-based PHP micro framework for making HTML5 sites.
  * http://git.io/hackwork
  */
 

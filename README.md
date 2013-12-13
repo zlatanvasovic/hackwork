@@ -1,6 +1,6 @@
 # Hackwork
 
-**Hackwork** (hack + framework) is a simple, layout-based PHP microframework
+**Hackwork** (hack + framework) is a simple, layout-based PHP micro framework
 for making HTML5 sites. You can also make HTML4 sites with it, Hackwork doesn't
 care.
 
