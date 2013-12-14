@@ -111,6 +111,8 @@ You also need to set functions and variables for each layout.
 * `set.functions.php` — layout functions
 * `set.variables.php` — layout variables
 
+`set.` is prefix for layout files that don't generate markup.
+
 Use `layout()` to include specific layout into file.
 
 ## Data
