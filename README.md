@@ -6,8 +6,8 @@ You can also make HTML4 sites with Hackwork, it doesn't care.
 
 Licensed under the MIT License.
 
-* **Current version:** 1.2.0
-* **Minimum PHP version:** 5.2.17
+**Current version:** 1.2.0
+**Minimum PHP version:** 5.2.17
 
 ## Usage
 
