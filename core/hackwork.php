@@ -66,11 +66,10 @@ foreach (glob(PATH . '/core/*.php') as $helper) {
  */
 
 function layout($layout, $data, $page_title = false) {
-  foreach (glob(PATH . "/layouts/$layout/*.php") as $item) {
-    if (preg_match('/set.*.php$/', $item)) {
-      require_once($item);
-    }
+  foreach (glob(PATH . "/layouts/$layout/set.*.php") as $item) {
+    require_once($item);
   }
+
   require_once LAYOUTS . "/$layout/header.php";
   require_once DATA . "/$data.php";
   require_once LAYOUTS . "/$layout/footer.php";
