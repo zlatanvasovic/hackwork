@@ -164,9 +164,9 @@ read the following guidelines before opening any issue.
 lot of duplicate issues. You help me out a lot by first checking if someone
 else has reported the same issue. Also, the issue may have already been
 resolved with a fix available.
-* **Be sure that the bug is in the Hackwork core.** We can't fix errors with
-your web server, sorry. We can help, though. If you report a bug in Microsoft
-Office, we'll just go wtf and delete the report.
+* **Be sure that the bug is in the Hackwork core.** I can't fix errors with
+your web server, sorry. I can help, though. If you report a bug in Microsoft
+Office, I'll just go wtf and delete the report.
 * **Share as much information as possible.** Tell us what operating system and
 web server you're using, what customizations you did and other important
 factors where appropriate. Include the steps with which you can reproduce the
