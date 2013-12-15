@@ -25,14 +25,14 @@ You can test PHP site with `php -S <url>`.
 
 ## Constants
 
-Hackwork uses constants for paths to avoid conflicts with variables. Base
-constants are:
+Hackwork uses constants for paths and settings. Base constants are:
 
 * `ROOT` — local site root path
 * `PATH` — server site root path
 * `ASSETS` — assets path, isn't `PATH`-relative
 * `DATA` — data files path, `PATH`-relative
 * `LAYOUTS` — layouts path, `PATH`-relative
+* `ENVIRONMENT` — application environment
 
 ## Variables
 
@@ -120,13 +120,6 @@ Use `layout()` to include specific layout into file.
 `data/` is place where is content of pages.
 
 Use `layout()` to specify data file.
-
-## PHP configuration
-
-Example Hackwork PHP configuration is in `etc/php.ini`. It has core settings.
-
-[Official docs](http://php.net/manual/en/ini.php) is useful for advanced
-configuration.
 
 ## Directory organization
 

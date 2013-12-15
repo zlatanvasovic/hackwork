@@ -8,6 +8,18 @@
  */
 
 /*
+ * Define paths
+ *
+ * Remember, no trailing slashes!
+ */
+
+define('ROOT', $_SERVER['DOCUMENT_ROOT']);
+define('PATH', ROOT);
+define('ASSETS', '/assets');
+define('DATA', PATH . '/data');
+define('LAYOUTS', PATH . '/layouts');
+
+/*
  * Define environment
  *
  * Valid values:
@@ -30,22 +42,20 @@ switch (ENVIRONMENT) {
   break;
 
   default:
-    header('HTTP/1.1 503 Service Unavailable', TRUE, 503);
-    echo 'The application environment is incorrect.';
+    header('HTTP/1.1 503 Service Unavailable', true, 503);
+    echo 'Application environment is incorrect.';
     exit(1); // generic error
 }
 
 /*
- * Define paths
- *
- * Remember, no trailing slashes!
+ * Import helpers
  */
 
-define('ROOT', $_SERVER['DOCUMENT_ROOT']);
-define('PATH', ROOT);
-define('ASSETS', '/assets');
-define('DATA', PATH . '/data');
-define('LAYOUTS', PATH . '/layouts');
+foreach (glob(PATH . '/core/*.php') as $helper) {
+  if (!preg_match('/hackwork.php$/', $helper)) {
+    require_once($helper);
+  }
+}
 
 /*
  * Generate layout
