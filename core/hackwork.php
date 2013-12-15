@@ -8,7 +8,7 @@
  */
 
 /*
- * Environment
+ * Define environment
  *
  * Valid values:
  *   development
