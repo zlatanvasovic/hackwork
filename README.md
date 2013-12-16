@@ -50,9 +50,10 @@ Layout variables are in `layouts/*/set.variables.php`.
 * `$author` — full name of site author
 * `$description` — site description
 * `$keywords` — site keywords separated with comma
-* `$robots` — robots meta setting
+* `$robots` — robots meta setting (optional)
 * `$viewport` — visible part of canvas at page
 * `$stylesheet` — location of site styles
+* `$icons` — include or not favicon and Apple touch icon settings
 * `$favicon` — location of site favicon
 * `$favicon_mime` — auto-generated MIME type of favicon, change only if
 necessarily

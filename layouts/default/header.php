@@ -6,10 +6,18 @@
     <meta name="author" content="<?php echo $author; ?>">
     <meta name="description" content="<?php echo $description; ?>">
     <meta name="keywords" content="<?php echo $keywords; ?>">
-    <meta name="robots" content="<?php echo $robots; ?>">
+    <?php if ($robots) echo "<meta name=\"robots\" content=\"$robots\">\n"; ?>
     <meta name="viewport" content="<?php echo $viewport; ?>">
     <link rel="stylesheet" href="<?php echo $stylesheet; ?>">
-    <link rel="icon" type="<?php echo $favicon_mime; ?>" href="<?php echo $favicon; ?>">
-    <link rel="apple-touch-icon" href="<?php echo $apple_touch_icon; ?>">
+<?php
+if ($icons) {
+  if ($favicon) {
+    echo "    <link rel=\"icon\" type=\"$favicon_mime\" href=\"$favicon\">\n";
+  }
+  if ($apple_touch_icon) {
+    echo "    <link rel=\"apple-touch-icon\" href=\"$apple_touch_icon\">\n";
+  }
+}
+?>
   </head>
   <body>
