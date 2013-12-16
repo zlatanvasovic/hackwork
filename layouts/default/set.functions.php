@@ -15,8 +15,7 @@ function is_currentfile($file) {
 
 // `filecount`
 //
-// Counts number of files in a directory. `$dir` must not have a trailing
-// slash.
+// Counts files in a directory. `$dir` must not have a trailing slash.
 // `$ignore` => results to ignore
 function filecount($dir, $ignore = array('.', '..', '.git')) {
   $i = 0;
