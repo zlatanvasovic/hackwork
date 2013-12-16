@@ -44,7 +44,7 @@ switch (ENVIRONMENT) {
   default:
     header('HTTP/1.1 503 Service Unavailable', true, 503);
     echo 'Application environment is incorrect.';
-    exit(1); // generic error
+    exit(1); // 1 is generic error
 }
 
 /*
