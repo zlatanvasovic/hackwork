@@ -79,7 +79,7 @@ Layout functions are in `layouts/*/set.functions.php`.
 **Helper functions:**
 
 * `is_curentfile($file)` — checks for current file
-* `filecount($dir)` — counts number of files in a directory
+* `filecount($dir, $ignore)` — counts number of files in a directory
 * `feedparse($url, $pre)` — parses RSS or Atom feed
 * `selectrandom($array)` — selects a random value from array
 * `undot($string)` — removes dots from string

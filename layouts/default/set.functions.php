@@ -17,14 +17,19 @@ function is_currentfile($file) {
 //
 // Counts number of files in a directory. `$dir` must not have a trailing
 // slash.
-function filecount($dir) {
+function filecount($dir, $ignore = array('.', '..', '.git')) {
   $i = 0;
-  foreach (glob("$dir/*") as $file) {
-    if (!is_dir($file)) {
-      $i++;
+  foreach (scandir($dir) as $item) {
+    if (!in_array($item, $ignore)) {
+      if (is_dir(rtrim($dir, '/') . '/' . $item)) {
+        $i += filecount(rtrim($dir, '/') . '/' . $item);
+      }
+      else {
+        $i++;
+      }
     }
   }
-  echo $i;
+  return $i;
 }
 
 // `feedparse`
