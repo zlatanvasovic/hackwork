@@ -22,7 +22,6 @@ ini_set('zlib.output_compression', 1);
 
 // Set the compression level
 //
-// Quick-ref:
 // -1  => server's choice
 // 0   => no compression
 // 1-6 => predefined compression
