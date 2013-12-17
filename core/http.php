@@ -10,10 +10,7 @@
  * Headers
  */
 
-// Set base mimetype. `text/html` is default.
-ini_set('default_mimetype', 'text/html');
-
-// Set base charset. `utf-8` is recommended.
+// Set base charset
 ini_set('default_charset', 'utf-8');
 
 /*
