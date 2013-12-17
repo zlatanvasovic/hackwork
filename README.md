@@ -224,3 +224,9 @@ functions, but you can also add other things, like classes and constants.
 * Copyright info is in default footer (`layouts/default/footer.php`).
 * There is [a repository short link](http://git.io/hackwork) if you can't
 remember URL of the repository.
+
+## To do
+
+* Improve helper organization.
+* Finish HTTP helper.
+* Auto-generate meta settings in default layout.
