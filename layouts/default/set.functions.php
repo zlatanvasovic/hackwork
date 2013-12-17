@@ -53,12 +53,12 @@ function feedparse($url, $pre = false) {
 //
 // Selects a random value from array.
 function selectrandom($array) {
-  echo $array[array_rand($array)];
+  return $array[array_rand($array)];
 }
 
 // `undot`
 //
 // Removes dots from string.
 function undot($string) {
-  echo str_replace('.', '', $string);
+  return str_replace('.', '', $string);
 }
