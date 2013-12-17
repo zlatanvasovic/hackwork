@@ -24,6 +24,7 @@ ini_set('default_charset', 'utf-8');
 ini_set('zlib.output_compression', 1);
 
 // Set the compression level
+//
 // Quick-ref:
 // -1  => server's choice
 // 0   => no compression
