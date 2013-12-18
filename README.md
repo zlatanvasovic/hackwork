@@ -34,6 +34,8 @@ Hackwork uses constants for paths and settings. Base constants are:
 * `LAYOUTS` — layouts path, `PATH`-relative
 * `ENVIRONMENT` — application environment
 
+Paths constants must be without trailing slashes.
+
 ## Variables
 
 Layout variables are in `layouts/*/set.variables.php`.
