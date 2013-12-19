@@ -1,6 +1,6 @@
 <?php
 
-/*
+/**
  * Layout variables
  */
 
@@ -27,7 +27,7 @@ else {
 // SEO
 $author = 'Mr. Ghost';
 $description = "Personal site of $author.";
-$keywords = 'ghost, site, website';
+$keywords = 'mister, ghost, site, website';
 $robots = 'noodp,noydir'; // optional
 
 // Styles

@@ -1,6 +1,6 @@
 <?php
 
-/*
+/**
  * Layout functions
  */
 
