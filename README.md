@@ -16,7 +16,7 @@ Hackwork's features are simple to use.
 ```php
 <?php
 require_once 'path-to/core/hackwork.php';
-layout('default', 'home');
+_layout('default', 'home');
 ```
 
 Edit `data/home.php` to fill up index page.
@@ -74,7 +74,7 @@ Layout functions are in `layouts/*/set.functions.php`.
 
 **Framework functions:**
 
-* `layout($layout, $data, $page_title)` — generates layout
+* `_layout($layout, $data, $page_title)` — generates layout
 
 ### Default layout
 
@@ -95,7 +95,7 @@ There is just default layout, `default.php`.
 ```php
 <?php
 require_once 'path-to/core/hackwork.php';
-layout('layout-name', 'data-file', 'page-title');
+_layout('layout-name', 'data-file', 'page-title');
 ```
 
 By the way, you don't need to specify page title.
@@ -116,13 +116,11 @@ You also need to set functions and variables for each layout.
 
 `set.` is prefix for layout files that don't generate markup.
 
-Use `layout()` to include specific layout into file.
+Use `_layout()` to include specific layout into file.
 
 ## Data
 
 `data/` is place where is content of pages.
-
-Use `layout()` to specify data file.
 
 ## Directory organization
 
