@@ -42,9 +42,12 @@ Layout variables are in `layouts/*/set.variables.php`.
 
 ### Default layout
 
-**Meta variables:**
+**Base variables:**
 
 * `$doctype` — document type
+
+**Meta variables:**
+
 * `$encoding` — page character encoding
 * `$site_title` — site title
 * `$title_divider` — divider between page and site title

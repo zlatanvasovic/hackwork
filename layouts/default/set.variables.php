@@ -4,12 +4,16 @@
  * Layout variables
  */
 
-//
-// Meta
-//
+/*
+ * Base
+ */
 
 // Doctype
 $doctype = '<!DOCTYPE html>';
+
+/*
+ * Meta
+ */
 
 // Encoding
 $encoding = 'utf-8';
@@ -42,9 +46,9 @@ if ($icons) {
   $apple_touch_icon = ASSETS . '/img/apple-touch-icon.png';
 }
 
-//
-// Copyright
-//
+/*
+ * Copyright
+ */
 
 $cpsign = '&copy;';
 $cpyear = 2013;
