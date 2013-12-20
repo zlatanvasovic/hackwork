@@ -78,7 +78,7 @@ Layout functions are in `layouts/*/set.functions.php`.
 
 ### Default layout
 
-**Helper functions:**
+**Basic functions:**
 
 * `is_curentfile($file)` — checks for current file
 * `filecount($dir, $ignore)` — counts files in a directory
