@@ -36,12 +36,7 @@ matter how many people contributed.
 There isn't strict limit for length of code lines. 120 characters are most,
 80 characters are perfect.
 
-### Writing text
-
-Always write sentences, including headings and code comments, in sentence case,
-never in title case.
-
-### Writing code
+### Quick style guide
 
 * 2 spaces (no tabs)
 * No opening braces (`{`) on new line in functions and classes
@@ -49,6 +44,11 @@ never in title case.
 * Omit closing tag in PHP only files
 * Keywords in lower case
 * Space before opening brace (`(`) in keyword functions, otherwise no
+
+### Letter case
+
+Always write sentences, including headings and code comments, in sentence case,
+never in title case.
 
 ## License
 
