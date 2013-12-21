@@ -2,7 +2,7 @@
 
 Here are some rules you should follow if want to contribute to Hackwork.
 
-## Reporting issues
+## Issues
 
 Only accepted issues are bug reports and feature requests. Bugs are discrete
 and reproducible problems fixable within the Hackwork code. Please read the
@@ -30,10 +30,10 @@ whole code in just one pull request.
 > All code in any code base should look like a single person typed it, no
 matter how many people contributed.
 
-### Wrapping code
+### Wrapping
 
-There isn't strict limit for length of code lines. 120 characters are most,
-80 characters are perfect.
+There isn't a strict limit for length of lines. 120 characters are most, 80
+characters are perfect.
 
 ### Quick style guide
 
