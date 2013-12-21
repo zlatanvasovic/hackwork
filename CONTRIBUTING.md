@@ -15,8 +15,7 @@ reported the same issue. Also, the issue may already be resolved.
 with your web server. I can help, though.
 * **Share as much information as possible.** Tell what operating system and
 web server you're using, what customizations you did and other important
-factors when useful. Include the steps with which you can reproduce the bug, if
-possible.
+factors when useful. Include the steps to reproduce the bug, if possible.
 
 ## Pull requests
 
