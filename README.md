@@ -9,21 +9,28 @@ Licensed under the MIT License.
 **Current version:** 1.2.0  
 **Minimum PHP version:** 5.2.17
 
-## Usage
+## Table of contents
 
-Hackwork's features are simple to use.
+* [Example](#example)
+* [Core](#core)
+* [Layouts](#layouts)
+* [Data](#data)
+* [Directory organization](#directory-organization)
+* [Contributing](#contributing)
+* [Bonuses](#bonuses)
+* [To do](#to-do)
+
+## Example
 
 ```php
 <?php
-require_once 'path-to/core/hackwork.php';
+require_once 'core/hackwork.php';
 _layout('default', 'home');
 ```
 
-Edit `data/home.php` to fill up index page.
+## Core
 
-You can test PHP site with `php -S <url>`.
-
-## Constants
+### Constants
 
 Hackwork uses constants for paths and settings. Base constants are:
 
@@ -36,17 +43,45 @@ Hackwork uses constants for paths and settings. Base constants are:
 
 Omit trailing slashes in path constants.
 
-## Variables
+### Helpers
 
-Layout variables are in `layouts/*/set.variables.php`.
+Hackwork has some basic helpers, e.g. to configure HTTP, or make layout.
+
+### Functions
+
+**Framework functions**
+
+* `_layout($layout, $data, $page_title)` — generates layout
+
+### Prefix
+
+Underscore (`_`) is base prefix for framework-specific variables and functions.
+
+## Layouts
+
+`layouts/` directory is page layouts directory.
+
+```php
+<?php
+require_once 'core/hackwork.php';
+_layout('layout-name', 'data-file', 'page-title');
+```
+
+By the way, you don't need to specify page title.
 
 ### Default layout
 
-**Base variables:**
+Default layout is Hackwork layout template. It lies within `layouts/default/`.
+
+#### Variables
+
+Default layout variables are in `layouts/default/set.variables.php`.
+
+**Base variables**
 
 * `$doctype` — document type
 
-**Meta variables:**
+**Meta variables**
 
 * `$encoding` — page character encoding
 * `$site_title` — site title
@@ -64,24 +99,18 @@ Layout variables are in `layouts/*/set.variables.php`.
 necessarily
 * `$apple_touch_icon` — location of apple touch icon
 
-**Copyright variables:**
+**Copyright variables**
 
 * `$cpsign` — copyright sign
 * `$cpyear` — initial year of copyright
 * `$cpowner` — copyright owner
 * `$copyright` — copyright text
 
-## Functions
+#### Functions
 
-Layout functions are in `layouts/*/set.functions.php`.
+Default layout functions are in `layouts/default/set.functions.php`.
 
-**Framework functions:**
-
-* `_layout($layout, $data, $page_title)` — generates layout
-
-### Default layout
-
-**Basic functions:**
+**Basic functions**
 
 * `is_curentfile($file)` — checks for current file
 * `filecount($dir, $ignore)` — counts files in a directory
@@ -89,37 +118,21 @@ Layout functions are in `layouts/*/set.functions.php`.
 * `selectrandom($array)` — selects a random value from array
 * `undot($string)` — removes dots from string
 
-## Layouts
-
-`layouts/` directory is page layouts directory.
-
-There is just default layout, `default.php`.
-
-```php
-<?php
-require_once 'path-to/core/hackwork.php';
-_layout('layout-name', 'data-file', 'page-title');
-```
-
-By the way, you don't need to specify page title.
-
 ### Making new layout
 
-To make new layout, add new folder within `layouts/`.
+To make new layout, create new folder within `layouts/`.
 
-There are two paths of layout.
+**Paths of layout**
 
-* `header.php` — start of page, mostly `<head>` content
-* `footer.php` — end of page
+* `header.php` — top of page, mostly `<head>` content
+* page content
+* `footer.php` — bottom of page
 
-You also need to set functions and variables for each layout.
+You need to set functions and variables for each layout. Use `set.` prefix for
+layout files that don't generate markup.
 
 * `set.functions.php` — layout functions
 * `set.variables.php` — layout variables
-
-`set.` is prefix for layout files that don't generate markup.
-
-Use `_layout()` to include specific layout into file.
 
 ## Data
 
@@ -151,9 +164,6 @@ Hackwork's default directory organization is:
 `assets/` directory isn't included, but it's default directory for cacheable
 content, like CSS, JavaScript, images and fonts. Don't put PHP files in assets!
 
-`etc/` isn't in default directory organization, it's just place where
-configuration file lies.
-
 ## Contributing
 
 If you want to contribute to Hackwork, follow
@@ -163,8 +173,8 @@ If you want to contribute to Hackwork, follow
 
 * Hackwork isn't server-specific, so you can run it on whatever server you
 want.
-* Every `set.*.php` file in `layouts/*/` is in layout. There are variables and
-functions, but you can also add other things, like classes and constants.
+* Every `set.*.php` file in `layouts/*/` is included in layout. You can add
+special `set.` files, like classes and constants.
 * Copyright info is in default footer (`layouts/default/footer.php`).
 * There is [a repository short link](http://git.io/hackwork) if you can't
 remember URL of the repository.
