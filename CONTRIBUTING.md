@@ -1,6 +1,6 @@
 # Contributing to Hackwork
 
-Here are some rules you should follow if want to contribute to Hackwork.
+Here are some rules you should follow to contribute to Hackwork.
 
 ## Issues
 
@@ -8,14 +8,14 @@ Only accepted issues are bug reports and feature requests. Bugs are discrete
 and reproducible problems fixable within the Hackwork code. Please read the
 following guidelines before opening any issue.
 
-* **Search for existing issues.** To be honest, it's painful to go through a
-lot of duplicate issues. You help a lot by first checking if someone else
-reported the same issue. Also, the issue may already be resolved.
+* **Search for existing issues.** It's painful to go through a lot of duplicate
+issues. You help a lot by first checking if someone else reported the same
+issue. Also, the issue may already be resolved.
 * **Be sure that the bug is in the Hackwork core.** Sorry, I can't fix errors
 with your web server. I can help, though.
 * **Share as much information as possible.** Tell what operating system and
-web server you're using, what customizations you did and other important
-factors when useful. Include the steps to reproduce the bug, if possible.
+web server you're using, what customizations you did and include the steps to
+reproduce the bug, if possible.
 
 ## Pull requests
 
