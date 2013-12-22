@@ -140,7 +140,7 @@ layout files that don't generate markup.
 
 ## Directory organization
 
-Hackwork's default directory organization is:
+Hackwork has classic directory organization.
 
 ```
 .
@@ -150,15 +150,16 @@ Hackwork's default directory organization is:
 │   ├── img/
 │   ├── js/
 ├── core/
-│   ├── functions.php
 │   ├── hackwork.php
-│   ├── variables.php
+│   ├── ...
 ├── data/
 │   ├── ...
 └── layouts/
     ├── .../
         ├── footer.php
-        └── header.php
+        ├── header.php
+        ├── set.functions.php
+        └── set.variables.php
 ```
 
 `assets/` directory isn't included, but it's default directory for cacheable
