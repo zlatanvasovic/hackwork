@@ -17,7 +17,6 @@ Licensed under the MIT License.
 * [Data](#data)
 * [Directory organization](#directory-organization)
 * [Contributing](#contributing)
-* [Bonuses](#bonuses)
 * [To do](#to-do)
 
 ## Example
@@ -134,6 +133,9 @@ layout files that don't generate markup.
 * `set.variables.php` — layout variables
 * `set.functions.php` — layout functions
 
+Every `set.*.php` file in `layouts/*/` should be included in layout. You can
+add special `set.` files, e.g. for constants and classes.
+
 ## Data
 
 `data/` is place where is content of pages.
@@ -163,22 +165,13 @@ Hackwork has classic directory organization.
 ```
 
 `assets/` directory isn't included, but it's default directory for cacheable
-content, like CSS, JavaScript, images and fonts. Don't put PHP files in assets!
+content, like CSS, JavaScript, images and fonts. Don't put PHP files in
+`assets/`!
 
 ## Contributing
 
 If you want to contribute to Hackwork, follow
 [`CONTRIBUTING.md`](https://github.com/ZDroid/hackwork/blob/master/CONTRIBUTING.md).
-
-## Bonuses
-
-* Hackwork isn't server-specific, so you can run it on whatever server you
-want.
-* Every `set.*.php` file in `layouts/*/` is included in layout. You can add
-special `set.` files, like classes and constants.
-* Copyright info is in default footer (`layouts/default/footer.php`).
-* There is [a repository short link](http://git.io/hackwork) if you can't
-remember URL of the repository.
 
 ## To do
 
