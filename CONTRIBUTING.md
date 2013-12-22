@@ -40,7 +40,7 @@ characters are perfect.
 * 2 spaces (no tabs)
 * No opening braces (`{`) on new line in functions and classes
 * Space before opening braces (`{`) in functions and classes
-* Space before opening brace (`(`) in keyword functions, otherwise no
+* Space before opening braces (`(`) in keyword functions, otherwise no
 * Keywords in lower case
 * Omit closing tag in PHP only files
 
