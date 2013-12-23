@@ -29,6 +29,10 @@ _layout('default', 'home');
 
 ## Core
 
+### Prefix
+
+Underscore (`_`) is base prefix for framework-specific variables and functions.
+
 ### Constants
 
 Hackwork uses constants for paths and settings. Base constants are:
@@ -48,13 +52,9 @@ Hackwork has some basic helpers, e.g. to configure HTTP, or make layout.
 
 ### Functions
 
-**Framework functions**
+Hackwork uses functions from helpers to work.
 
 * `_layout($layout, $data, $page_title)` — generates layout
-
-### Prefix
-
-Underscore (`_`) is base prefix for framework-specific variables and functions.
 
 ## Layouts
 
@@ -170,7 +170,7 @@ content, like CSS, JavaScript, images and fonts. Don't put PHP files in
 
 ## Contributing
 
-If you want to contribute to Hackwork, follow
+To contribute to Hackwork, follow
 [`CONTRIBUTING.md`](https://github.com/ZDroid/hackwork/blob/master/CONTRIBUTING.md).
 
 ## To do
