@@ -52,7 +52,7 @@ switch (ENVIRONMENT) {
  */
 
 foreach (glob(PATH . '/core/*.php') as $helper) {
-  if (! preg_match('/hackwork.php$/', $helper)) {
+  if (!preg_match('/hackwork.php$/', $helper)) {
     require_once($helper);
   }
 }

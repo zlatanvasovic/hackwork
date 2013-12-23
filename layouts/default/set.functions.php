@@ -20,7 +20,7 @@ function is_currentfile($file) {
 function filecount($dir, $ignore = array('.', '..', '.git')) {
   $i = 0;
   foreach (scandir($dir) as $item) {
-    if (! in_array($item, $ignore)) {
+    if (!in_array($item, $ignore)) {
       if (is_dir("$dir/$item")) {
         $i += filecount("$dir/$item");
       }
