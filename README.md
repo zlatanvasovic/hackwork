@@ -58,19 +58,11 @@ Hackwork uses functions from helpers to work.
 
 ## Layouts
 
-`layouts/` directory is page layouts directory.
-
-```php
-<?php
-require_once 'core/hackwork.php';
-_layout('layout-name', 'data-file', 'page-title');
-```
-
-By the way, you don't need to specify page title.
+`layouts/` is base layouts directory.
 
 ### Default layout
 
-Default layout is Hackwork layout template. It lies within `layouts/default/`.
+Default layout is just a template. It lies within `layouts/default/`.
 
 #### Variables
 
@@ -142,7 +134,7 @@ add special `set.` files, e.g. for constants and classes.
 
 ## Directory organization
 
-Hackwork has classic directory organization.
+Hackwork projects should have simple directory organization.
 
 ```
 .
@@ -164,14 +156,12 @@ Hackwork has classic directory organization.
         └── set.variables.php
 ```
 
-`assets/` directory isn't included, but it's default directory for cacheable
-content, like CSS, JavaScript, images and fonts. Don't put PHP files in
-`assets/`!
+`assets/` is directory for cacheable resources, e.g. CSS and JavaScript.
 
 ## Contributing
 
 To contribute to Hackwork, follow
-[`CONTRIBUTING.md`](https://github.com/ZDroid/hackwork/blob/master/CONTRIBUTING.md).
+[CONTRIBUTING guide](https://github.com/ZDroid/hackwork/blob/master/CONTRIBUTING.md).
 
 ## To do
 
