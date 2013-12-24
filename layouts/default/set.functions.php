@@ -4,6 +4,10 @@
  * Layout functions
  */
 
+/*
+ * Basic functions
+ */
+
 // `is_currentfile`
 //
 // Checks for current file. Returns boolean.
