@@ -111,22 +111,22 @@ Default layout functions are in `layouts/default/set.functions.php`.
 
 ### Making new layout
 
-To make new layout, create new folder within `layouts/`.
+To make new layout, create a new directory within `layouts/`.
 
 **Layout parts**
 
-* `header.php` — top of page, mostly `<head>` content
+* `header.php` — top of page
 * page content
 * `footer.php` — bottom of page
 
-You need to set variables and functions for each layout. Use `set.` prefix for
-layout files that don't generate markup.
+You also have to set variables and functions. Use `set.` prefix for layout
+files that don't generate markup.
 
 * `set.variables.php` — layout variables
 * `set.functions.php` — layout functions
 
-Every `set.*.php` file in `layouts/*/` should be included in layout. You can
-add special `set.` files, e.g. for constants and classes.
+Every `set.*.php` file in `layouts/<name>/` should be included in layout. You
+can add special `set.` files, e.g. for constants and classes.
 
 ## Data
 
