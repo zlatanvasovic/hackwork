@@ -19,8 +19,8 @@ the bug, if possible.
 
 ## Pull requests
 
-* **Don't pollute your pull request with unintended changes.** Don't rewrite
-whole code in just one pull request.
+* **Don't pollute pull request with unintended changes.** Don't rewrite whole
+code in just one pull request.
 * **Argument changes.**
 
 ## Standards
