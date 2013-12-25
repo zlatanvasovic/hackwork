@@ -162,8 +162,8 @@ Hackwork projects should have simple directory organization.
 
 ## Contributing
 
-To contribute to Hackwork, follow
-[CONTRIBUTING guide](https://github.com/ZDroid/hackwork/blob/master/CONTRIBUTING.md).
+Check out
+[contributing guide](https://github.com/ZDroid/hackwork/blob/master/CONTRIBUTING.md).
 
 ## To do
 
