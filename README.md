@@ -35,7 +35,9 @@ Underscore (`_`) is base prefix for framework-specific variables and functions.
 
 ### Constants
 
-Hackwork uses constants for paths and settings. Base constants are:
+Hackwork uses constants for paths and settings
+
+**Base constants**
 
 * `ROOT` — local site root path
 * `PATH` — server site root path
