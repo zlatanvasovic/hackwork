@@ -1,6 +1,6 @@
 # Contributing to Hackwork
 
-Here are some rules you should follow to contribute to Hackwork.
+Here are some rules you should follow when contribute to Hackwork.
 
 ## Issues
 
