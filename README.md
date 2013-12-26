@@ -1,6 +1,6 @@
 # Hackwork
 
-> Simple, layout-based PHP micro framework for making HTML5 sites
+> Layout-based PHP micro framework for full-stack HTML5 sites
 
 You can also make HTML4 sites with Hackwork, it doesn't care.
 
