@@ -158,7 +158,7 @@ Hackwork projects should have simple directory organization.
         └── set.variables.php
 ```
 
-`assets/` is directory for cacheable resources, e.g. CSS and JavaScript.
+`assets/` is directory for cachable resources, e.g. CSS and JavaScript.
 
 ## Contributing
 
