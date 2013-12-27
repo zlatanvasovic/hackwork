@@ -5,7 +5,7 @@
  */
 
 /*
- * Basic functions
+ * Basic
  */
 
 // `is_currentfile`
