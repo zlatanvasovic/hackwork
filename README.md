@@ -76,21 +76,20 @@ Default layout variables are in `layouts/default/set.variables.php`.
 
 **Meta variables**
 
-* `$encoding` — page character encoding
-* `$site_title` — site title
+* `$meta` — `<meta>` tags content array
+ * `$meta['encoding']` — character encoding
+ * `$meta['site_title']` — site title
+ * `$meta['author']` — name of site author
+ * `$meta['description']` — site description
+ * `$meta['keywords']` — site keywords separated with comma
+ * `$meta['robots']` — robots meta setting
+ * `$meta['viewport']` — visible part of canvas at page
 * `$title_divider` — divider between page and site title
 * `$title` — generated title
-* `$author` — full name of site author
-* `$description` — site description
-* `$keywords` — site keywords separated with comma
-* `$robots` — robots meta setting (optional)
-* `$viewport` — visible part of canvas at page
-* `$stylesheet` — location of site styles
-* `$icons` — include or not favicon and Apple touch icon settings
-* `$favicon` — location of site favicon
-* `$favicon_mime` — auto-generated MIME type of favicon, change only if
-necessarily
-* `$apple_touch_icon` — location of apple touch icon
+* `$link` — `<link>` tags content array
+ * `$link['stylesheet']` — location of site styles
+ * `$link['favicon']` — location of favicon
+ * `$link['apple_touch_icon']` — location of apple touch icon
 
 **Copyright variables**
 
@@ -102,6 +101,11 @@ necessarily
 #### Functions
 
 Default layout functions are in `layouts/default/set.functions.php`.
+
+**Generation functions**
+
+* `_make_meta` — generate `<meta>` tags
+* `_make_link` — generate `<link>` tags
 
 **Basic functions**
 
@@ -169,4 +173,3 @@ Check out
 
 * Improve helper organization.
 * Finish HTTP helper.
-* Auto-generate meta settings in default layout.

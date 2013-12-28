@@ -5,6 +5,30 @@
  */
 
 /*
+ * Generation
+ */
+
+// Generate `<meta>` tags
+function _make_meta($array) {
+  foreach ($array as $value) {
+    echo "<meta name=\"$value[0]\" content=\"$value[1]\">\n";
+  }
+}
+
+// Generate `<link>` tags
+function _make_link($array) {
+  foreach ($array as $value) {
+    if ($value[0] === 'icon') {
+      echo "<link rel=\"$value[0]\" type=\"" .
+        mime_content_type(PATH . $value[1]) . "\" href=\"$value[1]\">\n";
+    }
+    else {
+      echo "<link rel=\"$value[0]\" href=\"$value[1]\">\n";
+    }
+  }
+}
+
+/*
  * Basic
  */
 
