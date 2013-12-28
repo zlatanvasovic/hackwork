@@ -155,7 +155,7 @@ Hackwork projects should have simple directory organization.
 ├── data/
 │   ├── ...
 └── layouts/
-    ├── .../
+    └── .../
         ├── footer.php
         ├── header.php
         ├── set.functions.php
