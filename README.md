@@ -104,8 +104,8 @@ Default layout functions are in `layouts/default/set.functions.php`.
 
 **Generation functions**
 
-* `_make_meta` — generate `<meta>` tags
-* `_make_link` — generate `<link>` tags
+* `_make_meta($array)` — generate `<meta>` tags
+* `_make_link($array)` — generate `<link>` tags
 
 **Basic functions**
 
