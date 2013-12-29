@@ -17,7 +17,6 @@ Licensed under the MIT License.
 * [Data](#data)
 * [Directory organization](#directory-organization)
 * [Contributing](#contributing)
-* [To do](#to-do)
 
 ## Example
 
@@ -168,8 +167,3 @@ Hackwork projects should have simple directory organization.
 
 Check out
 [contributing guide](https://github.com/ZDroid/hackwork/blob/master/CONTRIBUTING.md).
-
-## To do
-
-* Improve helper organization.
-* Finish HTTP helper.
