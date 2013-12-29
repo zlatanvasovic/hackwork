@@ -115,7 +115,7 @@ Default layout functions are in `layouts/default/set.functions.php`.
 * `selectrandom($array)` — selects a random value from array
 * `undot($string)` — removes dots from string
 
-### Making new layout
+### New layout
 
 To make new layout, create a new directory within `layouts/`.
 
@@ -136,7 +136,7 @@ can add special `set.` files, e.g. for constants and classes.
 
 ## Data
 
-`data/` is place where is content of pages.
+`data/` is location of pages content.
 
 ## Directory organization
 
