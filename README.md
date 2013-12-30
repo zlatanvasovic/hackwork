@@ -148,6 +148,7 @@ Hackwork projects should have simple directory organization.
 │   ├── fonts/
 │   ├── img/
 │   ├── js/
+│   ├── ...
 ├── core/
 │   ├── hackwork.php
 │   ├── ...
@@ -158,7 +159,8 @@ Hackwork projects should have simple directory organization.
         ├── footer.php
         ├── header.php
         ├── set.functions.php
-        └── set.variables.php
+        ├── set.variables.php
+        └── ...
 ```
 
 `assets/` is directory for cachable resources, e.g. CSS and JavaScript.
