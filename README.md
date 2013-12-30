@@ -38,12 +38,12 @@ Hackwork uses constants for paths and settings.
 
 **Base constants**
 
-* `ROOT` — local site root path
-* `PATH` — server site root path
-* `ASSETS` — assets path, isn't `PATH`-relative
-* `DATA` — data files path, `PATH`-relative
-* `LAYOUTS` — layouts path, `PATH`-relative
-* `ENVIRONMENT` — application environment
+* `ROOT`: local site root path
+* `PATH`: server site root path
+* `ASSETS`: assets path, isn't `PATH`-relative
+* `DATA`: data files path, `PATH`-relative
+* `LAYOUTS`: layouts path, `PATH`-relative
+* `ENVIRONMENT`: application environment
 
 Omit trailing slashes in path constants.
 
@@ -55,7 +55,7 @@ Hackwork has some basic helpers, e.g. to configure HTTP, or make layout.
 
 Hackwork uses functions from helpers to work.
 
-* `_layout($layout, $data, $page_title)` — generates layout
+* `_layout($layout, $data, $page_title)`: generates layout
 
 ## Layouts
 
@@ -71,31 +71,31 @@ Default layout variables are in `layouts/default/set.variables.php`.
 
 **Base variables**
 
-* `$doctype` — document type
+* `$doctype`: document type
 
 **Meta variables**
 
-* `$meta` — `<meta>` tags content array
- * `$meta['encoding']` — character encoding
- * `$meta['site_title']` — site title
- * `$meta['author']` — name of site author
- * `$meta['description']` — site description
- * `$meta['keywords']` — site keywords separated with comma
- * `$meta['robots']` — robots meta setting
- * `$meta['viewport']` — visible part of canvas at page
-* `$title_divider` — divider between page and site title
-* `$title` — generated title
-* `$link` — `<link>` tags content array
- * `$link['stylesheet']` — location of site styles
- * `$link['favicon']` — location of favicon
- * `$link['apple_touch_icon']` — location of apple touch icon
+* `$meta`: `<meta>` tags content array
+ * `$meta['encoding']`: character encoding
+ * `$meta['site_title']`: site title
+ * `$meta['author']`: name of site author
+ * `$meta['description']`: site description
+ * `$meta['keywords']`: site keywords separated with comma
+ * `$meta['robots']`: robots meta setting
+ * `$meta['viewport']`: visible part of canvas at page
+* `$title_divider`: divider between page and site title
+* `$title`: generated title
+* `$link`: `<link>` tags content array
+ * `$link['stylesheet']`: location of site styles
+ * `$link['favicon']`: location of favicon
+ * `$link['apple_touch_icon']`: location of apple touch icon
 
 **Copyright variables**
 
-* `$cpsign` — copyright sign
-* `$cpyear` — initial year of copyright
-* `$cpowner` — copyright owner
-* `$copyright` — copyright text
+* `$cpsign`: copyright sign
+* `$cpyear`: initial year of copyright
+* `$cpowner`: copyright owner
+* `$copyright`: copyright text
 
 #### Functions
 
@@ -103,16 +103,16 @@ Default layout functions are in `layouts/default/set.functions.php`.
 
 **Generation functions**
 
-* `_make_meta($array)` — generate `<meta>` tags
-* `_make_link($array)` — generate `<link>` tags
+* `_make_meta($array)`: generate `<meta>` tags
+* `_make_link($array)`: generate `<link>` tags
 
 **Basic functions**
 
-* `is_curentfile($file)` — checks for current file
-* `filecount($dir, $ignore)` — counts files in a directory
-* `feedparse($url, $pre)` — parses RSS or Atom feed
-* `selectrandom($array)` — selects a random value from array
-* `undot($string)` — removes dots from string
+* `is_curentfile($file)`: checks for current file
+* `filecount($dir, $ignore)`: counts files in a directory
+* `feedparse($url, $pre)`: parses RSS or Atom feed
+* `selectrandom($array)`: selects a random value from array
+* `undot($string)`: removes dots from string
 
 ### New layout
 
@@ -120,15 +120,15 @@ To make new layout, create a new directory within `layouts/`.
 
 **Layout parts**
 
-* `header.php` — top of page
+* `header.php`: top of page
 * page content
-* `footer.php` — bottom of page
+* `footer.php`: bottom of page
 
 You also have to set variables and functions. Use `set.` prefix for layout
 files that don't generate markup.
 
-* `set.variables.php` — layout variables
-* `set.functions.php` — layout functions
+* `set.variables.php`: layout variables
+* `set.functions.php`: layout functions
 
 Every `set.*.php` file in `layouts/<name>/` should be included in layout. You
 can add special `set.` files, e.g. for constants and classes.
