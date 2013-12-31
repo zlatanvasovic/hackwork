@@ -53,7 +53,7 @@ switch (ENVIRONMENT) {
   break;
 
   default:
-    header($http_status[503], true, 503);
+    header($_header[503], true, 503);
     echo 'Application environment is incorrect.';
     exit(1); // 1 is generic error
 }
