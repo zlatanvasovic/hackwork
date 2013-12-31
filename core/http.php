@@ -7,9 +7,10 @@
  */
 
 /*
- * HTTP properties
+ * Properties
  */
 
+// HTTP version
 $_httpv = 'HTTP/1.1';
 
 /*

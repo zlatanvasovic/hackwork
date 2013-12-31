@@ -14,7 +14,7 @@ Licensed under the MIT License.
 * [Example](#example)
 * [Core](#core)
 * [Layouts](#layouts)
-* [Data](#data)
+* [HTTP](#http)
 * [Directory organization](#directory-organization)
 * [Contributing](#contributing)
 
@@ -50,21 +50,15 @@ Omit trailing slashes in path constants.
 **Environment constants**
 
 Here is just one environment constant, `ENVIRONMENT`. It can have `development`
-(enabled error reporting) and `production` (disabled error reporting) values.
+(complete error reporting) and `production` (reduced error reporting) values.
 
 ### Helpers
 
 Hackwork has some basic helpers, e.g. to configure HTTP, or make layout.
 
-### Functions
-
-Hackwork uses functions from helpers to work.
-
-* `_layout($layout, $data, $page_title)`: generates layout
-
 ## Layouts
 
-`layouts/` is base layouts directory.
+To generate layout, use `_layout($layout, $data, $page_title)` function.
 
 ### Default layout
 
@@ -83,7 +77,7 @@ Default layout variables are in `layouts/default/set.variables.php`.
 * `$meta`: `<meta>` tags content array
  * `$meta['encoding']`: character encoding
  * `$meta['site_title']`: site title
- * `$meta['author']`: name of site author
+ * `$meta['author']`: site author
  * `$meta['description']`: site description
  * `$meta['keywords']`: site keywords separated with comma
  * `$meta['robots']`: robots meta setting
@@ -91,14 +85,14 @@ Default layout variables are in `layouts/default/set.variables.php`.
 * `$title_divider`: divider between page and site title
 * `$title`: generated title
 * `$link`: `<link>` tags content array
- * `$link['stylesheet']`: location of site styles
- * `$link['favicon']`: location of favicon
- * `$link['apple_touch_icon']`: location of apple touch icon
+ * `$link['stylesheet']`: stylesheet path
+ * `$link['favicon']`: favicon path
+ * `$link['apple_touch_icon']`: apple touch icon path
 
 **Copyright variables**
 
 * `$cpsign`: copyright sign
-* `$cpyear`: initial year of copyright
+* `$cpyear`: first year of copyright
 * `$cpowner`: copyright owner
 * `$copyright`: copyright text
 
@@ -138,9 +132,19 @@ files that don't generate markup.
 Every `set.*.php` file in `layouts/<name>/` should be included in layout. You
 can add special `set.` files, e.g. for constants and classes.
 
-## Data
+## HTTP
 
-`data/` is location of pages content.
+HTTP helper sets base HTTP settings (e.g. encoding) and defines header
+statuses.
+
+### Properties
+
+* `$_httpv` — HTTP version; don't change if not needed
+
+### Header statuses
+
+`$_header` is array of HTTP header statuses. You can use statuses with
+`$_header['code']`.
 
 ## Directory organization
 
@@ -169,6 +173,12 @@ Hackwork projects should have simple directory organization.
 ```
 
 `assets/` is directory for cachable resources, e.g. CSS and JavaScript.
+
+`core/` is place of Hackwork's core.
+
+`data/` is place of pages content.
+
+`layouts/` is base layouts directory.
 
 ## Contributing
 
