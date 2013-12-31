@@ -14,7 +14,7 @@
 $_httpv = 'HTTP/1.1';
 
 /*
- * Header statuses
+ * Headers
  */
 
 $_header = array(

@@ -141,10 +141,10 @@ statuses.
 
 * `$_httpv` — HTTP version; don't change if not needed
 
-### Header statuses
+### Headers
 
-`$_header` is array of HTTP header statuses. You can use statuses with
-`$_header['code']`.
+`$_header` is array of HTTP headers. You can use headers with
+`$_header['status-number']`.
 
 ## Directory organization
 
