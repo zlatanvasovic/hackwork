@@ -16,6 +16,7 @@
 define('ROOT', $_SERVER['DOCUMENT_ROOT']);
 define('PATH', ROOT);
 define('ASSETS', '/assets');
+define('CORE', PATH . '/core');
 define('DATA', PATH . '/data');
 define('LAYOUTS', PATH . '/layouts');
 
@@ -23,7 +24,7 @@ define('LAYOUTS', PATH . '/layouts');
  * Import helpers
  */
 
-foreach (glob(PATH . '/core/*.php') as $helper) {
+foreach (glob(CORE . '/*.php') as $helper) {
   if (!preg_match('/hackwork.php$/', $helper)) {
     require_once($helper);
   }
