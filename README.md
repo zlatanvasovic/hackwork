@@ -36,7 +36,7 @@ Underscore (`_`) is base prefix for framework-specific variables and functions.
 
 Hackwork uses constants for paths and settings.
 
-**Base constants**
+**Path constants**
 
 * `ROOT`: local site root path
 * `PATH`: server site root path
@@ -44,9 +44,12 @@ Hackwork uses constants for paths and settings.
 * `CORE`: framework core path, `PATH`-relative
 * `DATA`: data files path, `PATH`-relative
 * `LAYOUTS`: layouts path, `PATH`-relative
-* `ENVIRONMENT`: application environment
-
 Omit trailing slashes in path constants.
+
+**Environment constants**
+
+Here is just one environment constant, `ENVIRONMENT`. It can have `development`
+(enabled error reporting) and `production` (disabled error reporting) values.
 
 ### Helpers
 
