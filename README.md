@@ -44,6 +44,7 @@ Hackwork uses constants for paths and settings.
 * `CORE`: framework core path, `PATH`-relative
 * `DATA`: data files path, `PATH`-relative
 * `LAYOUTS`: layouts path, `PATH`-relative
+
 Omit trailing slashes in path constants.
 
 **Environment constants**
