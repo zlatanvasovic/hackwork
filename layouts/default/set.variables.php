@@ -37,7 +37,7 @@ else {
 
 // `<link>`
 $link = array(
-  'stylesheet' => array('stylesheet', ASSETS . '/css/app.css'),
+  'stylesheet' => array('stylesheet', ASSETS . '/css/index.css'),
   'favicon' => array('icon', ASSETS . '/img/favicon.ico'),
   'apple_touch_icon' => array('apple-touch-icon', ASSETS .
                             '/img/apple-touch-icon.png')
