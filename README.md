@@ -41,7 +41,7 @@ Hackwork uses constants for paths and settings.
 * `ROOT`: server root path
 * `PATH`: site root path
 * `ASSETS`: assets path, isn't `PATH`-relative
-* `CORE`: framework core path, `PATH`-relative
+* `CORE`: framework's core path, `PATH`-relative
 * `DATA`: data files path, `PATH`-relative
 * `LAYOUTS`: layouts path, `PATH`-relative
 
