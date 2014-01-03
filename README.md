@@ -38,8 +38,8 @@ Hackwork uses constants for paths and settings.
 
 **Path constants**
 
-* `ROOT`: local site root path
-* `PATH`: server site root path
+* `ROOT`: server root path
+* `PATH`: site root path
 * `ASSETS`: assets path, isn't `PATH`-relative
 * `CORE`: framework core path, `PATH`-relative
 * `DATA`: data files path, `PATH`-relative
