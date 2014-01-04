@@ -33,7 +33,7 @@ foreach (glob(CORE . '/*.php') as $helper) {
 /*
  * Define environment
  *
- * Valid values:
+ * Values:
  *   development
  *   production
  */
