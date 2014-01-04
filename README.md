@@ -30,7 +30,7 @@ _layout('default', 'home');
 
 ### Prefix
 
-Underscore (`_`) is base prefix for framework-specific variables and functions.
+Underscore (`_`) is base prefix for framework variables and functions.
 
 ### Constants
 
@@ -130,7 +130,7 @@ files that don't automatically generate markup.
 * `set.functions.php`: layout functions
 
 Every `set.*.php` file in `layouts/<name>/` should be included in layout. You
-can add special `set.` files, e.g. for constants and classes.
+can create additional `set.` files, e.g. for constants and classes.
 
 ## HTTP
 
