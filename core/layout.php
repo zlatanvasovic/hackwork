@@ -3,7 +3,7 @@
 /**
  * Layout helper
  *
- * Generates page layouts.
+ * Crystallized layout generator.
  */
 
 // Generate layout

@@ -3,7 +3,7 @@
 /**
  * HTTP helper
  *
- * Hackwork's HTTP error thrower.
+ * HTTP request manager.
  */
 
 /*
