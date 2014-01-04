@@ -117,7 +117,7 @@ Default layout functions are in `layouts/default/set.functions.php`.
 
 To make new layout, create a new directory within `layouts/`.
 
-**Layout parts**
+There are 3 parts of layout:
 
 * `header.php`: top of page
 * page content
