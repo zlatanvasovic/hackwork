@@ -54,7 +54,7 @@ Here is just one environment constant, `ENVIRONMENT`. It can have `development`
 
 ### Helpers
 
-Hackwork has some basic helpers, e.g. to configure HTTP, or make layout.
+Hackwork has some helpers, e.g. to configure HTTP, or make layout.
 
 ## Layouts
 
