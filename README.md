@@ -15,7 +15,7 @@ Licensed under the MIT License.
 * [Core](#core)
 * [Layouts](#layouts)
 * [HTTP](#http)
-* [Directory organization](#directory-organization)
+* [Directory structure](#directory-structure)
 * [Contributing](#contributing)
 
 ## Example
@@ -146,9 +146,9 @@ statuses.
 `$_header` is array of HTTP headers. You can use headers with
 `$_header['status-number']`.
 
-## Directory organization
+## Directory structure
 
-Hackwork projects should have simple directory organization.
+Hackwork projects should have simple directory structure.
 
 ```
 .
