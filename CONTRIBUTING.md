@@ -34,7 +34,7 @@ matter how many people contributed.
 There isn't a strict limit for length of lines. 120 characters are most, 80
 characters are perfect.
 
-### Quick style guide
+### Style guide
 
 * 2 spaces (no tabs)
 * No opening braces (`{`) on new line in functions and classes
