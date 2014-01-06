@@ -14,8 +14,7 @@ issue. Also, the issue may already be resolved.
 * **Be sure that the bug is in the Hackwork core.** Sorry, I can't fix errors
 with your web server. I can help, though.
 * **Share as much information as possible.** Tell what operating system and
-web server you're using and steps to reproduce the
-bug, if possible.
+web server you're using and steps to reproduce the bug, if possible.
 
 ## Pull requests
 
