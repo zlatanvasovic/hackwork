@@ -54,6 +54,6 @@ switch (ENVIRONMENT) {
 
   default:
     header($_header[503], true, 503);
-    echo 'Application environment is incorrect.';
+    echo 'Application environment is wrong.';
     exit(1); // 1 is generic error
 }
