@@ -33,7 +33,7 @@ Underscore (`_`) is base prefix for framework variables and functions.
 
 Hackwork uses constants for paths and settings.
 
-**Path constants**
+#### Path constants
 
 * `ROOT`: server root path
 * `PATH`: site root path
@@ -44,7 +44,7 @@ Hackwork uses constants for paths and settings.
 
 Omit trailing slashes in path constants.
 
-**Environment constants**
+#### Environment constants
 
 Here is just one environment constant, `ENVIRONMENT`. It can have `development`
 (complete error reporting) and `production` (reduced error reporting) values.
@@ -65,11 +65,11 @@ Default layout is just a template. It lies within `layouts/default/`.
 
 Default layout variables are in `layouts/default/set.variables.php`.
 
-**Base variables**
+#### Base variables
 
 * `$doctype`: document type
 
-**Meta variables**
+#### Meta variables
 
 * `$meta`: `<meta>` tags content array
  * `$meta['encoding']`: character encoding
@@ -86,7 +86,7 @@ Default layout variables are in `layouts/default/set.variables.php`.
  * `$link['favicon']`: favicon path
  * `$link['apple_touch_icon']`: apple touch icon path
 
-**Copyright variables**
+#### Copyright variables
 
 * `$cpsign`: copyright sign
 * `$cpyear`: first year of copyright
@@ -97,12 +97,12 @@ Default layout variables are in `layouts/default/set.variables.php`.
 
 Default layout functions are in `layouts/default/set.functions.php`.
 
-**Generation functions**
+#### Generation functions
 
 * `_make_meta($array)`: generate `<meta>` tags
 * `_make_link($array)`: generate `<link>` tags
 
-**Basic functions**
+#### Basic functions
 
 * `is_currentfile($file)`: checks for current file
 * `filecount($dir, $ignore)`: counts files in a directory
