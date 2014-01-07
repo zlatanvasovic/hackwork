@@ -35,7 +35,7 @@ Hackwork uses constants for paths and settings.
 
 #### Path constants
 
-* `ROOT`: server root path
+* `ROOT`: server root path; don't change if not necessary
 * `PATH`: site root path
 * `ASSETS`: assets path, isn't `PATH`-relative
 * `CORE`: framework's core path, `PATH`-relative
@@ -136,7 +136,7 @@ statuses.
 
 ### Properties
 
-* `$_httpv` — HTTP version; don't change if not needed
+* `$_httpv` — HTTP version; don't change if not necessary
 
 ### Headers
 
