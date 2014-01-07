@@ -4,8 +4,6 @@
 
 You can also make HTML4 sites with Hackwork, it doesn't care.
 
-Licensed under the MIT License.
-
 **Latest Hackwork version:** 1.2.0  
 **Minimum PHP version:** 5.2.17
 
@@ -17,6 +15,7 @@ Licensed under the MIT License.
 * [HTTP](#http)
 * [Directory structure](#directory-structure)
 * [Contributing](#contributing)
+* [License](#license)
 
 ## Example
 
@@ -184,3 +183,7 @@ Hackwork projects should have simple directory structure.
 
 Want to contribute? Check out
 [contributing guide](https://github.com/ZDroid/hackwork/blob/master/CONTRIBUTING.md).
+
+## License
+
+MIT &copy; [Zlatan Vasović](https://github.com/ZDroid)
