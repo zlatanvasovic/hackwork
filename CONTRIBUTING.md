@@ -18,8 +18,7 @@ web server you're using and steps to reproduce the bug, if possible.
 
 ## Pull requests
 
-* **Don't pollute pull request with unintended changes.** Don't rewrite whole
-code in just one pull request.
+* **Don't pollute pull request with unintende changes.**
 * **Argument changes.**
 
 ## Standards
