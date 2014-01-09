@@ -47,8 +47,9 @@ Omit trailing slashes in path constants.
 
 #### Environment constants
 
-Here is just one environment constant, `ENVIRONMENT`. It can have `development`
-(complete error reporting) and `production` (reduced error reporting) values.
+Here is just one environment constant, `ENVIRONMENT`. Its value can be
+`development` (complete error reporting) and `production` (reduced error
+reporting).
 
 ### Helpers
 
