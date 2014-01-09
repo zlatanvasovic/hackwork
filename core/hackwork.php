@@ -8,7 +8,7 @@
  */
 
 /*
- * Define paths
+ * Paths
  *
  * Remember, no trailing slashes!
  */
@@ -53,7 +53,6 @@ switch (ENVIRONMENT) {
   break;
 
   default:
-    header($_header[503], true, 503);
-    echo 'Application environment is wrong.';
-    exit(1); // 1 is generic error
+    _throwerr('Application environment is wrong.', $_header[503], 503,
+              EXIT_CONFIG);
 }

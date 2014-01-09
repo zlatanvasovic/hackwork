@@ -11,6 +11,7 @@ version is 5.2.17.
 * [Core](#core)
 * [Layouts](#layouts)
 * [HTTP](#http)
+* [Errors](#errors)
 * [Directory structure](#directory-structure)
 * [Contributing](#contributing)
 * [License](#license)
@@ -136,12 +137,34 @@ statuses.
 
 ### Properties
 
-* `$_httpv` — HTTP version; don't change if not necessary
+* `$_httpv`: HTTP version; don't change if not necessary
 
 ### Headers
 
 `$_header` is array of HTTP headers. You can use headers with
 `$_header['status-number']`.
+
+## Errors
+
+Error helper defines exit status codes and throws errors.
+
+### Exit status codes
+
+* `EXIT_SUCCESS`: no errors
+* `EXIT_ERROR`: generic error
+* `EXIT_CONFIG`: configuration error
+* `EXIT_UNKNOWN_FILE`: file not found
+* `EXIT_UNKNOWN_CLASS`: unknown class
+* `EXIT_UNKNOWN_METHOD`: unknown class member
+* `EXIT_USER_INPUT`: invalid user input
+* `EXIT_DATABASE`: database error
+* `EXIT_AUTO_MIN`: minimal automatically-assigned error code
+* `EXIT_AUTO_MAX`: maximal automatically-assigned error code
+
+## Error thrower
+
+To throw error and terminate current script, use
+`_throwerr($msg, $header_msg, $header_status, $exit_status)`.
 
 ## Directory structure
 
