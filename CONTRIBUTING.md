@@ -25,7 +25,7 @@ web server you're using and steps to reproduce the bug, if possible.
 
 ### Golden rule
 
-> All code in any code base should look like a single person typed it, no
+All code in any code base should look like a single person typed it, no
 matter how many people contributed.
 
 ### Wrapping
