@@ -28,7 +28,8 @@ _layout('default', 'home');
 
 ### Prefix
 
-Underscore (`_`) is base prefix for framework variables and functions.
+Underscore (`_`) is base prefix for framework variables and functions, but not
+for constants.
 
 ### Constants
 
@@ -53,11 +54,15 @@ reporting).
 
 ### Helpers
 
-Hackwork has some helpers, e.g. to configure HTTP, or make layout.
+Hackwork has some helpers, e.g. to make layout or configure HTTP.
 
 ## Layouts
 
-To generate layout, use `_layout($layout, $data, $page_title)` function.
+There is layout generator and basic layout template.
+
+### Layout generator
+
+to generate layout, use `_layout($layout, $data, $page_title)`.
 
 ### Default layout
 

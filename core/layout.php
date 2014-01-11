@@ -7,7 +7,7 @@
  */
 
 /*
- * Generate layout
+ * Layout generator
  *
  * `$layout`     => layout name
  * `$data`       => data file name
