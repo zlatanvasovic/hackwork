@@ -78,8 +78,8 @@ Default layout variables are in `layouts/default/set.variables.php`.
 
 #### Meta variables
 
+* `$charset`: character set
 * `$meta`: `<meta>` tags content array
- * `$meta['encoding']`: character encoding
  * `$meta['site_title']`: site title
  * `$meta['author']`: site author
  * `$meta['description']`: site description

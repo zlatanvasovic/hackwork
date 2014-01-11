@@ -16,8 +16,8 @@ $doctype = '<!DOCTYPE html>';
  */
 
 // `<meta>`
+$charset = 'utf-8';
 $meta = array(
-  'encoding' => array('charset', 'utf-8'),
   'author' => array('author', 'Mr. Ghost'),
   'description' => array('description', 'Personal site of Mr. Ghost.'),
   'keywords' => array('keywords', 'mister, ghost, site, website'),
