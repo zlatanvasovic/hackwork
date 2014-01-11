@@ -34,12 +34,12 @@ matter how many people contributed.
 
 ### Style guide
 
-* 2 spaces (no tabs)
-* No opening braces (`{`) on new line in functions and classes
-* Space before opening braces (`{`) in functions and classes
-* Space before opening braces (`(`) in keyword functions, otherwise no
+* 2 spaces, no tabs
+* Opening braces (`{`) goes on same line as declaration (e.g. `class`)
+* Space before opening braces (`{`)
+* Space before opening parentheses (`(`) in control structures (e.g. `while`)
 * Keywords in lower case
-* Omit closing tag in PHP only files
+* No closing tag (`?>`) in PHP only files
 
 ### Letter case
 
@@ -48,5 +48,5 @@ never in title case.
 
 ## License
 
-By contributing your code, you agree to license your contribution under the MIT
-License.
+By contributing your code, you agree to license your contributions under the
+MIT License.
