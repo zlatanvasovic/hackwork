@@ -30,8 +30,7 @@ matter how many people contributed.
 
 ### Wrapping
 
-There isn't a strict limit for length of lines. 120 characters are most, 80
-characters are perfect.
+80 characters are limit, with possible exceptions.
 
 ### Style guide
 
