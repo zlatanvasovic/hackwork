@@ -7,14 +7,14 @@
  */
 
 /*
- * Properties
+ * HTTP properties
  */
 
 // HTTP version
 $_httpv = 'HTTP/1.1';
 
 /*
- * Headers
+ * HTTP headers
  */
 
 $_header = array(
@@ -61,7 +61,7 @@ $_header = array(
 );
 
 /*
- * Settings
+ * HTTP settings
  */
 
 // Base charset

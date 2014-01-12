@@ -31,7 +31,7 @@ foreach (glob(CORE . '/*.php') as $helper) {
 }
 
 /*
- * Define environment
+ * Environment
  *
  * Values:
  *   development
