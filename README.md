@@ -68,15 +68,15 @@ to generate layout, use `_layout($layout, $data, $page_title)`.
 
 Default layout is just a template. It lies within `layouts/default/`.
 
-#### Variables
+#### Default layout variables
 
 Default layout variables are in `layouts/default/set.variables.php`.
 
-#### Base variables
+##### Default layout base variables
 
 * `$doctype`: document type
 
-#### Meta variables
+##### Default layout meta variables
 
 * `$charset`: character set
 * `$meta`: `<meta>` tags content array
@@ -93,23 +93,23 @@ Default layout variables are in `layouts/default/set.variables.php`.
  * `$link['favicon']`: favicon path
  * `$link['apple_touch_icon']`: apple touch icon path
 
-#### Copyright variables
+##### Default layout copyright variables
 
 * `$cpsign`: copyright sign
 * `$cpyear`: first year of copyright
 * `$cpowner`: copyright owner
 * `$copyright`: copyright text
 
-#### Functions
+#### Default layout functions
 
 Default layout functions are in `layouts/default/set.functions.php`.
 
-#### Generation functions
+##### Default layout generation functions
 
 * `_make_meta($array)`: generate `<meta>` tags
 * `_make_link($array)`: generate `<link>` tags
 
-#### Basic functions
+##### Default layout basic functions
 
 * `is_currentfile($file)`: checks for current file
 * `filecount($dir, $ignore)`: counts files in a directory
@@ -141,11 +141,11 @@ can create additional `set.` files, e.g. for constants and classes.
 HTTP helper sets base HTTP settings (e.g. encoding) and defines header
 statuses.
 
-### Properties
+### HTTP properties
 
 * `$_httpv`: HTTP version; don't change if not necessary
 
-### Headers
+### HTTP headers
 
 `$_header` is array of HTTP headers. You can use headers with
 `$_header['status-number']`.
