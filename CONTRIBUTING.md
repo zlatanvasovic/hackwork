@@ -11,8 +11,8 @@ following guidelines before opening any issue.
 * **Search for existing issues.** It's painful to go through a lot of duplicate
 issues. You help a lot by first checking if someone else reported the same
 issue. Also, the issue may be already resolved.
-* **Be sure that the bug is in the Hackwork core.** Sorry, I can't fix errors
-with your web server. I can help, though.
+* **Be sure that the bug is within the Hackwork core.** I can't fix errors with
+your web server, but I can help.
 * **Share as much information as possible.** Tell what operating system and
 web server you're using and steps to reproduce the bug, if possible.
 
