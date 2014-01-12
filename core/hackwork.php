@@ -48,7 +48,7 @@ switch (ENVIRONMENT) {
   break;
 
   case 'production':
-    error_reporting(E_ERROR | E_WARNING | E_PARSE | E_NOTICE);
+    error_reporting(E_ALL);
     ini_set('display_errors', 0);
   break;
 
