@@ -10,7 +10,7 @@ following guidelines before opening any issue.
 
 * **Search for existing issues.** It's painful to go through a lot of duplicate
 issues. You help a lot by first checking if someone else reported the same
-issue. Also, the issue may already be resolved.
+issue. Also, the issue may be already resolved.
 * **Be sure that the bug is in the Hackwork core.** Sorry, I can't fix errors
 with your web server. I can help, though.
 * **Share as much information as possible.** Tell what operating system and
