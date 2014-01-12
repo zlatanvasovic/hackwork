@@ -127,8 +127,8 @@ There are 3 parts of layout:
 * page content
 * `footer.php`: bottom of page
 
-You also have to set variables and functions. Use `set.` prefix for layout
-files that don't automatically generate markup.
+You have to set variables and functions. Use `set.` prefix for layout files
+that don't automatically generate markup.
 
 * `set.variables.php`: layout variables
 * `set.functions.php`: layout functions
