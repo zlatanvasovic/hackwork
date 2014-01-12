@@ -198,7 +198,7 @@ Hackwork projects should have simple directory structure.
         └── ...
 ```
 
-`assets/` is directory for cachable resources, e.g. CSS and JavaScript.
+`assets/` is directory for cachable resources (e.g. JavaScript).
 
 `core/` is place of Hackwork's core.
 
