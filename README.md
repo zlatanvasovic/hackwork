@@ -138,8 +138,7 @@ can create additional `set.` files, e.g. for constants and classes.
 
 ## HTTP
 
-HTTP helper sets base HTTP settings (e.g. encoding) and defines header
-statuses.
+HTTP helper defines header statuses and base HTTP settings (e.g. encoding).
 
 ### HTTP properties
 
