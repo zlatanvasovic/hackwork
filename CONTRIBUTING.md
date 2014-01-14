@@ -9,7 +9,7 @@ and reproducible problems fixable within the Hackwork code. Please read the
 following guidelines before opening any issue.
 
 * **Search for existing issues.** It's painful to go through a lot of duplicate
-issues. You help a lot by first checking if someone else reported the same
+issues. You help a lot by first checking does someone else reported the same
 issue. Also, the issue may be already resolved.
 * **Be sure that the bug is within the Hackwork core.** I can't fix errors with
 your web server, but I can help.
