@@ -112,7 +112,7 @@ Default layout functions are in `layouts/default/set.functions.php`.
 
 ##### Default layout basic functions
 
-* `is_currentfile($file)`: checks for current file
+* `is_currentfile($file)`: is the given argument current file
 * `filecount($dir, $ignore)`: counts files in a directory
 * `feedparse($url, $pre)`: parses RSS or Atom feed
 * `selectrandom($array)`: selects a random value from array

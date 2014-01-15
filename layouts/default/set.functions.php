@@ -34,7 +34,7 @@ function _make_link($array) {
 
 // `is_currentfile`
 //
-// Checks for current file. Returns boolean.
+// Checks is the given argument current file. Returns boolean.
 function is_currentfile($file) {
   if (preg_match("/$file$/", $_SERVER['PHP_SELF'])) {
     return true;
