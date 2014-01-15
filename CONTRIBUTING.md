@@ -38,7 +38,7 @@ matter how many people contributed.
 * Opening braces (`{`) goes on same line as declaration (e.g. `class`)
 * Put a space before opening braces (`{`)
 * Put a space before opening parentheses (`(`) in control structures (e.g. `while`)
-* Write keywords in lower case
+* Type keywords in lower case
 * Omit closing tag (`?>`) in PHP only files
 
 ### Letter case
