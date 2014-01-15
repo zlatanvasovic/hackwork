@@ -164,8 +164,8 @@ Error helper defines exit status codes and throws errors.
 * `EXIT_UNKNOWN_METHOD`: unknown class member
 * `EXIT_USER_INPUT`: invalid user input
 * `EXIT_DATABASE`: database error
-* `EXIT_AUTO_MIN`: minimal automatically-assigned error code
-* `EXIT_AUTO_MAX`: maximal automatically-assigned error code
+* `EXIT_AUTO_MIN`: minimum automatically-assigned error code
+* `EXIT_AUTO_MAX`: maximum automatically-assigned error code
 
 ## Error thrower
 
