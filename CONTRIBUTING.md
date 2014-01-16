@@ -35,7 +35,7 @@ matter how many people contributed.
 ### Style guide
 
 * Use indent of 2 spaces, never tabs
-* Opening braces (`{`) goes on same line as declaration (e.g. `class`)
+* Opening braces (`{`) goes on same line as statement (e.g. `class`)
 * Put a space before opening braces (`{`)
 * Put a space before opening parentheses (`(`) in control structures (e.g. `while`)
 * Type keywords in lower case
