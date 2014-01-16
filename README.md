@@ -28,8 +28,8 @@ _layout('default', 'home');
 
 ### Prefix
 
-Underscore (`_`) is base prefix for framework variables and functions, but not
-for constants.
+Underscore (`_`) is prefix for framework variables and functions, but not for
+constants.
 
 ### Constants
 
