@@ -61,7 +61,7 @@ $_header = array(
 );
 
 /*
- * HTTP settings
+ * Server settings
  */
 
 // Base charset
@@ -70,3 +70,6 @@ ini_set('default_charset', 'utf-8');
 // Compression
 ini_set('zlib.output_compression', 1);
 ini_set('zlib.output_compression_level', -1);
+
+// Default timezone
+date_default_timezone_set('UTC');

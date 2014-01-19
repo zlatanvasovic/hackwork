@@ -41,6 +41,10 @@ in upper case.
 * `ROOT`: server root path; don't change if not necessary
 * `PATH`: site root path
 * `ASSETS`: assets path, isn't `PATH`-relative
+* `CSS`: stylesheets path, `ASSETS`-relative
+* `FONTS`: fonts path, `ASSETS`-relative
+* `IMG`: images path, `ASSETS`-relative
+* `JS`: JavaScript files path, `ASSETS`-relative
 * `CORE`: framework's core path, `PATH`-relative
 * `DATA`: data files path, `PATH`-relative
 * `LAYOUTS`: layouts path, `PATH`-relative
@@ -90,7 +94,7 @@ Default layout variables are in `layouts/default/set.variables.php`.
 * `$title_divider`: divider between page and site title
 * `$title`: generated title
 * `$link`: `<link>` tags content array
- * `$link['stylesheet']`: stylesheet path
+ * `$link['stylesheet']`: stylesheet paths
  * `$link['favicon']`: favicon path
  * `$link['apple_touch_icon']`: apple touch icon path
 
@@ -139,7 +143,7 @@ can create additional `set.` files, e.g. for constants and classes.
 
 ## HTTP
 
-HTTP helper defines header statuses and base HTTP settings (e.g. encoding).
+HTTP helper defines header statuses and base server settings (e.g. encoding).
 
 ### HTTP properties
 

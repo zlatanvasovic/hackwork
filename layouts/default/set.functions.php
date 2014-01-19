@@ -8,7 +8,7 @@
  * Generation
  */
 
-// Generate `<meta>` tags
+// Generate `<meta>` tags (except encoding declaration)
 function _make_meta($array) {
   foreach ($array as $value) {
     echo "<meta name=\"$value[0]\" content=\"$value[1]\">\n";
@@ -18,7 +18,12 @@ function _make_meta($array) {
 // Generate `<link>` tags
 function _make_link($array) {
   foreach ($array as $value) {
-    if ($value[0] === 'icon') {
+    if (is_array($value[1])) {
+      foreach ($value[1] as $subvalue) {
+        echo "<link rel=\"$value[0]\" href=\"$subvalue\">\n";
+      }
+    }
+    else if ($value[0] === 'icon') {
       echo "<link rel=\"$value[0]\" type=\"" .
         mime_content_type(PATH . $value[1]) . "\" href=\"$value[1]\">\n";
     }

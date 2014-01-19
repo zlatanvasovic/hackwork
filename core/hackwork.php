@@ -16,6 +16,10 @@
 define('ROOT', $_SERVER['DOCUMENT_ROOT']);
 define('PATH', ROOT);
 define('ASSETS', '/assets');
+define('CSS', ASSETS . '/css');
+define('FONTS', ASSETS . '/fonts');
+define('IMG', ASSETS . '/img');
+define('JS', ASSETS . '/js');
 define('CORE', PATH . '/core');
 define('DATA', PATH . '/data');
 define('LAYOUTS', PATH . '/layouts');
