@@ -18,6 +18,8 @@ web server you're using and steps to reproduce the bug, if possible.
 
 ## Pull requests
 
+Please read following guidelines before sending the new pull request.
+
 * **Don't pollute pull request with unintended changes.**
 * **Argument changes.**
 
