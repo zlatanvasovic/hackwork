@@ -61,7 +61,7 @@ $script = array(
  */
 
 $cpsign = '&copy;';
-$cpyear = 2013;
+$cpyear = 2014;
 $cpowner = $meta['author'][1];
 $copyright = $cpsign . ' ' . $cpyear . (($cpyear != date('Y')) ? '-' .
                                         date('Y') : '') . ' ' . $cpowner;
