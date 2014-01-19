@@ -93,10 +93,14 @@ Default layout variables are in `layouts/default/set.variables.php`.
  * `$meta['viewport']`: visible part of canvas at page
 * `$title_divider`: divider between page and site title
 * `$title`: generated title
-* `$link`: `<link>` tags content array
- * `$link['stylesheet']`: stylesheet paths
- * `$link['favicon']`: favicon path
- * `$link['apple_touch_icon']`: apple touch icon path
+
+##### Default layout assets variables
+
+* `$stylesheet`: `<link rel="stylesheet">` tags content array
+* `$icon`: `<link rel="*icon">` tags content array
+ * `$icon['favicon']`: favicon path
+ * `$icon['apple_touch_icon']`: Apple touch icon path
+* `$script`: `<script>` tags content array
 
 ##### Default layout copyright variables
 
@@ -112,7 +116,9 @@ Default layout functions are in `layouts/default/set.functions.php`.
 ##### Default layout generation functions
 
 * `_make_meta($array)`: generate `<meta>` tags
-* `_make_link($array)`: generate `<link>` tags
+* `_make_stylesheet($array)`: generate `<link rel="stylesheet">` tags
+* `_make_icon($array)`: generate `<link rel="*icon">` tags
+* `_make_script($array)`: generate `<script>` tags
 
 ##### Default layout basic functions
 

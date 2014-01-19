@@ -16,20 +16,29 @@ function _make_meta($array) {
 }
 
 // Generate `<link>` tags
-function _make_link($array) {
+function _make_stylesheet($array) {
   foreach ($array as $value) {
-    if (is_array($value[1])) {
-      foreach ($value[1] as $subvalue) {
-        echo "<link rel=\"$value[0]\" href=\"$subvalue\">\n";
-      }
+    echo "<link rel=\"stylesheet\" href=\"$value\">\n";
+  }
+}
+
+function _make_icon($array) {
+  foreach ($array as $value) {
+    switch ($value[0]) {
+      case 'icon':
+        echo "<link rel=\"$value[0]\" type=\"" .
+          mime_content_type(PATH . $value[1]) . "\" href=\"$value[1]\">\n";
+        break;
+      default:
+        echo "<link rel=\"$value[0]\" href=\"$value[1]\">\n";
     }
-    else if ($value[0] === 'icon') {
-      echo "<link rel=\"$value[0]\" type=\"" .
-        mime_content_type(PATH . $value[1]) . "\" href=\"$value[1]\">\n";
-    }
-    else {
-      echo "<link rel=\"$value[0]\" href=\"$value[1]\">\n";
-    }
+  }
+}
+
+// Generate `<script>` tags
+function _make_script($array) {
+  foreach ($array as $value) {
+    echo "<script src=\"$value\"></script>\n";
   }
 }
 

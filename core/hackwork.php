@@ -49,12 +49,12 @@ switch (ENVIRONMENT) {
   case 'development':
     error_reporting(-1);
     ini_set('display_errors', 1);
-  break;
+    break;
 
   case 'production':
     error_reporting(E_ALL);
     ini_set('display_errors', 0);
-  break;
+    break;
 
   default:
     _throwerr('Application environment is wrong.', $_header[503], 503,

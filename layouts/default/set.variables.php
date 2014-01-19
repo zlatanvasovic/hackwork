@@ -35,17 +35,25 @@ else {
   $title = $site_title;
 }
 
-// `<link>`
-$link = array(
-  'stylesheet' => array(
-    'stylesheet',
-    array(
-      CSS . '/index.css'
-    )
-  ),
+/*
+ * Assets
+ */
+
+// `<link rel="stylesheet">`
+$stylesheet = array(
+  CSS . '/index.css'
+);
+
+// `<link rel="*icon">`
+$icon = array(
   'favicon' => array('icon', IMG . '/favicon.ico'),
   'apple_touch_icon' => array('apple-touch-icon', IMG .
                               '/apple-touch-icon.png')
+);
+
+// `<script>`
+$script = array(
+  JS . '/index.js'
 );
 
 /*
