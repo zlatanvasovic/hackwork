@@ -33,8 +33,8 @@ constants.
 
 ### Constants
 
-Hackwork uses constants for paths and settings. Framework constants are always
-in upper case.
+There are constants for paths and settings. Framework constants are always in
+upper case.
 
 #### Path constants
 
