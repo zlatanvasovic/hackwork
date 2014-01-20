@@ -107,7 +107,7 @@ Default layout variables are in `layouts/default/set.variables.php`.
 * `$cpsign`: copyright sign
 * `$cpyear`: first year of copyright
 * `$cpowner`: copyright owner
-* `$copyright`: copyright text
+* `$copyright`: copyright text (in footer)
 
 #### Default layout functions
 
