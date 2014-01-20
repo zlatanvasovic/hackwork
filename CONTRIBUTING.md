@@ -5,8 +5,8 @@ Here are some rules you should follow when contribute to Hackwork.
 ## Issues
 
 Only accepted issues are bug reports and feature requests. Bugs are discrete
-and reproducible problems fixable within the Hackwork code. Please read the
-following guidelines before opening any issue.
+and reproducible problems fixable within the Hackwork code. Read the following
+guidelines before opening any issue.
 
 * **Search for existing issues.** It's painful to go through a lot of duplicate
 issues. You help a lot by first checking does someone else reported the same
@@ -18,7 +18,7 @@ web server you're using and steps to reproduce the bug, if possible.
 
 ## Pull requests
 
-Please read following guidelines before sending the new pull request.
+Read following guidelines before sending the new pull request.
 
 * **Don't pollute pull request with unintended changes.**
 * **Argument changes.**
