@@ -82,13 +82,7 @@ function feedparse($url, $pre = false) {
   $feed = fopen($url, 'r');
   $data = stream_get_contents($feed);
   fclose($feed);
-  if ($pre) {
-    echo '<pre>';
-  }
-  echo $data;
-  if ($pre) {
-    echo '</pre>';
-  }
+  echo ($pre ? '<pre>' : ''), $data, ($pre ? '</pre>' : '');
 }
 
 // `selectrandom`
