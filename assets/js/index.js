@@ -1,4 +1,4 @@
 /*!
  * Application JS
- * Put your JS code here!
+ * Put your JS code here.
  */
