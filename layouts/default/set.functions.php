@@ -74,14 +74,13 @@ function filecount($dir, $ignore = array('.', '..', '.git')) {
   return $i;
 }
 
-// `feedparse`
+// `cat`
 //
-// Parses RSS or Atom feed.
-// $pre => preformat feed contents, must be a boolean
-function feedparse($url, $pre = false) {
-  $feed = fopen($url, 'r');
-  $data = stream_get_contents($feed);
-  fclose($feed);
+// Imitates `cat` command from Unix shells.
+// `$pre` => preformat feed contents boolean
+function cat($url, $pre = true) {
+  $data = file_get_contents($url);
+  $data = str_replace(array('<', '>'), array('&lt;', '&gt;'), $data);
   echo ($pre ? '<pre>' : ''), $data, ($pre ? '</pre>' : '');
 }
 
