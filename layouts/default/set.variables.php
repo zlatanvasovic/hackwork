@@ -44,7 +44,7 @@ $stylesheet = array(
   CSS . '/index.css'
 );
 
-// `<link rel="*icon">`
+// `<link rel="*icon*">`
 $icon = array(
   'favicon' => array('icon', IMG . '/favicon.ico'),
   'apple_touch_icon' => array('apple-touch-icon', IMG .

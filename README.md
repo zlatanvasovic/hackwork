@@ -117,7 +117,7 @@ Default layout functions are in `layouts/default/set.functions.php`.
 
 * `_make_meta($array)`: generate `<meta>` tags
 * `_make_stylesheet($array)`: generate `<link rel="stylesheet">` tags
-* `_make_icon($array)`: generate `<link rel="*icon">` tags
+* `_make_icon($array)`: generate `<link rel="*icon*">` tags
 * `_make_script($array)`: generate `<script>` tags
 
 ##### Default layout basic functions
