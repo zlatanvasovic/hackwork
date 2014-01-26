@@ -36,7 +36,7 @@ constants.
 There are constants for paths and settings. Framework constants are always in
 upper case.
 
-#### Path constants
+#### Paths
 
 * `ROOT`: server root path; don't change if not necessary
 * `PATH`: site root path
@@ -51,11 +51,10 @@ upper case.
 
 Omit trailing slashes in path constants.
 
-#### Environment constants
+#### Environment
 
-Here is just one environment constant, `ENVIRONMENT`. Its value can be
-`development` (complete error reporting) and `production` (reduced error
-reporting).
+Here is an environment constant, `ENVIRONMENT`. Its value can be `development`
+(complete error reporting) and `production` (reduced error reporting).
 
 ### Helpers
 
