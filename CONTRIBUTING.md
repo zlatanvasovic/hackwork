@@ -13,7 +13,7 @@ issues. You help a lot by first checking does someone else reported the same
 issue. Also, the issue may be already resolved.
 * **Be sure that the bug is within the Hackwork core.** I can't fix errors with
 your web server, but I can help.
-* **Share as much information as possible.** Tell what operating system and
+* **Share as much information as possible.** Tell me what operating system and
 web server you're using and steps to reproduce the bug, if possible.
 
 ## Pull requests
