@@ -1,4 +1,4 @@
-# Hackwork
+# Hackwork [![Build status](https://travis-ci.org/ZDroid/hackwork.png?branch=master)](https://travis-ci.org/ZDroid/hackwork)
 
 > Layout-based PHP micro framework for full-stack HTML5 sites
 
