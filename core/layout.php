@@ -9,9 +9,9 @@
 /*
  * Layout generator
  *
- * `$layout`     => layout name
- * `$data`       => data file name
- * `$page_title` => [optional] page title
+ * `$layout`      => layout name
+ * `$data`        => data file name
+ * `$page_title`  => [optional] page title
  */
 
 function _layout($layout, $data, $page_title = false) {
