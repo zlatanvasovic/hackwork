@@ -15,6 +15,9 @@ $_httpv = 'HTTP/1.1';
 
 /*
  * HTTP headers
+ *
+ * HTTP status codes are taken from W3C's list, not IANA's list.
+ * Reference: http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
  */
 
 $_header = array(
