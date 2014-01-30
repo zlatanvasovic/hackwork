@@ -58,7 +58,8 @@ Here is an environment constant, `ENVIRONMENT`. Its value can be `development`
 
 ### Helpers
 
-Hackwork has some helpers, e.g. to make layout or configure HTTP.
+Hackwork has some helpers, e.g. to make layout or configure HTTP. All of them
+are in the `core/` and they're dynamically imported to `core/hackwork.php`.
 
 ## Layouts
 
