@@ -84,10 +84,10 @@ function cat($url, $pre = true) {
   echo ($pre ? '<pre>' : ''), $data, ($pre ? '</pre>' : '');
 }
 
-// `selectrandom`
+// `randomval`
 //
 // Selects a random value from array.
-function selectrandom($array) {
+function randomval($array) {
   return $array[array_rand($array)];
 }
 
