@@ -1,10 +1,10 @@
 <?php
 
 /**
- * Hackwork
+ * Hackwork (http://git.io/hackwork)
  *
  * Simple, layout-based PHP micro framework for making HTML5 sites.
- * http://git.io/hackwork
+ * Licensed under the MIT License.
  */
 
 /*
