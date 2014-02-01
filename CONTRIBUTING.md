@@ -39,7 +39,8 @@ matter how many people contributed.
 * Use indent of 2 spaces, never tabs
 * Opening braces (`{`) goes on same line as statement (e.g. `class`)
 * Put a space before opening braces (`{`)
-* Put a space before opening parentheses (`(`) in control structures (e.g. `while`)
+* Put a space before opening parentheses (`(`) in control structures (e.g.
+`while`)
 * Type keywords in lower case
 * Omit closing tag (`?>`) in PHP only files
 
