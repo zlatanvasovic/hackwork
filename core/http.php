@@ -67,7 +67,7 @@ $_header = array(
  * Server settings
  */
 
-// Base charset
+// Default charset
 ini_set('default_charset', 'utf-8');
 
 // Compression
