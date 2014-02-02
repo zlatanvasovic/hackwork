@@ -5,8 +5,8 @@
     <title><?php echo $title; ?></title>
     <?php
     _make_meta($meta);
-    _make_stylesheet($stylesheet);
-    _make_icon($icon);
+    _make_stylesheets($stylesheet);
+    _make_icons($icon);
     ?>
   </head>
   <body>

@@ -16,13 +16,13 @@ function _make_meta($array) {
 }
 
 // Generate `<link>` tags
-function _make_stylesheet($array) {
+function _make_stylesheets($array) {
   foreach ($array as $value) {
     echo "<link rel=\"stylesheet\" href=\"$value\">\n";
   }
 }
 
-function _make_icon($array) {
+function _make_icons($array) {
   foreach ($array as $value) {
     switch ($value[0]) {
       case 'icon':
@@ -36,7 +36,7 @@ function _make_icon($array) {
 }
 
 // Generate `<script>` tags
-function _make_script($array) {
+function _make_scripts($array) {
   foreach ($array as $value) {
     echo "<script src=\"$value\"></script>\n";
   }
