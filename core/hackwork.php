@@ -57,6 +57,6 @@ switch (ENVIRONMENT) {
     break;
 
   default:
-    _throwerr('Application environment is wrong.', $_header[503], 503,
+    throwerr('Application environment is wrong.', $header[503], 503,
               EXIT_CONFIG);
 }

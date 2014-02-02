@@ -9,20 +9,20 @@
  */
 
 // Generate `<meta>` tags (except encoding declaration)
-function _make_meta($array) {
+function make_meta($array) {
   foreach ($array as $value) {
     echo "<meta name=\"$value[0]\" content=\"$value[1]\">\n";
   }
 }
 
 // Generate `<link>` tags
-function _make_stylesheets($array) {
+function make_stylesheets($array) {
   foreach ($array as $value) {
     echo "<link rel=\"stylesheet\" href=\"$value\">\n";
   }
 }
 
-function _make_icons($array) {
+function make_icons($array) {
   foreach ($array as $value) {
     switch ($value[0]) {
       case 'icon':
@@ -36,7 +36,7 @@ function _make_icons($array) {
 }
 
 // Generate `<script>` tags
-function _make_scripts($array) {
+function make_scripts($array) {
   foreach ($array as $value) {
     echo "<script src=\"$value\"></script>\n";
   }

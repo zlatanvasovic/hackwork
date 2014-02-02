@@ -1,5 +1,5 @@
 
     <p><?php echo $copyright; ?></p>
-    <?php _make_scripts($script); ?>
+    <?php make_scripts($script); ?>
   </body>
 </html>

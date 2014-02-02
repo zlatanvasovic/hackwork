@@ -21,7 +21,7 @@ is 5.2.17.
 ```php
 <?php
 require_once 'core/hackwork.php';
-_layout('default', 'home');
+layout('default', 'home');
 ```
 
 ## Directory structure
@@ -60,11 +60,6 @@ Hackwork projects should have simple directory structure.
 
 ## Core
 
-### Prefix
-
-Underscore (`_`) is prefix for framework variables and functions, but not for
-constants.
-
 ### Constants
 
 There are constants for paths and settings. Framework constants are always in
@@ -101,7 +96,7 @@ There is layout generator and basic layout template.
 
 ### Layout generator
 
-to generate layout, use `_layout($layout, $data, $page_title)`.
+to generate layout, use `layout($layout, $data, $page_title)`.
 
 ### Default layout
 
@@ -149,10 +144,10 @@ Default layout functions are in `layouts/default/set.functions.php`.
 
 ##### Default layout generation functions
 
-* `_make_meta($array)`: generate `<meta>` tags
-* `_make_stylesheets($array)`: generate `<link rel="stylesheet">` tags
-* `_make_icons($array)`: generate `<link rel="*icon*">` tags
-* `_make_scripts($array)`: generate `<script>` tags
+* `make_meta($array)`: generate `<meta>` tags
+* `make_stylesheets($array)`: generate `<link rel="stylesheet">` tags
+* `make_icons($array)`: generate `<link rel="*icon*">` tags
+* `make_scripts($array)`: generate `<script>` tags
 
 ##### Default layout basic functions
 
@@ -187,12 +182,12 @@ HTTP helper defines header statuses and base server settings (e.g. encoding).
 
 ### HTTP properties
 
-* `$_httpv`: HTTP version; don't change if not necessary
+* `$httpv`: HTTP version; don't change if not necessary
 
 ### HTTP headers
 
-`$_header` is array of HTTP headers. You can use headers with
-`$_header['status-number']`.
+`$header` is array of HTTP headers. You can use headers with
+`$header['status-number']`.
 
 ## Errors
 
@@ -214,7 +209,7 @@ Error helper defines exit status codes and throws errors.
 ## Error thrower
 
 To throw error and terminate current script, use
-`_throwerr($msg, $header_msg, $header_status, $exit_status)`.
+`throwerr($msg, $header_msg, $header_status, $exit_status)`.
 
 ## Contributing
 
