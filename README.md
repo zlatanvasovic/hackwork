@@ -8,11 +8,11 @@ is 5.2.17.
 ## Table of contents
 
 * [Example](#example)
+* [Directory structure](#directory-structure)
 * [Core](#core)
 * [Layouts](#layouts)
 * [HTTP](#http)
 * [Errors](#errors)
-* [Directory structure](#directory-structure)
 * [Contributing](#contributing)
 * [License](#license)
 
@@ -23,6 +23,40 @@ is 5.2.17.
 require_once 'core/hackwork.php';
 _layout('default', 'home');
 ```
+
+## Directory structure
+
+Hackwork projects should have simple directory structure.
+
+```
+.
+├── assets/
+│   ├── css/
+│   ├── fonts/
+│   ├── img/
+│   ├── js/
+│   ├── ...
+├── core/
+│   ├── hackwork.php
+│   ├── ...
+├── data/
+│   ├── ...
+└── layouts/
+    └── .../
+        ├── footer.php
+        ├── header.php
+        ├── set.functions.php
+        ├── set.variables.php
+        └── ...
+```
+
+`assets/` is the place of cachable resources (e.g. JavaScript).
+
+`core/` is the place of framework core.
+
+`data/` is the place of pages content.
+
+`layouts/` is the base layouts directory.
 
 ## Core
 
@@ -181,40 +215,6 @@ Error helper defines exit status codes and throws errors.
 
 To throw error and terminate current script, use
 `_throwerr($msg, $header_msg, $header_status, $exit_status)`.
-
-## Directory structure
-
-Hackwork projects should have simple directory structure.
-
-```
-.
-├── assets/
-│   ├── css/
-│   ├── fonts/
-│   ├── img/
-│   ├── js/
-│   ├── ...
-├── core/
-│   ├── hackwork.php
-│   ├── ...
-├── data/
-│   ├── ...
-└── layouts/
-    └── .../
-        ├── footer.php
-        ├── header.php
-        ├── set.functions.php
-        ├── set.variables.php
-        └── ...
-```
-
-`assets/` is the place of cachable resources (e.g. JavaScript).
-
-`core/` is the place of Hackwork's core.
-
-`data/` is the place of pages content.
-
-`layouts/` is the base layouts directory.
 
 ## Contributing
 
