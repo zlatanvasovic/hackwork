@@ -41,7 +41,7 @@ matter how many people contributed.
 * Put a space before opening braces (`{`)
 * Put a space before opening parentheses (`(`) in control structures (e.g.
 `while`)
-* Type keywords in lower case
+* Write keywords in lower case
 * Omit closing tag (`?>`) in PHP only files
 
 ### Letter case
