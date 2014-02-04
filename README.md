@@ -1,6 +1,6 @@
 # Hackwork [![Build status](https://travis-ci.org/ZDroid/hackwork.png?branch=master)](https://travis-ci.org/ZDroid/hackwork)
 
-> Layout-based PHP micro framework for full-stack HTML5 sites
+> Layout-based PHP micro-framework for full-stack HTML5 sites
 
 You can also make HTML4 sites with Hackwork, don't worry. Minimum PHP version
 is 5.2.17.

@@ -3,7 +3,7 @@
 /**
  * Hackwork (http://git.io/hackwork)
  *
- * Simple, layout-based PHP micro framework for making HTML5 sites.
+ * Layout-based PHP micro-framework for full-stack HTML5 sites
  * Licensed under the MIT License.
  */
 
