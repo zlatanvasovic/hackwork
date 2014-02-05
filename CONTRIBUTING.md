@@ -18,7 +18,7 @@ web server you're using and steps to reproduce the bug, if possible.
 
 ## Pull requests
 
-Read the following guidelines before sending the new pull request.
+Read the following guidelines before sending the pull request.
 
 * **Don't pollute pull request with unintended changes.**
 * **Argument changes.**
