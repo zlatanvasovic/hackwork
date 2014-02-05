@@ -32,7 +32,7 @@ matter how many people contributed.
 
 ### Wrapping
 
-80 characters are limit, with some exceptions (e.g. long links).
+80 characters are limit, with some exceptions (e.g. links).
 
 ### Style guide
 
