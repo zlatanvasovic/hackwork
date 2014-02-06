@@ -206,7 +206,7 @@ Error helper defines exit status codes and throws errors.
 * `EXIT_AUTO_MIN`: minimum automatically-assigned error code
 * `EXIT_AUTO_MAX`: maximum automatically-assigned error code
 
-## Error thrower
+### Error thrower
 
 To throw error and terminate current script, use
 `throwerr($msg, $header_msg, $header_status, $exit_status)`.
