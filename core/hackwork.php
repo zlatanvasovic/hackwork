@@ -38,20 +38,20 @@ foreach (glob(CORE . '/*.php') as $helper) {
  * Environment
  *
  * Values:
- *   development
- *   production
+ *   `development` (`dev`)
+ *   `production` (`prod`)
  */
 
 define('ENVIRONMENT', 'development');
 
 // Define consistent error reporting settings
 switch (ENVIRONMENT) {
-  case 'development':
+  case 'development' || 'dev':
     error_reporting(-1);
     ini_set('display_errors', 1);
     break;
 
-  case 'production':
+  case 'production' || 'prod':
     ini_set('display_errors', 0);
     break;
 
