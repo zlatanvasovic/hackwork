@@ -11,7 +11,7 @@
  */
 
 // HTTP version
-$httpv = 'HTTP/1.1';
+$httpv = $_SERVER['SERVER_PROTOCOL'];
 
 /*
  * HTTP headers
