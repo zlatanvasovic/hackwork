@@ -26,7 +26,7 @@ layout('default', 'home');
 
 ## Directory structure
 
-Hackwork projects should have simple directory structure.
+Hackwork projects should have a simple directory structure.
 
 ```
 .
