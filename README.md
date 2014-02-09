@@ -7,14 +7,14 @@ is 5.2.17.
 
 ## Table of contents
 
-* [Example](#example)
-* [Directory structure](#directory-structure)
-* [Core](#core)
-* [Layouts](#layouts)
-* [HTTP](#http)
-* [Errors](#errors)
-* [Contributing](#contributing)
-* [License](#license)
+- [Example](#example)
+- [Directory structure](#directory-structure)
+- [Core](#core)
+- [Layouts](#layouts)
+- [HTTP](#http)
+- [Errors](#errors)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Example
 
@@ -67,16 +67,16 @@ upper case.
 
 #### Paths
 
-* `ROOT`: server root path; don't change if not necessary
-* `PATH`: site root path
-* `ASSETS`: assets path, isn't `PATH`-relative
-* `CSS`: stylesheets path, `ASSETS`-relative
-* `FONTS`: fonts path, `ASSETS`-relative
-* `IMG`: images path, `ASSETS`-relative
-* `JS`: JavaScript files path, `ASSETS`-relative
-* `CORE`: framework's core path, `PATH`-relative
-* `DATA`: data files path, `PATH`-relative
-* `LAYOUTS`: layouts path, `PATH`-relative
+- `ROOT`: server root path; don't change if not necessary
+- `PATH`: site root path
+- `ASSETS`: assets path, isn't `PATH`-relative
+- `CSS`: stylesheets path, `ASSETS`-relative
+- `FONTS`: fonts path, `ASSETS`-relative
+- `IMG`: images path, `ASSETS`-relative
+- `JS`: JavaScript files path, `ASSETS`-relative
+- `CORE`: framework's core path, `PATH`-relative
+- `DATA`: data files path, `PATH`-relative
+- `LAYOUTS`: layouts path, `PATH`-relative
 
 Omit trailing slashes in path constants.
 
@@ -109,35 +109,35 @@ Default layout variables are in `layouts/default/set.variables.php`.
 
 ##### Default layout base variables
 
-* `$doctype`: document type
+- `$doctype`: document type
 
 ##### Default layout meta variables
 
-* `$charset`: character set
-* `$meta`: `<meta>` tags content array
- * `$meta['site_title']`: site title
- * `$meta['author']`: site author
- * `$meta['description']`: site description
- * `$meta['keywords']`: site keywords separated with comma
- * `$meta['robots']`: robots meta setting
- * `$meta['viewport']`: visible part of canvas at page
-* `$title_divider`: divider between page and site title
-* `$title`: generated title
+- `$charset`: character set
+- `$meta`: `<meta>` tags content array
+  - `$meta['site_title']`: site title
+  - `$meta['author']`: site author
+  - `$meta['description']`: site description
+  - `$meta['keywords']`: site keywords separated with comma
+  - `$meta['robots']`: robots meta setting
+  - `$meta['viewport']`: visible part of canvas at page
+- `$title_divider`: divider between page and site title
+- `$title`: generated title
 
 ##### Default layout assets variables
 
-* `$stylesheet`: `<link rel="stylesheet">` tags content array
-* `$icon`: `<link rel="*icon">` tags content array
- * `$icon['favicon']`: favicon path
- * `$icon['apple_touch_icon']`: Apple touch icon path
-* `$script`: `<script>` tags content array
+- `$stylesheet`: `<link rel="stylesheet">` tags content array
+- `$icon`: `<link rel="*icon">` tags content array
+  - `$icon['favicon']`: favicon path
+  - `$icon['apple_touch_icon']`: Apple touch icon path
+- `$script`: `<script>` tags content array
 
 ##### Default layout copyright variables
 
-* `$cpsign`: copyright sign
-* `$cpyear`: first year of copyright
-* `$cpowner`: copyright owner
-* `$copyright`: copyright text (in footer)
+- `$cpsign`: copyright sign
+- `$cpyear`: first year of copyright
+- `$cpowner`: copyright owner
+- `$copyright`: copyright text (in footer)
 
 #### Default layout functions
 
@@ -145,18 +145,18 @@ Default layout functions are in `layouts/default/set.functions.php`.
 
 ##### Default layout generation functions
 
-* `make_meta($array)`: generate `<meta>` tags
-* `make_stylesheets($array)`: generate `<link rel="stylesheet">` tags
-* `make_icons($array)`: generate `<link rel="*icon*">` tags
-* `make_scripts($array)`: generate `<script>` tags
+- `make_meta($array)`: generate `<meta>` tags
+- `make_stylesheets($array)`: generate `<link rel="stylesheet">` tags
+- `make_icons($array)`: generate `<link rel="*icon*">` tags
+- `make_scripts($array)`: generate `<script>` tags
 
 ##### Default layout basic functions
 
-* `is_currentfile($file)`: is the given argument current file
-* `filecount($dir, $ignore)`: counts files in a directory
-* `cat($url, $pre)`: imitates `cat` command from Unix shells
-* `randomval($array)`: selects a random value from array
-* `undot($string)`: removes dots from string
+- `is_currentfile($file)`: is the given argument current file
+- `filecount($dir, $ignore)`: counts files in a directory
+- `cat($url, $pre)`: imitates `cat` command from Unix shells
+- `randomval($array)`: selects a random value from array
+- `undot($string)`: removes dots from string
 
 ### New layout
 
@@ -164,15 +164,15 @@ To make new layout, create a new directory within `layouts/`.
 
 There are 3 parts of layout:
 
-* `header.php`: top of page
-* page content
-* `footer.php`: bottom of page
+- `header.php`: top of page
+- page content
+- `footer.php`: bottom of page
 
 You have to set variables and functions. Use `set.` prefix for layout files
 that don't automatically generate markup.
 
-* `set.variables.php`: layout variables
-* `set.functions.php`: layout functions
+- `set.variables.php`: layout variables
+- `set.functions.php`: layout functions
 
 Every `set.*.php` file in `layouts/<name>/` should be included in layout. You
 can create additional `set.` files, e.g. for constants and classes.
@@ -183,7 +183,7 @@ HTTP helper defines header statuses and base server settings (e.g. encoding).
 
 ### HTTP properties
 
-* `$httpv`: HTTP version; don't change if not necessary
+- `$httpv`: HTTP version; don't change if not necessary
 
 ### HTTP headers
 
@@ -196,16 +196,16 @@ Error helper defines exit status codes and throws errors.
 
 ### Exit status codes
 
-* `EXIT_SUCCESS`: no errors
-* `EXIT_ERROR`: generic error
-* `EXIT_CONFIG`: configuration error
-* `EXIT_UNKNOWN_FILE`: file not found
-* `EXIT_UNKNOWN_CLASS`: unknown class
-* `EXIT_UNKNOWN_METHOD`: unknown class member
-* `EXIT_USER_INPUT`: invalid user input
-* `EXIT_DATABASE`: database error
-* `EXIT_AUTO_MIN`: minimum automatically-assigned error code
-* `EXIT_AUTO_MAX`: maximum automatically-assigned error code
+- `EXIT_SUCCESS`: no errors
+- `EXIT_ERROR`: generic error
+- `EXIT_CONFIG`: configuration error
+- `EXIT_UNKNOWN_FILE`: file not found
+- `EXIT_UNKNOWN_CLASS`: unknown class
+- `EXIT_UNKNOWN_METHOD`: unknown class member
+- `EXIT_USER_INPUT`: invalid user input
+- `EXIT_DATABASE`: database error
+- `EXIT_AUTO_MIN`: minimum automatically-assigned error code
+- `EXIT_AUTO_MAX`: maximum automatically-assigned error code
 
 ### Error thrower
 

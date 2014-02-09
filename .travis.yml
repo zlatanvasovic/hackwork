@@ -1,5 +1,5 @@
 language: php
 php:
- - "5.5"
+  - "5.5"
 script:
- - find . -type f -name "*.php" -exec php -l {} \;
+  - find . -type f -name "*.php" -exec php -l {} \;

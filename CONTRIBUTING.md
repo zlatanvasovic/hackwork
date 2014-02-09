@@ -8,20 +8,20 @@ Only accepted issues are bug reports and feature requests. Bugs are discrete
 and reproducible problems fixable within the Hackwork code. Read the following
 guidelines before opening any issue.
 
-* **Search for existing issues.** It's painful to go through a lot of duplicate
+- **Search for existing issues.** It's painful to go through a lot of duplicate
 issues. You help a lot by first checking does someone else reported the same
 issue.
-* **Be sure that the bug is within the Hackwork core.** I can't fix errors with
+- **Be sure that the bug is within the Hackwork core.** I can't fix errors with
 your web server, but I can help.
-* **Share as much information as possible.** Tell me what operating system and
+- **Share as much information as possible.** Tell me what operating system and
 web server you're using and steps to reproduce the bug, if possible.
 
 ## Pull requests
 
 Read the following guidelines before sending the pull request.
 
-* **Don't pollute pull request with unintended changes.**
-* **Argument changes.**
+- **Don't pollute pull request with unintended changes.**
+- **Argument changes.**
 
 ## Standards
 
@@ -36,13 +36,13 @@ matter how many people contributed.
 
 ### Style guide
 
-* Use indent of 2 spaces, never tabs
-* Opening braces (`{`) goes on same line as statement (e.g. `class`)
-* Put a space before opening braces (`{`)
-* Put a space before opening parentheses (`(`) in control structures (e.g.
+- Use indent of 2 spaces, never tabs
+- Opening braces (`{`) goes on same line as statement (e.g. `class`)
+- Put a space before opening braces (`{`)
+- Put a space before opening parentheses (`(`) in control structures (e.g.
 `while`)
-* Write keywords in lower case
-* Omit closing tag (`?>`) in PHP only files
+- Write keywords in lower case
+- Omit closing tag (`?>`) in PHP only files
 
 ### Letter case
 
