@@ -146,14 +146,15 @@ Default layout functions are in `layouts/default/set.functions.php`.
 
 ##### Default layout generation functions
 
-- `make_meta($array)`: generate `<meta>` tags
-- `make_stylesheets($array)`: generate `<link rel="stylesheet">` tags
-- `make_icons($array)`: generate `<link rel="*icon*">` tags
-- `make_scripts($array)`: generate `<script>` tags
+- `make_meta($array)`: generates `<meta>` tags from given array
+- `make_stylesheets($array)`: generates `<link rel="stylesheet">` tags from
+  given array
+- `make_icons($array)`: generates `<link rel="*icon*">` tags from given array
+- `make_scripts($array)`: generates `<script>` tags from given array
 
 ##### Default layout basic functions
 
-- `is_currentfile($file)`: is the given argument current file
+- `is_currentfile($file)`: checks is the given argument current file
 - `filecount($dir, $ignore)`: counts files in a directory
 - `cat($url, $pre)`: imitates `cat` command from Unix shells
 - `randomval($array)`: selects a random value from array
