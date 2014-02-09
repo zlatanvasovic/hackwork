@@ -25,7 +25,7 @@ define('DATA', PATH . '/data');
 define('LAYOUTS', PATH . '/layouts');
 
 /*
- * Import helpers
+ * Helpers
  */
 
 foreach (glob(CORE . '/*.php') as $helper) {
