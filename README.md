@@ -176,8 +176,8 @@ that don't automatically generate markup.
 - `set.variables.php`: layout variables
 - `set.functions.php`: layout functions
 
-Every `set.*.php` file in `layouts/<name>/` should be included in layout. You
-can create additional `set.` files, e.g. for constants and classes.
+Every `set.*.php` file in `layouts/<name>/` will be included in layout. You can
+create additional `set.` files, e.g. for constants and classes.
 
 ## HTTP
 
