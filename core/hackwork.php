@@ -59,3 +59,14 @@ switch (ENV) {
     throwerr('Application environment is wrong.', $header[503], 503,
               EXIT_CONFIG);
 }
+
+/*
+ * Server settings
+ */
+
+// Compression
+ini_set('zlib.output_compression', 1);
+ini_set('zlib.output_compression_level', -1);
+
+// Default timezone
+date_default_timezone_set('UTC');
