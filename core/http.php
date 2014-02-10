@@ -15,11 +15,12 @@ $httpv = $_SERVER['SERVER_PROTOCOL'];
 
 /*
  * HTTP headers
- *
- * HTTP status codes are taken from W3C's list, not IANA's list.
- * Reference: http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
  */
 
+// Headers messages
+//
+// HTTP status codes are taken from W3C's list, not IANA's list.
+// Reference: http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
 $header = array(
   100 => "$httpv 100 Continue",
   101 => "$httpv 101 Switching Protocols",
