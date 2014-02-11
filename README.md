@@ -74,7 +74,7 @@ upper case.
 - `FONTS`: fonts path, `ASSETS`-relative
 - `IMG`: images path, `ASSETS`-relative
 - `JS`: JavaScript files path, `ASSETS`-relative
-- `CORE`: framework's core path, `PATH`-relative
+- `CORE`: framework core path, `PATH`-relative
 - `DATA`: data files path, `PATH`-relative
 - `LAYOUTS`: layouts path, `PATH`-relative
 
