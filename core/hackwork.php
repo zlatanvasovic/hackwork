@@ -38,8 +38,8 @@ foreach (glob(CORE . '/*.php') as $helper) {
  * Environment
  *
  * Values:
- *   `development` (`dev`)
- *   `production` (`prod`)
+ * - `development` (`dev`)
+ * - `production` (`prod`)
  */
 
 define('ENV', 'development');
