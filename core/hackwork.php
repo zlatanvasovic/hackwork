@@ -29,7 +29,7 @@ define('LAYOUTS', PATH . '/layouts');
  */
 
 foreach (glob(CORE . '/*.php') as $helper) {
-  if (!preg_match('/hackwork.php$/', $helper)) {
+  if (!preg_match('/\/hackwork.php$/', $helper)) {
     require_once($helper);
   }
 }
