@@ -162,16 +162,19 @@ Default layout functions are in `layouts/default/set.functions.php`.
 
 ### New layout
 
-To make new layout, create a new directory within `layouts/`.
+To make new layout, create a new directory within `layouts/`. You can use
+[default layout](#default-layout) as template.
 
-There are 3 parts of layout:
+#### Layout sections
 
-- `header.php`: top of page
-- page content
-- `footer.php`: bottom of page
+- `header.php`: page top
+- page content (loaded from `data/`)
+- `footer.php`: page bottom
 
-You have to set variables and functions. Use `set.` prefix for layout files
-that don't automatically generate markup.
+#### Other layout files
+
+Use `set.` prefix for layout files that don't automatically generate markup.
+Core `set.` files are:
 
 - `set.variables.php`: layout variables
 - `set.functions.php`: layout functions
@@ -191,6 +194,9 @@ HTTP helper defines header statuses and base server settings (e.g. encoding).
 
 `$header` is array of HTTP headers. You can use headers with
 `$header['status-number']`.
+
+There is also a charset definition to ensure right charset is used everywhere.
+You may want to change its value per your needs.
 
 ## Errors
 
