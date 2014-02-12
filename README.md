@@ -184,7 +184,7 @@ create additional `set.` files, e.g. for constants and classes.
 
 ## HTTP
 
-HTTP helper defines header statuses and base server settings (e.g. encoding).
+HTTP helper defines base HTTP properties and HTTP header messages.
 
 ### HTTP properties
 
@@ -192,7 +192,7 @@ HTTP helper defines header statuses and base server settings (e.g. encoding).
 
 ### HTTP headers
 
-`$header` is array of HTTP headers. You can use headers with
+`$header` is array of HTTP header messages. You can use headers with
 `$header['status-number']`.
 
 There is also a charset definition to ensure right charset is used everywhere.
