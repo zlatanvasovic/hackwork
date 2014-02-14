@@ -62,8 +62,7 @@ Hackwork projects should have a simple directory structure.
 
 ### Constants
 
-There are constants for paths and settings. Framework constants are always in
-upper case.
+There are constants for paths and settings.
 
 #### Paths
 
@@ -86,6 +85,18 @@ Here is an environment constant, `ENV`. Its values are:
 
 - `development` (`dev`): complete error reporting
 - `production` (`prod`): reduced error reporting
+
+### Settings
+
+#### Compression
+
+Pages loads faster when compression is turned on, so Hackwork enables it by
+default. You can disable it in `core/hackwork.php`.
+
+#### Default timezone
+
+PHP requires default timezone for proper working of time functions. You should
+change the timezone in `core/hackwork.php` if your time zone isn't UTC.
 
 ### Helpers
 

@@ -38,6 +38,7 @@ foreach (glob(CORE . '/*.php') as $helper) {
  * Environment
  *
  * Values:
+ *
  * - `development` (`dev`)
  * - `production` (`prod`)
  */
@@ -61,7 +62,7 @@ switch (ENV) {
 }
 
 /*
- * Server settings
+ * Settings
  */
 
 // Compression
