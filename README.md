@@ -105,11 +105,33 @@ are in the `core/` and they're dynamically imported to `core/hackwork.php`.
 
 ## Layouts
 
-There is layout generator and basic layout template.
+Hackwork uses layouts concept as page generating model.
+
+### Layout basics
+
+Layouts are like page templates. You don't need to learn new templating
+language for Hackwork, Hackwork uses pure PHP.
+
+#### Layout sections
+
+- `header.php`: page top
+- page content (loaded from `data/`)
+- `footer.php`: page bottom
+
+#### Other layout files
+
+Use `set.` prefix for layout files that don't automatically generate markup.
+Core `set.` files are:
+
+- `set.variables.php`: layout variables
+- `set.functions.php`: layout functions
+
+Every `set.*.php` file in `layouts/<name>/` will be included in layout. You can
+create additional `set.` files, e.g. for constants and classes.
 
 ### Layout generator
 
-to generate layout, use `layout($layout, $data, $page_title)`.
+to generate layout, use `layout($layout, $data, $page_title)` function.
 
 ### Default layout
 
@@ -173,25 +195,9 @@ Default layout functions are in `layouts/default/set.functions.php`.
 
 ### New layout
 
-To make new layout, create a new directory within `layouts/`. You can use
-[default layout](#default-layout) as template.
-
-#### Layout sections
-
-- `header.php`: page top
-- page content (loaded from `data/`)
-- `footer.php`: page bottom
-
-#### Other layout files
-
-Use `set.` prefix for layout files that don't automatically generate markup.
-Core `set.` files are:
-
-- `set.variables.php`: layout variables
-- `set.functions.php`: layout functions
-
-Every `set.*.php` file in `layouts/<name>/` will be included in layout. You can
-create additional `set.` files, e.g. for constants and classes.
+To make new layout, create a new directory within `layouts/` and follow
+[layout basics](#layout-basics). You can use [default layout](#default-layout)
+as template.
 
 ## HTTP
 
