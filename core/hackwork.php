@@ -10,7 +10,7 @@
 /*
  * Paths
  *
- * Remember, no trailing slashes!
+ * Omit trailing slashes here.
  */
 
 define('ROOT', $_SERVER['DOCUMENT_ROOT']);
