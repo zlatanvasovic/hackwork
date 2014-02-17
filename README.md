@@ -201,7 +201,7 @@ as template.
 
 ## HTTP
 
-HTTP helper defines base HTTP properties and HTTP header messages.
+Hackwork caches HTTP properties and header messages for easier HTTP control.
 
 ### HTTP properties
 
@@ -217,7 +217,7 @@ You may want to change its value per your needs.
 
 ## Errors
 
-Error helper defines exit status codes and throws errors.
+Hackwork has simple error thrower.
 
 ### Exit status codes
 
