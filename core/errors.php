@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Error helper
+ * Errors helper
  *
  * Mendelevium-powered error thrower.
  */
