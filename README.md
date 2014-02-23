@@ -131,7 +131,7 @@ create additional `set.` files, e.g. for constants and classes.
 
 ### Layout generator
 
-to generate layout, use `layout($layout, $data, $page_title)` function.
+To generate layout, use `layout($layout, $data, $page_title)` function.
 
 ### Default layout
 
