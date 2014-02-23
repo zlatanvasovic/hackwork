@@ -192,7 +192,7 @@ Default layout functions are in `layouts/default/set.functions.php`.
 
 - `is_currentfile($file)`: checks is the given argument current file
 - `filecount($dir, $ignore)`: counts files in a directory
-- `cat($url, $pre)`: imitates `cat` command from Unix shells
+- `cat($url, $pre)`: imitates `cat` Unix command
 - `randomval($array)`: selects a random value from array
 - `undot($string)`: removes dots from string
 

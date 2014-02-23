@@ -86,7 +86,7 @@ function filecount($dir, $ignore = array('.', '..', '.git')) {
 
 // `cat`
 //
-// Imitates `cat` command from Unix shells.
+// Imitates `cat` Unix command.
 // `$pre` => preformat feed contents boolean
 function cat($url, $pre = true) {
   $data = file_get_contents($url);
