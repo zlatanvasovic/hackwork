@@ -67,6 +67,7 @@ function is_currentfile($file) {
 // `filecount`
 //
 // Counts files in a directory. `$dir` must not have a trailing slash.
+//
 // `$ignore` => results to ignore
 function filecount($dir, $ignore = array('.', '..', '.git')) {
   $i = 0;
@@ -87,6 +88,7 @@ function filecount($dir, $ignore = array('.', '..', '.git')) {
 // `cat`
 //
 // Imitates `cat` Unix command.
+//
 // `$pre` => preformat feed contents boolean
 function cat($url, $pre = true) {
   $data = file_get_contents($url);
