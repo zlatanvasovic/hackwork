@@ -80,6 +80,7 @@ function filecount($dir, $ignore = array('.', '..', '.git')) {
       }
     }
   }
+
   return $i;
 }
 
@@ -90,7 +91,9 @@ function filecount($dir, $ignore = array('.', '..', '.git')) {
 function cat($url, $pre = true) {
   $data = file_get_contents($url);
   $data = str_replace(array('<', '>'), array('&lt;', '&gt;'), $data);
-  echo ($pre ? '<pre>' : ''), $data, ($pre ? '</pre>' : '');
+  $data = ($pre ? '<pre>' : '') . $data . ($pre ? '</pre>' : '');
+
+  return $data;
 }
 
 // `randomval`
