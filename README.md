@@ -5,8 +5,8 @@
 Hackwok is a layout-based PHP micro-framework made for HTML5 sites. You can
 also make HTML4 sites with Hackwork, don't worry.
 
-Minimal required PHP version is 5.3. Hackwork may work on 5.2 also, but it's
-not officially supported.
+Minimal required PHP version is 5.3. Hackwork may also work on PHP 5.2, but
+it's not officially supported.
 
 ## Table of contents
 
