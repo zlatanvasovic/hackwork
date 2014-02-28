@@ -24,6 +24,7 @@ $httpv = $_SERVER['SERVER_PROTOCOL'];
 $header = array(
   100 => "$httpv 100 Continue",
   101 => "$httpv 101 Switching Protocols",
+
   200 => "$httpv 200 OK",
   201 => "$httpv 201 Created",
   202 => "$httpv 202 Accepted",
@@ -31,6 +32,7 @@ $header = array(
   204 => "$httpv 204 No Content",
   205 => "$httpv 205 Reset Content",
   206 => "$httpv 206 Partial Content",
+
   300 => "$httpv 300 Multiple Choices",
   301 => "$httpv 301 Moved Permanently",
   302 => "$httpv 302 Found",
@@ -38,6 +40,7 @@ $header = array(
   304 => "$httpv 304 Not Modified",
   305 => "$httpv 305 Use Proxy",
   307 => "$httpv 307 Temporary Redirect",
+
   400 => "$httpv 400 Bad Request",
   401 => "$httpv 401 Unauthorized",
   402 => "$httpv 402 Payment Required",
@@ -56,6 +59,7 @@ $header = array(
   415 => "$httpv 415 Unsupported Media Type",
   416 => "$httpv 416 Requested Range Not Satisfiable",
   417 => "$httpv 417 Expectation Failed",
+
   500 => "$httpv 500 Internal Server Error",
   501 => "$httpv 501 Not Implemented",
   502 => "$httpv 502 Bad Gateway",
