@@ -48,8 +48,8 @@ Hackwork projects should have a simple directory structure.
     └── .../
         ├── footer.php
         ├── header.php
-        ├── set.functions.php
-        ├── set.variables.php
+        ├── i.functions.php
+        ├── i.variables.php
         └── ...
 ```
 
@@ -123,14 +123,13 @@ language as Hackwork uses pure PHP syntax, though.
 
 #### Other layout files
 
-Use `set.` prefix for layout files that don't automatically generate markup.
-Core `set.` files are:
+Use `i.` prefix for layout files that should be included in layout. Core `i.`
+files are:
 
-- `set.variables.php`: layout variables
-- `set.functions.php`: layout functions
+- `i.variables.php`: layout variables
+- `i.functions.php`: layout functions
 
-Every `set.*.php` file in `layouts/<name>/` will be included in layout. You can
-create additional `set.` files, e.g. for constants and classes.
+You can create additional `i.` files, e.g. for constants and classes.
 
 ### Layout generator
 
@@ -142,7 +141,7 @@ Default layout is just a template. It lies within `layouts/default/`.
 
 #### Default layout variables
 
-Default layout variables are in `layouts/default/set.variables.php`.
+Default layout variables are in `layouts/default/i.variables.php`.
 
 ##### Default layout base variables
 
@@ -178,7 +177,7 @@ Default layout variables are in `layouts/default/set.variables.php`.
 
 #### Default layout functions
 
-Default layout functions are in `layouts/default/set.functions.php`.
+Default layout functions are in `layouts/default/i.functions.php`.
 
 ##### Default layout generation functions
 

@@ -15,7 +15,7 @@
  */
 
 function layout($layout, $data, $page_title = false) {
-  foreach (glob(PATH . "/layouts/$layout/set.*.php") as $item) {
+  foreach (glob(PATH . "/layouts/$layout/i.*.php") as $item) {
     require_once($item);
   }
 
