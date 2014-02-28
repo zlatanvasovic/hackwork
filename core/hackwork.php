@@ -1,9 +1,7 @@
 <?php
 
 /**
- * Hackwork (http://git.io/hackwork)
- *
- * Layout-based PHP micro-framework for full-stack HTML5 sites
+ * Hackwork v1.2.0 (http://git.io/hackwork)
  * Licensed under the MIT License.
  */
 
