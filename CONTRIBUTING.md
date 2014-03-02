@@ -36,13 +36,13 @@ matter how many people contributed.
 
 ### Style guide
 
-- Use indent of 2 spaces, never tabs
+- 2 spaces indent, no tabs
 - Opening braces (`{`) goes on same line as statement (e.g. `class`)
 - Put a space before opening braces (`{`)
 - Put a space before opening parentheses (`(`) in control structures (e.g.
   `while`)
-- Write keywords in lower case
-- Omit closing tag (`?>`) in PHP only files
+- Keywords in lower case
+- Omit closing tag (`?>`) in PHP-only files
 
 ### Letter case
 
