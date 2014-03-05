@@ -27,8 +27,8 @@ Read the following guidelines before sending the pull request.
 
 ### Golden rule
 
-All code in any code base should look like a single person typed it, no
-matter how many people contributed.
+> Every line of code should appear to be written by a single person, no matter
+the number of contributors. &mdash; [@mdo](http://mdo.github.io/code-guide/)
 
 ### Wrapping
 
