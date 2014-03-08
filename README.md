@@ -85,7 +85,7 @@ Omit trailing slashes in path constants.
 
 #### Environment
 
-Here is an environment constant, `ENV`. Its values are:
+Here is the environment constant, `ENV`. Its values are:
 
 - `development` (`dev`): complete error reporting
 - `production` (`prod`): reduced error reporting
