@@ -11,25 +11,33 @@
  * Omit trailing slashes here.
  */
 
+// Root
 define('ROOT', $_SERVER['DOCUMENT_ROOT']);
 define('PATH', ROOT);
+
+// Core
+define('CORE', PATH . '/core');
+define('HELPERS', CORE . '/helpers');
+
+// Layouts
+define('LAYOUTS', PATH . '/layouts');
+
+// Data
+define('DATA', PATH . '/data');
+
+// Assets
 define('ASSETS', '/assets');
 define('CSS', ASSETS . '/css');
 define('FONTS', ASSETS . '/fonts');
 define('IMG', ASSETS . '/img');
 define('JS', ASSETS . '/js');
-define('CORE', PATH . '/core');
-define('DATA', PATH . '/data');
-define('LAYOUTS', PATH . '/layouts');
 
 /*
  * Helpers
  */
 
-foreach (glob(CORE . '/*.php') as $helper) {
-  if (!preg_match('/\/hackwork.php$/', $helper)) {
-    require_once($helper);
-  }
+foreach (glob(HELPERS . '/*.php') as $helper) {
+  require_once($helper);
 }
 
 /*

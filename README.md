@@ -71,14 +71,15 @@ There are constants for paths and settings.
 
 - `ROOT`: server root path; don't change if not necessary
 - `PATH`: site root path
+- `CORE`: framework core path, `PATH`-relative
+- `HELPERS`: helpers path, `CORE`-relative
+- `LAYOUTS`: layouts path, `PATH`-relative
+- `DATA`: data files path, `PATH`-relative
 - `ASSETS`: assets path, isn't `PATH`-relative
 - `CSS`: stylesheets path, `ASSETS`-relative
 - `FONTS`: fonts path, `ASSETS`-relative
 - `IMG`: images path, `ASSETS`-relative
 - `JS`: JavaScript files path, `ASSETS`-relative
-- `CORE`: framework core path, `PATH`-relative
-- `DATA`: data files path, `PATH`-relative
-- `LAYOUTS`: layouts path, `PATH`-relative
 
 Omit trailing slashes in path constants.
 
@@ -104,7 +105,8 @@ change the timezone in `core/hackwork.php` if your time zone isn't UTC.
 ### Helpers
 
 Hackwork has some helpers, e.g. to make layout or configure HTTP. All of them
-are in the `core/` and they're dynamically imported to `core/hackwork.php`.
+are in the `core/helpers/` and they're dynamically imported to
+`core/hackwork.php`.
 
 ## Layouts
 
