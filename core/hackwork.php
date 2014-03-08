@@ -28,9 +28,9 @@ define('DATA', PATH . '/data');
 // Assets
 define('ASSETS', '/assets');
 define('CSS', ASSETS . '/css');
+define('JS', ASSETS . '/js');
 define('FONTS', ASSETS . '/fonts');
 define('IMG', ASSETS . '/img');
-define('JS', ASSETS . '/js');
 
 /*
  * Helpers

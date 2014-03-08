@@ -77,9 +77,9 @@ There are constants for paths and settings.
 - `DATA`: data files path, `PATH`-relative
 - `ASSETS`: assets path, isn't `PATH`-relative
 - `CSS`: stylesheets path, `ASSETS`-relative
+- `JS`: JavaScript files path, `ASSETS`-relative
 - `FONTS`: fonts path, `ASSETS`-relative
 - `IMG`: images path, `ASSETS`-relative
-- `JS`: JavaScript files path, `ASSETS`-relative
 
 Omit trailing slashes in path constants.
 
