@@ -12,7 +12,7 @@ guidelines before opening any issue.
   issues. You help a lot by first checking does someone else reported the same
   issue.
 - **Be sure that the bug is within the Hackwork core.** I can't fix errors with
-  your web server, sorry. I can help, though.
+  your web server, but I can help, though.
 - **Share as much information as possible.** Tell me what operating system and
   web server you're using and steps to reproduce the bug, if possible.
 
