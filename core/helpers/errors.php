@@ -9,7 +9,7 @@
 /*
  * Exit status codes
  *
- * These codes are just base codes. You can add new status codes if need them.
+ * These are just core codes. You can add new status codes if you need them.
  *
  * Source: CodeIgniter
  */
