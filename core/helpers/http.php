@@ -22,9 +22,11 @@ $httpv = $_SERVER['SERVER_PROTOCOL'];
 // HTTP status codes are taken from W3C's list, not IANA's list.
 // Reference: http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
 $header = array(
+  // Informational
   100 => "$httpv 100 Continue",
   101 => "$httpv 101 Switching Protocols",
 
+  // Successful
   200 => "$httpv 200 OK",
   201 => "$httpv 201 Created",
   202 => "$httpv 202 Accepted",
@@ -33,6 +35,7 @@ $header = array(
   205 => "$httpv 205 Reset Content",
   206 => "$httpv 206 Partial Content",
 
+  // Redirection
   300 => "$httpv 300 Multiple Choices",
   301 => "$httpv 301 Moved Permanently",
   302 => "$httpv 302 Found",
@@ -41,6 +44,7 @@ $header = array(
   305 => "$httpv 305 Use Proxy",
   307 => "$httpv 307 Temporary Redirect",
 
+  // Client Error
   400 => "$httpv 400 Bad Request",
   401 => "$httpv 401 Unauthorized",
   402 => "$httpv 402 Payment Required",
@@ -60,6 +64,7 @@ $header = array(
   416 => "$httpv 416 Requested Range Not Satisfiable",
   417 => "$httpv 417 Expectation Failed",
 
+  // Server Error
   500 => "$httpv 500 Internal Server Error",
   501 => "$httpv 501 Not Implemented",
   502 => "$httpv 502 Bad Gateway",
