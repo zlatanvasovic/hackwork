@@ -36,8 +36,14 @@ define('IMG', ASSETS . '/img');
  * Helpers
  */
 
-foreach (glob(HELPERS . '/*.php') as $helper) {
-  require_once($helper);
+$helpers = array(
+  'http',
+  'errors',
+  'layout'
+);
+
+foreach ($helpers as $helper) {
+  require_once HELPERS . "/$helper.php";
 }
 
 /*
@@ -45,26 +51,25 @@ foreach (glob(HELPERS . '/*.php') as $helper) {
  *
  * Values:
  *
- * - `development` (`dev`)
- * - `production` (`prod`)
+ * - `development`
+ * - `production`
  */
 
 define('ENV', 'development');
 
 // Define consistent error reporting settings
 switch (ENV) {
-  case 'development' || 'dev':
+  case 'development':
     error_reporting(-1);
     ini_set('display_errors', 1);
     break;
 
-  case 'production' || 'prod':
+  case 'production':
     ini_set('display_errors', 0);
     break;
 
   default:
-    throwerr('Application environment is wrong.', $header[503], 503,
-              EXIT_CONFIG);
+    throwerr(503, EXIT_CONFIG, 'Application environment is set incorrectly.');
 }
 
 /*

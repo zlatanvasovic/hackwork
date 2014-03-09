@@ -34,7 +34,12 @@ define('EXIT_AUTO_MAX', 125);     // maximal automatically-assigned error code
  * `$exit_status`   => exit status code
  */
 
-function throwerr($msg, $header_msg, $header_status, $exit_status) {
+function throwerr($header_status, $exit_status, $msg, $header_msg = '') {
+  global $header;
+  if (!$header_msg) {
+    $header_msg = $header[$header_status];
+  }
+
   header($header_msg, true, $header_status);
   echo $msg;
   exit($exit_status);

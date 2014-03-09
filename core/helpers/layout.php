@@ -1,13 +1,13 @@
 <?php
 
 /**
- * Layouts helper
+ * Layout helper
  *
  * Crystallized layout generator.
  */
 
 /*
- * Layouts generator
+ * Layout generator
  *
  * `$layout`      => layout name
  * `$data`        => data file name
