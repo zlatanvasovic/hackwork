@@ -104,9 +104,8 @@ change the timezone in `core/hackwork.php` if your time zone isn't UTC.
 
 ### Helpers
 
-Hackwork has some helpers, e.g. to make layout or configure HTTP. All of them
-are in the `core/helpers/` and they're dynamically imported to
-`core/hackwork.php`.
+Hackwork has some helpers, e.g. to make layout. All of them are in the
+`core/helpers/` and they're dynamically imported to `core/hackwork.php`.
 
 ## Layouts
 
