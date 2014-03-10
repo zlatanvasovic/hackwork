@@ -40,8 +40,8 @@ Hackwork projects should have a simple directory structure.
 │   ├── js/
 │   ├── ...
 ├── core/
+│   ├── helpers/
 │   ├── hackwork.php
-│   ├── ...
 ├── data/
 │   ├── ...
 └── layouts/
