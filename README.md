@@ -92,15 +92,18 @@ Here is the environment constant, `ENV`. Its values are:
 
 ### Settings
 
+Server configuration is in the `core/helpers/config.php`. You should edit it to
+adjust the settings.
+
 #### Compression
 
 Pages loads faster when compression is turned on, so Hackwork enables it by
-default. You can disable it in `core/helpers/config.php`.
+default.
 
 #### Default timezone
 
 PHP requires default timezone for proper working of time functions. You should
-change the timezone in `core/helpers/config.php` if your time zone isn't UTC.
+change the timezone if your timezone isn't UTC.
 
 ### Helpers
 
