@@ -112,7 +112,7 @@ Hackwork has some helpers, e.g. to make layout. All of them are in the
 
 ## Layouts
 
-Hackwork uses layouts concept as page generating model.
+Hackwork uses layouts as page generating model.
 
 ### Layout basics
 
