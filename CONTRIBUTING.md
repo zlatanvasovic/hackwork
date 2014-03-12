@@ -21,7 +21,7 @@ guidelines before opening any issue.
 Read the following guidelines before sending the pull request.
 
 - **Don't pollute pull request with unintended changes.**
-- **Argument changes.**
+- **Describe changes.**
 
 ## Standards
 
