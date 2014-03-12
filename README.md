@@ -11,6 +11,7 @@ not officially supported.
 ## Table of contents
 
 - [Example](#example)
+- [Getting started](#getting-started)
 - [Directory structure](#directory-structure)
 - [Core](#core)
 - [Layouts](#layouts)
@@ -26,6 +27,12 @@ not officially supported.
 require_once 'core/hackwork.php';
 layout('default', 'home');
 ```
+
+## Getting started
+
+1. Clone the repository.
+2. [Modify layouts for your pages](#new-layout).
+3. Modify `data/` and `assets/`.
 
 ## Directory structure
 
