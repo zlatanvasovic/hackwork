@@ -110,8 +110,8 @@ default.
 
 #### Default timezone
 
-PHP requires default timezone for proper working of time functions. You should
-change the timezone if your timezone isn't UTC.
+PHP requires default timezone for proper working of time functions. Hackwork
+sets default timezone to UTC.
 
 ### Helpers
 
