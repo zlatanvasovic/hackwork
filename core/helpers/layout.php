@@ -16,7 +16,7 @@
 
 function layout($layout, $data, $page_title = false) {
   foreach (glob(LAYOUTS . "/$layout/i.*.php") as $item) {
-    require_once($item);
+    require_once $item;
   }
 
   require_once LAYOUTS . "/$layout/header.php";
