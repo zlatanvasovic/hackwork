@@ -39,8 +39,7 @@ the number of contributors. &mdash; [@mdo](http://mdo.github.io/code-guide/)
 - 2 spaces indent, no tabs
 - Opening braces (`{`) goes on same line as statement (e.g. `class`)
 - Put a space before opening braces (`{`)
-- Put a space before opening parentheses (`(`) in control structures (e.g.
-  `while`)
+- Put a space before opening parens (`(`) in control structures (e.g. `while`)
 - Keywords in lower case
 - Omit closing tag (`?>`) in PHP-only files
 
