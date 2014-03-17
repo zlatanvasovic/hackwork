@@ -84,8 +84,8 @@ There are constants for paths and settings.
 - `LAYOUTS`: layouts path, `PATH`-relative
 - `DATA`: data files path, `PATH`-relative
 - `ASSETS`: assets path, isn't `PATH`-relative
-- `CSS`: stylesheets path, `ASSETS`-relative
-- `JS`: JavaScript files path, `ASSETS`-relative
+- `CSS`: CSS assets path, `ASSETS`-relative
+- `JS`: JavaScript assets path, `ASSETS`-relative
 - `FONTS`: fonts path, `ASSETS`-relative
 - `IMG`: images path, `ASSETS`-relative
 
