@@ -14,7 +14,7 @@
  * `$page_title`  => [optional] page title
  */
 
-function layout($layout, $data, $page_title = false) {
+function layout($layout, $data, $page_title = '') {
   foreach (glob(LAYOUTS . "/$layout/i.*.php") as $item) {
     require_once $item;
   }
