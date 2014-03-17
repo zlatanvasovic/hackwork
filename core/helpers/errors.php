@@ -40,7 +40,7 @@ function throwerr($header_status, $exit_status, $msg, $header_msg = '') {
     $header_msg = $header[$header_status];
   }
 
-  header($header_msg, true, $header_status);
+  header($header_msg, $header_status);
   echo $msg;
   exit($exit_status);
 }
