@@ -248,7 +248,7 @@ Hackwork has simple error thrower.
 
 ### Error thrower
 
-To throw error and terminate current script, use
+To throw error, change headers and terminate current script, use
 `throwerr($msg, $header_msg, $header_status, $exit_status)`.
 
 ## Contributing
