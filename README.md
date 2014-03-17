@@ -209,7 +209,7 @@ Default layout functions are in `layouts/default/i.functions.php`.
 
 ### New layout
 
-To make new layout, create a new directory within `layouts/` and follow
+To make a new layout, create a new directory within `layouts/` and follow
 [layout basics](#layout-basics). You can use [default layout](#default-layout)
 as template.
 
