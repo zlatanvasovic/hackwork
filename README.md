@@ -95,8 +95,8 @@ Omit trailing slashes in path constants.
 
 Here is the environment constant, `ENV`. Its values are:
 
-- `development`: complete error reporting
-- `production`: reduced error reporting
+- `development` for complete error reporting
+- `production` for reduced error reporting
 
 ### Settings
 
