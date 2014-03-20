@@ -37,11 +37,24 @@ the number of contributors. &mdash; [@mdo](http://mdo.github.io/code-guide/)
 ### Style guide
 
 - 2 spaces indent, no tabs
-- Opening braces (`{`) goes on same line as statement (e.g. `class`)
+- Opening braces (`{`) goes on same line as statement
 - Put a space before opening braces (`{`)
-- Put a space before opening parens (`(`) in control structures (e.g. `while`)
+- Put a space before opening parens (`(`) in control structures
 - Keywords in lower case
 - Omit closing tag (`?>`) in PHP-only files
+
+Example:
+
+```php
+<?php
+if (a > b) {
+  // ...
+}
+
+class Example {
+  // ...
+}
+```
 
 ### Letter case
 
