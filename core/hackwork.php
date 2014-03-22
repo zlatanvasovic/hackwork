@@ -44,5 +44,9 @@ $helpers = array(
 );
 
 foreach ($helpers as $helper) {
-  require_once HELPERS . "/$helper.php";
+  $helper = HELPERS . "/$helper.php";
+
+  if (file_exists($helper)) {
+    require_once $helper;
+  }
 }
