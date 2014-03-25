@@ -223,8 +223,8 @@ Hackwork caches HTTP properties and header messages for easier HTTP control.
 
 ### HTTP headers
 
-`$header` is array of HTTP header messages. You can use headers with
-`$header['status-number']`.
+`$header` is an array of default HTTP header messages. You can use headers with
+`$header[<status-number>]`.
 
 There is also a charset definition to ensure right charset is used everywhere.
 You may want to change its value per your needs.
