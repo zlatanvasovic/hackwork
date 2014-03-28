@@ -36,14 +36,14 @@ define('IMG', ASSETS . '/img');
  * Helpers
  */
 
-$helpers = array(
+$_helpers = array(
   'http',
   'errors',
   'layout',
   'config'
 );
 
-foreach ($helpers as $helper) {
+foreach ($_helpers as $helper) {
   $helper = HELPERS . "/$helper.php";
 
   if (file_exists($helper)) {
