@@ -44,7 +44,7 @@ $header = array(
   305 => "$httpv 305 Use Proxy",
   307 => "$httpv 307 Temporary Redirect",
 
-  // Client Error
+  // Client error
   400 => "$httpv 400 Bad Request",
   401 => "$httpv 401 Unauthorized",
   402 => "$httpv 402 Payment Required",
@@ -64,7 +64,7 @@ $header = array(
   416 => "$httpv 416 Requested Range Not Satisfiable",
   417 => "$httpv 417 Expectation Failed",
 
-  // Server Error
+  // Server error
   500 => "$httpv 500 Internal Server Error",
   501 => "$httpv 501 Not Implemented",
   502 => "$httpv 502 Bad Gateway",
