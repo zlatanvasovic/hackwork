@@ -89,7 +89,7 @@ There are constants for paths and settings.
 - `FONTS`: fonts path, `ASSETS`-relative
 - `IMG`: images path, `ASSETS`-relative
 
-Omit trailing slashes in path constants.
+You should omit trailing slashes in path constants.
 
 #### Environment
 
