@@ -134,8 +134,7 @@ language as Hackwork uses pure PHP syntax, though.
 
 #### Other layout files
 
-Use `i.` prefix for layout files that should be included in layout. Core `i.`
-files are:
+Use `i.` prefix for layout files that should be included. Core `i.` files are:
 
 - `i.variables.php`: layout variables
 - `i.functions.php`: layout functions
