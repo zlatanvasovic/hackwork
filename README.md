@@ -105,8 +105,7 @@ adjust the settings.
 
 #### Compression
 
-Pages loads faster when compression is turned on, so Hackwork enables it by
-default.
+Pages loads faster with compression, so Hackwork enables it by default.
 
 #### Default timezone
 
