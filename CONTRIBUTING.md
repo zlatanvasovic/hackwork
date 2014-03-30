@@ -41,6 +41,7 @@ the number of contributors. &mdash; [@mdo](http://mdo.github.io/code-guide/)
 - Put a space before opening braces (`{`)
 - Put a space before opening parens (`(`) in control structures
 - Keywords in lower case
+- Prefix rarely used (private) variables with `_`
 - Omit closing tag (`?>`) in PHP-only files
 
 Example:
