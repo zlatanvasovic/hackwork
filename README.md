@@ -24,6 +24,7 @@ but they aren't officially supported.
 
 ```php
 <?php
+
 require_once 'core/hackwork.php';
 layout('default', 'home');
 ```
