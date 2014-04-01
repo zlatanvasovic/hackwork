@@ -72,6 +72,3 @@ $header = array(
   504 => "$httpv 504 Gateway Timeout",
   505 => "$httpv 505 HTTP Version Not Supported",
 );
-
-// Default charset
-ini_set('default_charset', 'utf-8');

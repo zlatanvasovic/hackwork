@@ -107,6 +107,11 @@ adjust the settings.
 
 Pages loads faster with compression, so Hackwork enables it by default.
 
+#### Default charset
+
+There is a charset definition to ensure right charset is used everywhere.
+Hackwork sets default charset to UTF-8.
+
 #### Default timezone
 
 PHP requires default timezone for proper working of time functions. Hackwork
@@ -223,9 +228,6 @@ Hackwork caches HTTP properties and header messages for easier HTTP control.
 
 `$header` is an array of default HTTP header messages. You can use headers with
 `$header[<status-number>]`.
-
-There is also a charset definition to ensure right charset is used everywhere.
-You may want to change its value per your needs.
 
 ## Errors
 

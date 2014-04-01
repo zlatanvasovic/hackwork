@@ -40,5 +40,8 @@ switch (ENV) {
 ini_set('zlib.output_compression', 1);
 ini_set('zlib.output_compression_level', -1);
 
+// Default charset
+ini_set('default_charset', 'utf-8');
+
 // Default timezone
 date_default_timezone_set('UTC');
