@@ -48,6 +48,7 @@ Example:
 
 ```php
 <?php
+
 if (a > b) {
   // ...
 }
