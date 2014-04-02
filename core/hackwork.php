@@ -37,10 +37,10 @@ define('IMG', ASSETS . '/img');
  */
 
 $_helpers = array(
+  'config',
   'http',
   'errors',
-  'layout',
-  'config'
+  'layout'
 );
 
 foreach ($_helpers as $helper) {
