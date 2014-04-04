@@ -32,7 +32,7 @@ the number of contributors. &mdash; [@mdo](http://mdo.github.io/code-guide/)
 
 ### Wrapping
 
-80 characters are limit, with some exceptions (e.g. links).
+There is a limit of 80 characters. There are some exceptions (e.g. links).
 
 ### Style guide
 
