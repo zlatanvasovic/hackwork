@@ -54,6 +54,8 @@ if ($a > $b) {
   // ...
 }
 
+$c = $a . $b;
+
 class Example {
   // ...
 }
