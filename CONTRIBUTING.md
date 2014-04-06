@@ -37,11 +37,11 @@ There is a limit of 80 characters. There are some exceptions (e.g. links).
 ### Style guide
 
 - 2 spaces indent, no tabs
+- Keywords in lower case
+- Prefix rarely used (private) variables with `_`
 - Opening braces (`{`) goes on same line as statement
 - Put a space before opening braces (`{`)
 - Put a space before opening parens (`(`) in control structures
-- Keywords in lower case
-- Prefix rarely used (private) variables with `_`
 - Set off operators with spaces
 - Omit closing tag (`?>`) in PHP-only files
 
