@@ -99,6 +99,8 @@ There is an environment constant, `ENV`. Its values are:
 - `development` for complete error reporting
 - `production` for minimal error reporting
 
+By default it's `development`. You should set it per your needs.
+
 ### Settings
 
 Server configuration is in the `core/helpers/config.php`. You should edit it to
