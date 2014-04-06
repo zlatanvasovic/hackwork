@@ -14,6 +14,7 @@ but they aren't officially supported.
 - [Getting started](#getting-started)
 - [Directory structure](#directory-structure)
 - [Core](#core)
+- [Configuration](#configuration)
 - [Layouts](#layouts)
 - [HTTP](#http)
 - [Errors](#errors)
@@ -101,29 +102,29 @@ There is an environment constant, `ENV`. Its values are:
 
 By default it's `development`. You should set it per your needs.
 
-### Settings
-
-Server configuration is in the `core/helpers/config.php`. You should edit it to
-adjust the settings.
-
-#### Compression
-
-Pages loads faster with compression, so Hackwork enables it by default.
-
-#### Default charset
-
-There is a charset definition to ensure right charset is used everywhere.
-Hackwork sets default charset to UTF-8.
-
-#### Default timezone
-
-PHP requires default timezone for proper working of time functions. Hackwork
-sets default timezone to UTC.
-
 ### Helpers
 
 Hackwork has some helpers, e.g. to make layout. All of them are within
 `core/helpers/` and they're imported to `core/hackwork.php`.
+
+## Configuration
+
+Server configuration is in the `core/helpers/config.php`. You should edit it to
+adjust the settings.
+
+### Compression
+
+Pages loads faster with compression, so Hackwork enables it by default.
+
+### Default charset
+
+There is a charset definition to ensure right charset is used everywhere.
+Hackwork sets default charset to UTF-8.
+
+### Default timezone
+
+PHP requires default timezone for proper working of time functions. Hackwork
+sets default timezone to UTC.
 
 ## Layouts
 
