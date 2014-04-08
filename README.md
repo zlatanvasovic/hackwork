@@ -110,7 +110,7 @@ Hackwork has some helpers, e.g. to make layout. All of them are within
 ## Configuration
 
 Server configuration is in the `core/helpers/config.php`. You should edit it to
-adjust the settings.
+adjust the configuration.
 
 ### Compression
 
