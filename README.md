@@ -100,7 +100,8 @@ There is an environment constant, `ENV`. Its values are:
 - `development` for complete error reporting
 - `production` for minimal error reporting
 
-By default it's `development`. You should set it per your needs.
+By default it's `development`. You should change it if your site is for
+production.
 
 ### Helpers
 
