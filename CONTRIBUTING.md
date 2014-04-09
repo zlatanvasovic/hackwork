@@ -45,7 +45,7 @@ There is a limit of 80 characters. There are some exceptions (e.g. links).
 - Set off operators with spaces
 - Omit closing tag (`?>`) in PHP-only files
 
-Example:
+Good example:
 
 ```php
 <?php
