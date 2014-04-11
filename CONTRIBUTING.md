@@ -55,7 +55,7 @@ if ($a > $b) {
 }
 
 $c = $a . $b;
-$_c = $c; // Safe and private reference to `$c`
+$_c = $c; // Safe reference to `$c`
 
 class Example {
   // ...
