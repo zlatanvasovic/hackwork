@@ -6,6 +6,8 @@
  * Crystallized layout generator.
  */
 
+defined('PATH') or exit('No direct script access allowed');
+
 /*
  * Layout generator
  *

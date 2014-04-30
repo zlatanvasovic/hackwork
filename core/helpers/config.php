@@ -6,6 +6,8 @@
  * Minimal server configuration for Hackwork.
  */
 
+defined('PATH') or exit('No direct script access allowed');
+
 /*
  * Environment
  *

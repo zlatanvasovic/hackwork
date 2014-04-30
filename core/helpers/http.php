@@ -6,6 +6,8 @@
  * HTTP request manager.
  */
 
+defined('PATH') or exit('No direct script access allowed');
+
 /*
  * HTTP properties
  */

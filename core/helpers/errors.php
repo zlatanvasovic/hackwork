@@ -6,6 +6,8 @@
  * Mendelevium-powered error thrower.
  */
 
+defined('PATH') or exit('No direct script access allowed');
+
 /*
  * Exit status codes
  *
