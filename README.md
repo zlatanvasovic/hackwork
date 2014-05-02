@@ -34,7 +34,7 @@ layout('default', 'home');
 
 1. Clone the repository.
 2. [Modify layouts for your pages](#new-layout).
-3. Modify `data/` and `assets/`.
+3. Fill `data/` and `assets/`.
 4. Test your site locally to see does everything works well.
 
 ## Directory structure
