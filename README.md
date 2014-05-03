@@ -236,7 +236,7 @@ Hackwork caches HTTP properties and header messages for easier HTTP control.
 
 ## Errors
 
-Hackwork has simple error thrower.
+Hackwork has a simple error thrower.
 
 ### Exit status codes
 
