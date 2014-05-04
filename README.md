@@ -134,7 +134,7 @@ Hackwork uses layouts as page generating model.
 ### Layout basics
 
 Layouts are like page templates. You don't need to learn new templating
-language as Hackwork uses pure PHP syntax, though.
+language as Hackwork uses pure PHP syntax.
 
 #### Layout sections
 
