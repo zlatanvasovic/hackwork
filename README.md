@@ -75,7 +75,7 @@ Hackwork projects should have a simple directory structure.
 
 ### Constants
 
-There are constants for paths and configuration.
+There are path and configuration constants.
 
 #### Paths
 
