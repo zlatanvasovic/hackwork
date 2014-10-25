@@ -1,1 +1,1 @@
-<p>This is a Hackwork page.</p>
+<p>Welcome to Hackwork.</p>
