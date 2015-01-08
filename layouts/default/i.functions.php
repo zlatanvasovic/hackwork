@@ -5,6 +5,14 @@
  */
 
 /*
+ * mime_content_type() replacement
+ */
+function _mime_content_type($filename) {
+  $finfo = new finfo(FILEINFO_MIME_TYPE);
+  return $finfo->file($filename);
+}
+
+/*
  * Generation
  */
 
@@ -34,7 +42,7 @@ function make_icons($array) {
     switch ($value[0]) {
       case 'icon':
         echo "<link rel=\"$value[0]\" type=\"" .
-          mime_content_type(PATH . $value[1]) . "\" href=\"$value[1]\">\n";
+          _mime_content_type(PATH . $value[1]) . "\" href=\"$value[1]\">\n";
         break;
       default:
         echo "<link rel=\"$value[0]\" href=\"$value[1]\">\n";
