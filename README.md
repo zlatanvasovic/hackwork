@@ -6,7 +6,7 @@ Hackwork is a layout-based PHP micro-framework made for HTML5 sites. You can
 also make HTML4 sites with Hackwork, don't worry.
 
 Minimal required PHP version is 5.3.0. Hackwork may work on older PHP versions,
-but they aren't officially supported.
+but they aren't supported officially.
 
 ## Table of contents
 
@@ -63,13 +63,10 @@ Hackwork projects should have a simple directory structure.
         └── ...
 ```
 
-`assets/` is the place of cachable resources (e.g. JavaScript).
-
-`core/` is the place of framework core.
-
-`data/` is the place of pages content.
-
-`layouts/` is the base layouts directory.
+- `assets/`: cachable resources (e.g. JavaScript, CSS and images).
+- `core/`: framework core
+- `data/`: pages content
+- `layouts/`: base layouts directory
 
 ## Core
 
