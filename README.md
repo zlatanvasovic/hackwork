@@ -5,7 +5,7 @@
 Hackwork is a layout-based PHP micro-framework made for HTML5 sites. You can
 also make HTML4 sites with Hackwork, don't worry.
 
-Minimal required PHP version is 5.3.0. Hackwork may work on older PHP versions,
+Minimal required PHP version is 5.6.0. Hackwork may work on older PHP versions,
 but they aren't supported officially.
 
 ## Table of contents
@@ -256,8 +256,8 @@ To throw an error, set consistent headers and terminate script, use
 ## Contributing
 
 Want to contribute? Check out
-[contributing guide](https://github.com/ZDroid/hackwork/blob/master/CONTRIBUTING.md).
+[contributing guide](https://github.com/zdroid/hackwork/blob/master/CONTRIBUTING.md).
 
 ## License
 
-MIT &copy; [Zlatan Vasović](https://github.com/ZDroid)
+MIT &copy; [Zlatan Vasović](https://github.com/zdroid)

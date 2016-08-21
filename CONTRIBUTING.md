@@ -1,6 +1,6 @@
 # Contributing to Hackwork
 
-Here are some rules you should follow when contribute to Hackwork.
+Here are some rules you should follow while contributing to Hackwork.
 
 ## Issues
 
@@ -13,15 +13,15 @@ guidelines before opening any issue.
   issue.
 - **Be sure that the bug is within the Hackwork core.** I can't fix errors with
   your web server, but I can help, though.
-- **Share useful information.** Tell me what operating system and web server
-  you're using and steps to reproduce the bug, if possible.
+- **Share useful information.** Telling what operating system and web server
+  you're using and steps to reproduce the bug is very helpful.
 
 ## Pull requests
 
 Read the following guidelines before sending the pull request.
 
-- **Don't pollute pull request with unintended changes.**
-- **Describe changes.**
+- **Don't pollute the pull request with unintended changes.**
+- **Describe your changes wisely.**
 
 ## Standards
 
