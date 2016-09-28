@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Hackwork v2.0.1 (http://git.io/hackwork)
+ * Hackwork v2.0.2 (http://git.io/hackwork)
  * Licensed under the MIT License.
  */
 
