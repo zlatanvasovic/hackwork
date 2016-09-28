@@ -102,8 +102,8 @@ production.
 
 ### Helpers
 
-Hackwork has some helpers, e.g. to make layout. All of them are within
-`core/helpers/` and they're imported to `core/hackwork.php`.
+Hackwork has some helpers, e.g. to make layout. All of them are automatically
+imported to `core/hackwork.php`.
 
 ## Configuration
 
