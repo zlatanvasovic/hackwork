@@ -20,8 +20,8 @@ function _mime_content_type($filename) {
 //
 // Generates `<meta>` tags (except encoding) from given array.
 function make_meta($array) {
-  foreach ($array as $value) {
-    echo "<meta name=\"$value[0]\" content=\"$value[1]\">\n";
+  foreach ($array as $key => $value) {
+    echo "<meta name=\"$key\" content=\"$value\">\n";
   }
 }
 
@@ -38,14 +38,14 @@ function make_stylesheets($array) {
 //
 // Generates `<link rel="*icon*">` tags from given array.
 function make_icons($array) {
-  foreach ($array as $value) {
-    switch ($value[0]) {
-      case 'icon':
-        echo "<link rel=\"$value[0]\" type=\"" .
-          _mime_content_type(PATH . $value[1]) . "\" href=\"$value[1]\">\n";
+  foreach ($array as $key => $value) {
+    switch ($key) {
+      case 'favicon':
+        echo "<link rel=\"$key\" type=\"" . _mime_content_type(PATH . $value)
+          . "\" href=\"$value\">\n";
         break;
       default:
-        echo "<link rel=\"$value[0]\" href=\"$value[1]\">\n";
+        echo "<link rel=\"$key\" href=\"$value\">\n";
     }
   }
 }

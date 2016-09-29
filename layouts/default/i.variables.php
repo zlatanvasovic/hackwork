@@ -18,11 +18,11 @@ $doctype = '<!DOCTYPE html>';
 // `<meta>`
 $charset = 'utf-8';
 $meta = array(
-  'author' => array('author', 'Mr. Ghost'),
-  'description' => array('description', 'Personal site of Mr. Ghost.'),
-  'keywords' => array('keywords', 'mister, ghost, site, website'),
-  'robots' => array('robots', 'noodp,noydir'),
-  'viewport' => array('viewport', 'width=device-width, initial-scale=1')
+  'author' => 'Mr. Ghost',
+  'description' => 'Personal site of Mr. Ghost.',
+  'keywords' => 'mister, ghost, site, website',
+  'robots' => 'noodp,noydir',
+  'viewport' => 'width=device-width, initial-scale=1'
 );
 
 // `<title>`
@@ -46,9 +46,8 @@ $stylesheet = array(
 
 // `<link rel="*icon*">`
 $icon = array(
-  'favicon' => array('icon', IMG . '/favicon.ico'),
-  'apple_touch_icon' => array('apple-touch-icon', IMG .
-                              '/apple-touch-icon.png')
+  'favicon' => IMG . '/favicon.ico',
+  'apple-touch-icon' => IMG . '/apple-touch-icon.png'
 );
 
 // `<script>`
@@ -62,6 +61,6 @@ $script = array(
 
 $cpsign = '&copy;';
 $cpyear = 2016;
-$cpowner = $meta['author'][1];
+$cpowner = $meta['author'];
 $copyright = "$cpsign $cpyear " . (($cpyear = date('Y')) ? '' : '- ' .
                                   date('Y')) . $cpowner;
