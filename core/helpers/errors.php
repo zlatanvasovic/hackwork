@@ -37,9 +37,9 @@ define('EXIT_AUTO_MAX', 125);     // maximal automatically-assigned error code
  */
 
 function throwerr($header_status, $exit_status, $msg, $header_msg = '') {
-  global $header;
+  global $http_status, $http_version;
   if (!$header_msg) {
-    $header_msg = $header[$header_status];
+    $header_msg = "$http_version $header_status $http_status[$header_status]";
   }
 
   header($header_msg, $header_status);
