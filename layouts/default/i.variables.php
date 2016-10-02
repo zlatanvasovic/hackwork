@@ -18,8 +18,8 @@ $doctype = '<!DOCTYPE html>';
 // `<meta>`
 $charset = 'utf-8';
 $meta = array(
-  'author' => 'Mr. Ghost',
-  'description' => 'Personal site of Mr. Ghost.',
+  'author' => 'Ghost',
+  'description' => 'The personal site of Ghost.',
   'keywords' => 'mister, ghost, site, website',
   'robots' => 'noodp,noydir',
   'viewport' => 'width=device-width, initial-scale=1'
