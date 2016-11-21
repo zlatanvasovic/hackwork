@@ -8,7 +8,7 @@
  * Base
  */
 
-// Doctype
+// Document type
 $doctype = '<!DOCTYPE html>';
 
 /*
@@ -28,12 +28,7 @@ $meta = array(
 // `<title>`
 $site_title = 'Site';
 $title_divider = '&middot;';
-if ($page_title) {
-  $title = "$page_title $title_divider $site_title";
-}
-else {
-  $title = $site_title;
-}
+$title = ($page_title ? "$page_title $title_divider " : '') . $site_title;
 
 /*
  * Assets

@@ -3,7 +3,7 @@
 /**
  * HTTP helper
  *
- * HTTP request manager.
+ * Precisely-scaled HTTP request manager.
  */
 
 defined('PATH') or exit('No direct script access allowed');
