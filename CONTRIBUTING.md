@@ -11,8 +11,8 @@ guidelines before opening any issue.
 - **Search for existing issues.** It's painful to go through a lot of duplicate
   issues. You help a lot by first checking has someone else reported the same
   issue.
-- **Be sure that the bug is within the Hackwork core.** I can't fix errors with
-  your web server, but I can help, though.
+- **Be sure that the bug is within the Hackwork core.** Errors with your web
+  server are out of this project's scope.
 - **Share useful information.** Telling what operating system and web server
   you're using and steps to reproduce the bug is very helpful.
 
@@ -70,4 +70,4 @@ never in title case.
 ## License
 
 By contributing your code, you agree to license your contributions under the
-MIT License.
+[MIT License](LICENSE.md).
